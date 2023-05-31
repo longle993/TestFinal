@@ -36,12 +36,14 @@ namespace TestManagement.GUI
         private void btnStart_Click(object sender, EventArgs e)
         {
             ListResult result = new ListResult();
-           
+            list.OpenChildForm(new ListResult(test), list.panelResult);
+            list.panellFile.Visible = false;
+            list.panelDetail.Visible = false;
             this.Close();
-           /* StartTest startTest = new StartTest(test);
-            this.Hide();
-            startTest.ShowDialog();
-            this.Show();*/
+            
+            
         }
+
+     
     }
 }

@@ -183,6 +183,10 @@ namespace TestManagement.GUI.HomePage
             result.NumberCorrect = NumberCorrect;
             //   result.FinishTime=newTest.TestTime.Subtract(TestTime);
             result.Score = 0;
+            if (MessageBox.Show("Cảm ơn bạn đã tham gia thi!") == DialogResult.OK) {
+                this.Close();
+            }
+            
         }
     }
 }

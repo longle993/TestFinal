@@ -71,8 +71,6 @@ namespace TestManagement.GUI.HomePage
                     }
                     
                 }
-                
-                
 
             }
             else
@@ -82,11 +80,13 @@ namespace TestManagement.GUI.HomePage
                     if(control is NewQuestion ques && ques.Quesnumber == lblQues.Text)
                     {
                         ques.TextQuestion = txtTextQues.Texts;
+                        ques.AnswerA = txtAnswerA.Texts;
+                        ques.AnswerB = txtAnswerB.Texts;
+                        ques.AnswerC = txtAnswerC.Texts;
+                        ques.AnswerD = txtAnswerD.Texts;
                     }
                 }
             }
-            
-
             
             MessageBox.Show("Chỉnh sửa thành công");
             create.panelAnswer.Visible = true;

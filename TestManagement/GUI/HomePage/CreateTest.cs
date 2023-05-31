@@ -263,7 +263,7 @@ namespace TestManagement.GUI
                                 string ansID = "A" + (Answer_BUS.Instance.CountAns() + 1).ToString("000");
                                 ans.AnswerID = ansID;
                                 ans.AnswerText = text.Texts;
-                                if (text.BackColor == Color.FromArgb(231, 243, 255))
+                                if (text.BackColor == Color.FromArgb(199, 224, 247))
                                 {
                                     ans.CorrectAnswer = true;
                                 }

@@ -29,7 +29,7 @@ namespace TestManagement.DTO
         public int NumberCorrect { get; set; }
 
         [Required]
-        public DateTime FinishTime { get; set; }
+        public TimeSpan FinishTime { get; set; }
 
         [Required]
         public decimal Score { get; set; }

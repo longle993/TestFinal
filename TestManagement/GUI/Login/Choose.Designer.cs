@@ -106,10 +106,9 @@ namespace TestManagement.GUI
             this.ClientSize = new System.Drawing.Size(1280, 894);
             this.Controls.Add(this.panelLogin);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Choose";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Choose";
+            this.Text = "TestManagement";
             this.panelLogin.ResumeLayout(false);
             this.ResumeLayout(false);
 

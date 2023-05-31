@@ -663,3 +663,6 @@ C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.pd
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.HomePage.TryTest.resources
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.SettingTest.resources
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.HomePage.StartTest.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.HomePage.TryTest.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.SettingTest.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.HomePage.StartTest.resources

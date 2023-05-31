@@ -235,16 +235,16 @@
     <Compile Include="GUI\HomePage\TryTest.Designer.cs">
       <DependentUpon>TryTest.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\Infomation.cs">
+    <Compile Include="GUI\Login\Infomation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\Infomation.Designer.cs">
+    <Compile Include="GUI\Login\Infomation.Designer.cs">
       <DependentUpon>Infomation.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\ListResult.cs">
+    <Compile Include="GUI\StartTest\ListResult.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\ListResult.Designer.cs">
+    <Compile Include="GUI\StartTest\ListResult.Designer.cs">
       <DependentUpon>ListResult.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Login\Checkin.cs">
@@ -289,10 +289,10 @@
     <Compile Include="GUI\HomePage\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\SettingTest.cs">
+    <Compile Include="GUI\StartTest\SettingTest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GUI\SettingTest.Designer.cs">
+    <Compile Include="GUI\StartTest\SettingTest.Designer.cs">
       <DependentUpon>SettingTest.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\StartTest\StartTest.cs">
@@ -430,10 +430,10 @@
     <EmbeddedResource Include="GUI\HomePage\TryTest.resx">
       <DependentUpon>TryTest.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\Infomation.resx">
+    <EmbeddedResource Include="GUI\Login\Infomation.resx">
       <DependentUpon>Infomation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\ListResult.resx">
+    <EmbeddedResource Include="GUI\StartTest\ListResult.resx">
       <DependentUpon>ListResult.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Login\Checkin.resx">
@@ -475,7 +475,7 @@
     <EmbeddedResource Include="GUI\Admin\NewAccount.resx">
       <DependentUpon>NewAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\SettingTest.resx">
+    <EmbeddedResource Include="GUI\StartTest\SettingTest.resx">
       <DependentUpon>SettingTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\StartTest\ListTest.resx">

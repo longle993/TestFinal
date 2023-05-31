@@ -41,18 +41,19 @@ namespace TestManagement.GUI
             this.point = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblTestName = new System.Windows.Forms.Label();
             this.panelTestDetail = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.btnEnd = new TestManagement.UserControl_Test.Button_Advanced();
+            this.panel_Advanced2 = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblTesttimeID = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel_Advanced1 = new TestManagement.UserControl_Test.Panel_Advanced();
             this.lblTime = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel_Advanced2 = new TestManagement.UserControl_Test.Panel_Advanced();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblTesttimeID = new System.Windows.Forms.Label();
             this.panelResult.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panelTestDetail.SuspendLayout();
-            this.panel_Advanced1.SuspendLayout();
             this.panel_Advanced2.SuspendLayout();
+            this.panel_Advanced1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelResult
@@ -177,6 +178,7 @@ namespace TestManagement.GUI
             // 
             this.panelTestDetail.BackColor = System.Drawing.Color.White;
             this.panelTestDetail.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
+            this.panelTestDetail.Controls.Add(this.btnEnd);
             this.panelTestDetail.Controls.Add(this.panel_Advanced2);
             this.panelTestDetail.Controls.Add(this.panel_Advanced1);
             this.panelTestDetail.Dock = System.Windows.Forms.DockStyle.Right;
@@ -193,6 +195,86 @@ namespace TestManagement.GUI
             this.panelTestDetail.StartColor = System.Drawing.Color.White;
             this.panelTestDetail.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelTestDetail.TabIndex = 1;
+            // 
+            // btnEnd
+            // 
+            this.btnEnd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(136)))), ((int)(((byte)(229)))));
+            this.btnEnd.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(136)))), ((int)(((byte)(229)))));
+            this.btnEnd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(136)))), ((int)(((byte)(229)))));
+            this.btnEnd.BorderRadius = 5;
+            this.btnEnd.BorderSize = 0;
+            this.btnEnd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEnd.FlatAppearance.BorderSize = 0;
+            this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEnd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnEnd.ForeColor = System.Drawing.Color.White;
+            this.btnEnd.Location = new System.Drawing.Point(16, 291);
+            this.btnEnd.Margin = new System.Windows.Forms.Padding(2);
+            this.btnEnd.Name = "btnEnd";
+            this.btnEnd.Size = new System.Drawing.Size(305, 47);
+            this.btnEnd.TabIndex = 4;
+            this.btnEnd.Text = "Kết thúc đợt thi";
+            this.btnEnd.TextColor = System.Drawing.Color.White;
+            this.btnEnd.UseVisualStyleBackColor = false;
+            this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
+            // 
+            // panel_Advanced2
+            // 
+            this.panel_Advanced2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.panel_Advanced2.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
+            this.panel_Advanced2.Controls.Add(this.label1);
+            this.panel_Advanced2.Controls.Add(this.lblTesttimeID);
+            this.panel_Advanced2.Controls.Add(this.label3);
+            this.panel_Advanced2.EdgeWidth = 1;
+            this.panel_Advanced2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.panel_Advanced2.FlatBorderColor = System.Drawing.Color.White;
+            this.panel_Advanced2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel_Advanced2.Location = new System.Drawing.Point(0, 135);
+            this.panel_Advanced2.Name = "panel_Advanced2";
+            this.panel_Advanced2.RectRadius = 5;
+            this.panel_Advanced2.ShadowColor = System.Drawing.Color.DimGray;
+            this.panel_Advanced2.ShadowShift = 0;
+            this.panel_Advanced2.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
+            this.panel_Advanced2.Size = new System.Drawing.Size(340, 137);
+            this.panel_Advanced2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.panel_Advanced2.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
+            this.panel_Advanced2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(349, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 21);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "00:00 ";
+            // 
+            // lblTesttimeID
+            // 
+            this.lblTesttimeID.AutoSize = true;
+            this.lblTesttimeID.BackColor = System.Drawing.Color.Transparent;
+            this.lblTesttimeID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTesttimeID.ForeColor = System.Drawing.Color.Black;
+            this.lblTesttimeID.Location = new System.Drawing.Point(119, 66);
+            this.lblTesttimeID.Name = "lblTesttimeID";
+            this.lblTesttimeID.Size = new System.Drawing.Size(99, 21);
+            this.lblTesttimeID.TabIndex = 2;
+            this.lblTesttimeID.Text = "#testtimeID";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(12, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 21);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Mã phòng:";
             // 
             // panel_Advanced1
             // 
@@ -240,64 +322,6 @@ namespace TestManagement.GUI
             this.label2.TabIndex = 2;
             this.label2.Text = "TestName";
             // 
-            // panel_Advanced2
-            // 
-            this.panel_Advanced2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.panel_Advanced2.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
-            this.panel_Advanced2.Controls.Add(this.label1);
-            this.panel_Advanced2.Controls.Add(this.lblTesttimeID);
-            this.panel_Advanced2.Controls.Add(this.label3);
-            this.panel_Advanced2.EdgeWidth = 1;
-            this.panel_Advanced2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.panel_Advanced2.FlatBorderColor = System.Drawing.Color.White;
-            this.panel_Advanced2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel_Advanced2.Location = new System.Drawing.Point(0, 135);
-            this.panel_Advanced2.Name = "panel_Advanced2";
-            this.panel_Advanced2.RectRadius = 5;
-            this.panel_Advanced2.ShadowColor = System.Drawing.Color.DimGray;
-            this.panel_Advanced2.ShadowShift = 0;
-            this.panel_Advanced2.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panel_Advanced2.Size = new System.Drawing.Size(340, 137);
-            this.panel_Advanced2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
-            this.panel_Advanced2.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
-            this.panel_Advanced2.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(349, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 21);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "00:00 ";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(12, 20);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 21);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Mã phòng:";
-            // 
-            // lblTesttimeID
-            // 
-            this.lblTesttimeID.AutoSize = true;
-            this.lblTesttimeID.BackColor = System.Drawing.Color.Transparent;
-            this.lblTesttimeID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTesttimeID.ForeColor = System.Drawing.Color.Black;
-            this.lblTesttimeID.Location = new System.Drawing.Point(119, 66);
-            this.lblTesttimeID.Name = "lblTesttimeID";
-            this.lblTesttimeID.Size = new System.Drawing.Size(99, 21);
-            this.lblTesttimeID.TabIndex = 2;
-            this.lblTesttimeID.Text = "#testtimeID";
-            // 
             // ListResult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,17 +331,17 @@ namespace TestManagement.GUI
             this.Controls.Add(this.panelTestDetail);
             this.Controls.Add(this.panelResult);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ListResult";
             this.Text = "ListResult";
+            this.Load += new System.EventHandler(this.ListResult_Load);
             this.panelResult.ResumeLayout(false);
             this.panelResult.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.panelTestDetail.ResumeLayout(false);
-            this.panel_Advanced1.ResumeLayout(false);
-            this.panel_Advanced1.PerformLayout();
             this.panel_Advanced2.ResumeLayout(false);
             this.panel_Advanced2.PerformLayout();
+            this.panel_Advanced1.ResumeLayout(false);
+            this.panel_Advanced1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -341,5 +365,6 @@ namespace TestManagement.GUI
         private UserControl_Test.Panel_Advanced panel_Advanced1;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label label2;
+        private UserControl_Test.Button_Advanced btnEnd;
     }
 }

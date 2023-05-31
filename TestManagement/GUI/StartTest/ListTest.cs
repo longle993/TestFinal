@@ -23,6 +23,7 @@ namespace TestManagement.GUI
         List<Question> questions;
         FormMain formMain;
         ConnectingData db = new ConnectingData();
+        private Form currentChildForm;
         public ListTest()
         {
             InitializeComponent();
@@ -122,16 +123,16 @@ namespace TestManagement.GUI
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            //Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
-            //if (test is null)
-            //{
-            //    MessageBox.Show("Chọn bài Test để bắt đầu kiểm tra","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            //}    
-            //else
-            //{
-            //    SettingTest set = new SettingTest(this);
-            //    set.ShowDialog();
-            //}    
+            Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
+            if (test is null)
+            {
+               MessageBox.Show("Chọn bài Test để bắt đầu kiểm tra","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }    
+            else
+            {
+                SettingTest set = new SettingTest(this,test);
+              set.ShowDialog();
+            }    
         }
 
         private void btnResultTest_Click(object sender, EventArgs e)
@@ -169,5 +170,28 @@ namespace TestManagement.GUI
             }
             
         }
+
+        #region Mở Form con
+        public void OpenChildForm(Form childForm, Panel panel)
+        {
+            //open only form
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+            currentChildForm = childForm;
+            //End
+            //Add Form
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panel.Controls.Add(childForm);
+            panel.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+        }
+        #endregion
+
+    
     }
 }
