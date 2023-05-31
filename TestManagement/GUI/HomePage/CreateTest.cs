@@ -247,16 +247,19 @@ namespace TestManagement.GUI
 
             //Xóa các câu hỏi cũ
             List<TestDetail> delList = TestDetail_BUS.Instance.GetTestDetails(newTest.TestID);
-            if(delList != null)
+            List<Question> delQues = new List<Question>();
+            if (delList != null)
             {
                 foreach (TestDetail detail in delList)
                 {
                     Question ques = Question_BUS.Instance.GetQuestion(detail.QuestionID);
+                    delQues.Add(ques);
                     Answer_BUS.Instance.DelAnswer(ques);
                 }
                 TestDetail_BUS.Instance.DelTestDetail(delList);
+                Question_BUS.Instance.DelQuestion(delQues);
             }
-            
+
             foreach (Control control in flowQues.Controls)
             {
                 if (control is NewQuestion ques)
@@ -313,6 +316,10 @@ namespace TestManagement.GUI
 
             }
 
+            MessageBox.Show("Lưu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
         }
+
     }
 }
