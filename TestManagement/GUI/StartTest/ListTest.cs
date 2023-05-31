@@ -130,10 +130,8 @@ namespace TestManagement.GUI
             }    
             else
             {
-                StartTest startTest = new StartTest(test);
-                this.Hide();
-                startTest.ShowDialog();
-                this.Show();
+                SettingTest set = new SettingTest(this);
+                set.ShowDialog();
             }    
         }
     }

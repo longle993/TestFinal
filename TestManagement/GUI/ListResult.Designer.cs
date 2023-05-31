@@ -32,17 +32,27 @@ namespace TestManagement.GUI
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelResult = new TestManagement.UserControl_Test.Panel_Advanced();
-            this.lblTestName = new System.Windows.Forms.Label();
-            this.panelTestDetail = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.lblTimeNow = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hovaten = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.timesubmit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.point = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lblTimeNow = new System.Windows.Forms.Label();
+            this.lblTestName = new System.Windows.Forms.Label();
+            this.panelTestDetail = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.panel_Advanced1 = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel_Advanced2 = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblTesttimeID = new System.Windows.Forms.Label();
             this.panelResult.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panelTestDetail.SuspendLayout();
+            this.panel_Advanced1.SuspendLayout();
+            this.panel_Advanced2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelResult
@@ -67,35 +77,16 @@ namespace TestManagement.GUI
             this.panelResult.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelResult.TabIndex = 0;
             // 
-            // lblTestName
+            // lblTimeNow
             // 
-            this.lblTestName.AutoSize = true;
-            this.lblTestName.BackColor = System.Drawing.Color.White;
-            this.lblTestName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTestName.Location = new System.Drawing.Point(228, 38);
-            this.lblTestName.Name = "lblTestName";
-            this.lblTestName.Size = new System.Drawing.Size(370, 37);
-            this.lblTestName.TabIndex = 2;
-            this.lblTestName.Text = "DANH SÁCH HOÀN THÀNH";
-            // 
-            // panelTestDetail
-            // 
-            this.panelTestDetail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.panelTestDetail.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
-            this.panelTestDetail.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelTestDetail.EdgeWidth = 2;
-            this.panelTestDetail.EndColor = System.Drawing.Color.White;
-            this.panelTestDetail.FlatBorderColor = System.Drawing.Color.White;
-            this.panelTestDetail.Location = new System.Drawing.Point(940, 0);
-            this.panelTestDetail.Name = "panelTestDetail";
-            this.panelTestDetail.RectRadius = 20;
-            this.panelTestDetail.ShadowColor = System.Drawing.Color.DimGray;
-            this.panelTestDetail.ShadowShift = 0;
-            this.panelTestDetail.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelTestDetail.Size = new System.Drawing.Size(340, 758);
-            this.panelTestDetail.StartColor = System.Drawing.Color.White;
-            this.panelTestDetail.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
-            this.panelTestDetail.TabIndex = 1;
+            this.lblTimeNow.AutoSize = true;
+            this.lblTimeNow.BackColor = System.Drawing.Color.White;
+            this.lblTimeNow.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimeNow.Location = new System.Drawing.Point(774, 90);
+            this.lblTimeNow.Name = "lblTimeNow";
+            this.lblTimeNow.Size = new System.Drawing.Size(93, 21);
+            this.lblTimeNow.TabIndex = 4;
+            this.lblTimeNow.Text = "31/05/2023";
             // 
             // dataGridView1
             // 
@@ -171,16 +162,141 @@ namespace TestManagement.GUI
             this.point.ReadOnly = true;
             this.point.Width = 150;
             // 
-            // lblTimeNow
+            // lblTestName
             // 
-            this.lblTimeNow.AutoSize = true;
-            this.lblTimeNow.BackColor = System.Drawing.Color.White;
-            this.lblTimeNow.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTimeNow.Location = new System.Drawing.Point(774, 90);
-            this.lblTimeNow.Name = "lblTimeNow";
-            this.lblTimeNow.Size = new System.Drawing.Size(93, 21);
-            this.lblTimeNow.TabIndex = 4;
-            this.lblTimeNow.Text = "31/05/2023";
+            this.lblTestName.AutoSize = true;
+            this.lblTestName.BackColor = System.Drawing.Color.White;
+            this.lblTestName.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTestName.Location = new System.Drawing.Point(228, 38);
+            this.lblTestName.Name = "lblTestName";
+            this.lblTestName.Size = new System.Drawing.Size(370, 37);
+            this.lblTestName.TabIndex = 2;
+            this.lblTestName.Text = "DANH SÁCH HOÀN THÀNH";
+            // 
+            // panelTestDetail
+            // 
+            this.panelTestDetail.BackColor = System.Drawing.Color.White;
+            this.panelTestDetail.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
+            this.panelTestDetail.Controls.Add(this.panel_Advanced2);
+            this.panelTestDetail.Controls.Add(this.panel_Advanced1);
+            this.panelTestDetail.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelTestDetail.EdgeWidth = 2;
+            this.panelTestDetail.EndColor = System.Drawing.Color.White;
+            this.panelTestDetail.FlatBorderColor = System.Drawing.Color.White;
+            this.panelTestDetail.Location = new System.Drawing.Point(940, 0);
+            this.panelTestDetail.Name = "panelTestDetail";
+            this.panelTestDetail.RectRadius = 20;
+            this.panelTestDetail.ShadowColor = System.Drawing.Color.DimGray;
+            this.panelTestDetail.ShadowShift = 0;
+            this.panelTestDetail.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
+            this.panelTestDetail.Size = new System.Drawing.Size(340, 758);
+            this.panelTestDetail.StartColor = System.Drawing.Color.White;
+            this.panelTestDetail.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
+            this.panelTestDetail.TabIndex = 1;
+            // 
+            // panel_Advanced1
+            // 
+            this.panel_Advanced1.BackColor = System.Drawing.Color.White;
+            this.panel_Advanced1.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
+            this.panel_Advanced1.Controls.Add(this.lblTime);
+            this.panel_Advanced1.Controls.Add(this.label2);
+            this.panel_Advanced1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel_Advanced1.EdgeWidth = 1;
+            this.panel_Advanced1.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(139)))), ((int)(((byte)(255)))));
+            this.panel_Advanced1.FlatBorderColor = System.Drawing.Color.White;
+            this.panel_Advanced1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel_Advanced1.Location = new System.Drawing.Point(0, 0);
+            this.panel_Advanced1.Name = "panel_Advanced1";
+            this.panel_Advanced1.RectRadius = 5;
+            this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
+            this.panel_Advanced1.ShadowShift = 0;
+            this.panel_Advanced1.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
+            this.panel_Advanced1.Size = new System.Drawing.Size(340, 66);
+            this.panel_Advanced1.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(139)))), ((int)(((byte)(255)))));
+            this.panel_Advanced1.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
+            this.panel_Advanced1.TabIndex = 1;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.BackColor = System.Drawing.Color.Transparent;
+            this.lblTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(349, 20);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(54, 21);
+            this.lblTime.TabIndex = 3;
+            this.lblTime.Text = "00:00 ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(12, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 21);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "TestName";
+            // 
+            // panel_Advanced2
+            // 
+            this.panel_Advanced2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.panel_Advanced2.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
+            this.panel_Advanced2.Controls.Add(this.label1);
+            this.panel_Advanced2.Controls.Add(this.lblTesttimeID);
+            this.panel_Advanced2.Controls.Add(this.label3);
+            this.panel_Advanced2.EdgeWidth = 1;
+            this.panel_Advanced2.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.panel_Advanced2.FlatBorderColor = System.Drawing.Color.White;
+            this.panel_Advanced2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel_Advanced2.Location = new System.Drawing.Point(0, 135);
+            this.panel_Advanced2.Name = "panel_Advanced2";
+            this.panel_Advanced2.RectRadius = 5;
+            this.panel_Advanced2.ShadowColor = System.Drawing.Color.DimGray;
+            this.panel_Advanced2.ShadowShift = 0;
+            this.panel_Advanced2.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
+            this.panel_Advanced2.Size = new System.Drawing.Size(340, 137);
+            this.panel_Advanced2.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.panel_Advanced2.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
+            this.panel_Advanced2.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(349, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 21);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "00:00 ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(12, 20);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 21);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Mã phòng:";
+            // 
+            // lblTesttimeID
+            // 
+            this.lblTesttimeID.AutoSize = true;
+            this.lblTesttimeID.BackColor = System.Drawing.Color.Transparent;
+            this.lblTesttimeID.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTesttimeID.ForeColor = System.Drawing.Color.Black;
+            this.lblTesttimeID.Location = new System.Drawing.Point(119, 66);
+            this.lblTesttimeID.Name = "lblTesttimeID";
+            this.lblTesttimeID.Size = new System.Drawing.Size(99, 21);
+            this.lblTesttimeID.TabIndex = 2;
+            this.lblTesttimeID.Text = "#testtimeID";
             // 
             // ListResult
             // 
@@ -197,6 +313,11 @@ namespace TestManagement.GUI
             this.panelResult.ResumeLayout(false);
             this.panelResult.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panelTestDetail.ResumeLayout(false);
+            this.panel_Advanced1.ResumeLayout(false);
+            this.panel_Advanced1.PerformLayout();
+            this.panel_Advanced2.ResumeLayout(false);
+            this.panel_Advanced2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -213,5 +334,12 @@ namespace TestManagement.GUI
         private System.Windows.Forms.DataGridViewTextBoxColumn timesubmit;
         private System.Windows.Forms.DataGridViewTextBoxColumn point;
         private System.Windows.Forms.Label lblTimeNow;
+        private UserControl_Test.Panel_Advanced panel_Advanced2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTesttimeID;
+        private System.Windows.Forms.Label label3;
+        private UserControl_Test.Panel_Advanced panel_Advanced1;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Label label2;
     }
 }
