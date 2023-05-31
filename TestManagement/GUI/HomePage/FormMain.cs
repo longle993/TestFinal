@@ -14,11 +14,19 @@ using TestManagement.DTO;
 using System.Data.SqlClient;
 using TestManagement.Report;
 using TestManagement.GUI.FormReport;
+using System.Runtime.InteropServices;
 
 namespace TestManagement.GUI
 {
     public partial class FormMain : Form
     {
+        #region DragForm
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+        #endregion
+
         private Form currentChildForm;
         List<Subject> subjects;
         List<Test> tests;
@@ -165,13 +173,13 @@ namespace TestManagement.GUI
         private void LblfolderName_DoubleClick(object sender, EventArgs e)
         {
             Control list = (Control)sender;
-            OpenChildForm(new FileTest(list.Tag.ToString()), panelTongquan);
+            OpenChildForm(new FileTest(list.Tag.ToString(),this), panelTongquan);
         }
 
         private void ListSubject_DoubleClick(object sender, EventArgs e)
         {
             ListFolder list = (ListFolder)sender;
-            OpenChildForm(new FileTest(list.FolderName), panelTongquan);
+            OpenChildForm(new FileTest(list.FolderName,this), panelTongquan);
         }
 
 
@@ -467,6 +475,38 @@ namespace TestManagement.GUI
             ReportTest reportTest = new ReportTest();
             reportTest.crystalReportViewer2.ReportSource=printTest;
             reportTest.ShowDialog();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Bạn có chắc chắn muốn đóng chương trình?","Thông báp",MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void panelBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                panelBar.DoDragDrop(label1.Text, DragDropEffects.Move);
+            }
+        }
+
+        private void panelBar_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+
+        }
+
+        private void panelBar_DragDrop(object sender, DragEventArgs e)
+        {
+            panelBar.Text = e.Data.GetData(DataFormats.Text).ToString();
         }
     }
 }

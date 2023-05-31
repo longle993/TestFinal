@@ -37,6 +37,7 @@ namespace TestManagement.GUI
             this.panelButtonDetail = new System.Windows.Forms.Panel();
             this.btnDel = new TestManagement.UserControl_Test.Button_Advanced();
             this.button_Advanced3 = new TestManagement.UserControl_Test.Button_Advanced();
+            this.btnAdjust = new TestManagement.UserControl_Test.Button_Advanced();
             this.button_Advanced1 = new TestManagement.UserControl_Test.Button_Advanced();
             this.btnEdit = new TestManagement.UserControl_Test.Button_Advanced();
             this.label6 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@ namespace TestManagement.GUI
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnNewTest = new TestManagement.UserControl_Test.Button_Advanced();
-            this.btnAdjust = new TestManagement.UserControl_Test.Button_Advanced();
             this.panelTest.SuspendLayout();
             this.panelDetail.SuspendLayout();
             this.panelButtonDetail.SuspendLayout();
@@ -105,6 +105,7 @@ namespace TestManagement.GUI
             this.btnTest.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnTest.TextColor = System.Drawing.Color.Black;
             this.btnTest.UseVisualStyleBackColor = false;
+            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // btnTongquan
             // 
@@ -226,6 +227,32 @@ namespace TestManagement.GUI
             this.button_Advanced3.TextColor = System.Drawing.Color.Black;
             this.button_Advanced3.UseVisualStyleBackColor = false;
             // 
+            // btnAdjust
+            // 
+            this.btnAdjust.BackColor = System.Drawing.Color.White;
+            this.btnAdjust.BackgroundColor = System.Drawing.Color.White;
+            this.btnAdjust.BorderColor = System.Drawing.Color.White;
+            this.btnAdjust.BorderRadius = 5;
+            this.btnAdjust.BorderSize = 0;
+            this.btnAdjust.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAdjust.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAdjust.FlatAppearance.BorderSize = 0;
+            this.btnAdjust.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdjust.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdjust.ForeColor = System.Drawing.Color.Black;
+            this.btnAdjust.Image = global::TestManagement.Properties.Resources.Edit;
+            this.btnAdjust.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAdjust.Location = new System.Drawing.Point(0, 92);
+            this.btnAdjust.Name = "btnAdjust";
+            this.btnAdjust.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
+            this.btnAdjust.Size = new System.Drawing.Size(276, 46);
+            this.btnAdjust.TabIndex = 1;
+            this.btnAdjust.Text = "Chỉnh sửa";
+            this.btnAdjust.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdjust.TextColor = System.Drawing.Color.Black;
+            this.btnAdjust.UseVisualStyleBackColor = false;
+            this.btnAdjust.Click += new System.EventHandler(this.btnAdjust_Click);
+            // 
             // button_Advanced1
             // 
             this.button_Advanced1.BackColor = System.Drawing.Color.White;
@@ -310,10 +337,10 @@ namespace TestManagement.GUI
             // 
             // picIconDetail
             // 
-            this.picIconDetail.Image = global::TestManagement.Properties.Resources.Folder;
-            this.picIconDetail.Location = new System.Drawing.Point(47, 64);
+            this.picIconDetail.Image = global::TestManagement.Properties.Resources.File;
+            this.picIconDetail.Location = new System.Drawing.Point(53, 58);
             this.picIconDetail.Name = "picIconDetail";
-            this.picIconDetail.Size = new System.Drawing.Size(30, 24);
+            this.picIconDetail.Size = new System.Drawing.Size(24, 30);
             this.picIconDetail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIconDetail.TabIndex = 0;
             this.picIconDetail.TabStop = false;
@@ -473,32 +500,6 @@ namespace TestManagement.GUI
             this.btnNewTest.UseVisualStyleBackColor = false;
             this.btnNewTest.Visible = false;
             this.btnNewTest.Click += new System.EventHandler(this.btnNewTest_Click);
-            // 
-            // btnAdjust
-            // 
-            this.btnAdjust.BackColor = System.Drawing.Color.White;
-            this.btnAdjust.BackgroundColor = System.Drawing.Color.White;
-            this.btnAdjust.BorderColor = System.Drawing.Color.White;
-            this.btnAdjust.BorderRadius = 5;
-            this.btnAdjust.BorderSize = 0;
-            this.btnAdjust.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAdjust.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAdjust.FlatAppearance.BorderSize = 0;
-            this.btnAdjust.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdjust.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdjust.ForeColor = System.Drawing.Color.Black;
-            this.btnAdjust.Image = global::TestManagement.Properties.Resources.Edit;
-            this.btnAdjust.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAdjust.Location = new System.Drawing.Point(0, 92);
-            this.btnAdjust.Name = "btnAdjust";
-            this.btnAdjust.Padding = new System.Windows.Forms.Padding(20, 0, 20, 0);
-            this.btnAdjust.Size = new System.Drawing.Size(276, 46);
-            this.btnAdjust.TabIndex = 1;
-            this.btnAdjust.Text = "Chỉnh sửa";
-            this.btnAdjust.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAdjust.TextColor = System.Drawing.Color.Black;
-            this.btnAdjust.UseVisualStyleBackColor = false;
-            this.btnAdjust.Click += new System.EventHandler(this.btnAdjust_Click);
             // 
             // FileTest
             // 

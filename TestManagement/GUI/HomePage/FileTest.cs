@@ -21,12 +21,13 @@ namespace TestManagement.GUI
         List<Test> tests;
         List<TestDetail> testDetails;
         List<Question> questions;
+        FormMain formMain;
 
         public FileTest()
         {
             InitializeComponent();
         }
-        public FileTest(string subjectName)
+        public FileTest(string subjectName,FormMain formMain)
         {
             InitializeComponent();
             this.subjectName = subjectName;
@@ -35,6 +36,7 @@ namespace TestManagement.GUI
             this.sortedList.btnChange.Click += BtnChange_Click;
             this.sortedList.btnNewest.Click += BtnNewest_Click;
             this.sortedList.btnOldest.Click += BtnOldest_Click;
+            this.formMain = formMain;
         }
 
         private void FileTest_Load(object sender, EventArgs e)
@@ -224,7 +226,14 @@ namespace TestManagement.GUI
             Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
             OpenChildForm(new CreateTest(test));
         }
-      
 
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            
+                panelDetail.Visible = false;
+                panellFile.Visible = false;
+                OpenChildForm(new ListTest(formMain));
+            
+        }
     }
 }
