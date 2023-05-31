@@ -443,10 +443,6 @@ namespace TestManagement.GUI
             
         }
 
-        private void button_Advanced4_Click(object sender, EventArgs e)
-        {
-            
-        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {

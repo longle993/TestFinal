@@ -82,6 +82,9 @@ namespace TestManagement.GUI
                 setting.txtMark._TextChanged += TxtMark__TextChanged;
                 setting.QuesNumber = newQues.QuestionNumber;
 
+                setting.panel_Advanced1.Click+=Panel_Advanced1_Click;
+                setting.panel_Advanced1.Tag=newQues;
+
                 int indexAns = 1;
                 foreach (Answer ans in answers)
                 {
@@ -101,6 +104,11 @@ namespace TestManagement.GUI
                 }
                 flowQuesSetting.Controls.Add(setting);
             }
+        }
+
+        private void Panel_Advanced1_Click(object sender, EventArgs e)
+        {
+            flowQues.ScrollControlIntoView((sender as Panel).Tag as NewQuestion);
         }
 
         private void btnAddQues_Click(object sender, EventArgs e)

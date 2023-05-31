@@ -159,11 +159,11 @@ namespace TestManagement.UserControl_Test
 
         #endregion
 
-        private Panel_Advanced panel_Advanced1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblQues;
-        private System.Windows.Forms.Label label2;
+        public Panel_Advanced panel_Advanced1;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label lblQues;
+        public System.Windows.Forms.Label label2;
         public TextBox_Advanced txtMark;
-        private TextBox_Advanced txtTrueAnswer;
+        public TextBox_Advanced txtTrueAnswer;
     }
 }

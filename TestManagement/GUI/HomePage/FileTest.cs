@@ -231,12 +231,10 @@ namespace TestManagement.GUI
         }
 
         private void btnTest_Click(object sender, EventArgs e)
-        {
-            
-                panelDetail.Visible = false;
-                panellFile.Visible = false;
-                OpenChildForm(new ListTest(formMain));
-            
+        {           
+            panelDetail.Visible = false;
+            panellFile.Visible = false;
+            OpenChildForm(new ListTest(formMain));           
         }
 
         private void button_Advanced3_Click(object sender, EventArgs e)
