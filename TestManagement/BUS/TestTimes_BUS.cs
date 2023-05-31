@@ -28,5 +28,9 @@ namespace TestManagement.BUS
         {
             return TestTimes_DAO.Instance.GetTestTimes(test);
         }
+        public TestTimes GetTestTime(string code)
+        {
+            return TestTimes_DAO.Instance.GetTestTime(code);
+        }
     }
 }

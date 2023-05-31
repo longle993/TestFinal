@@ -16,6 +16,10 @@ namespace TestManagement.DAO
             get { if (instance == null) instance = new TestTimes_DAO();return instance; }
             set { instance = value; }
         }
+        public TestTimes GetTestTime(string code)
+        {
+            return db.TestTimes.SingleOrDefault(p => p.CodeTest == code);
+        }
         public void AddTestTimes(TestTimes testtime)
         {
             db.TestTimes.Add(testtime);

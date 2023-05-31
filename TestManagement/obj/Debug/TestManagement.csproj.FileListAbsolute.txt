@@ -661,3 +661,5 @@ C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.cs
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.exe
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.pdb
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.HomePage.TryTest.resources
+C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.SettingTest.resources
+C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.HomePage.StartTest.resources

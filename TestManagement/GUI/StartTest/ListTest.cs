@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestManagement.BUS;
 using TestManagement.DTO;
+using TestManagement.GUI.FormReport;
 using TestManagement.GUI.HomePage;
+using TestManagement.Report;
 using TestManagement.UserControl_Test;
 
 namespace TestManagement.GUI
@@ -20,7 +22,7 @@ namespace TestManagement.GUI
         List<TestDetail> testDetails;
         List<Question> questions;
         FormMain formMain;
-
+        ConnectingData db = new ConnectingData();
         public ListTest()
         {
             InitializeComponent();
@@ -56,9 +58,7 @@ namespace TestManagement.GUI
             panelButtonDetail.Visible = true;
             picIconDetail.Image = Properties.Resources.Folder;
             LoadInfoTest();
-
         }
-
         private void Listtest_Click(object sender, EventArgs e)
         {
             ListFolder listFolder = (ListFolder)sender;
@@ -66,7 +66,6 @@ namespace TestManagement.GUI
             panelButtonDetail.Visible = true;
             picIconDetail.Image = Properties.Resources.File;
             LoadInfoTest();
-
         }
         private void LoadListTest()
         {
@@ -123,16 +122,52 @@ namespace TestManagement.GUI
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
-            if (test is null)
+            //Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
+            //if (test is null)
+            //{
+            //    MessageBox.Show("Chọn bài Test để bắt đầu kiểm tra","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            //}    
+            //else
+            //{
+            //    SettingTest set = new SettingTest(this);
+            //    set.ShowDialog();
+            //}    
+        }
+
+        private void btnResultTest_Click(object sender, EventArgs e)
+        {
+            if (lblFileName.Text!="FileName")
             {
-                MessageBox.Show("Chọn bài Test để bắt đầu kiểm tra","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
-            }    
-            else
+                var query = from subject in db.Subjects
+                            join test in db.Tests on subject.SubjectID equals test.SubjectID
+                            join testTimes in db.TestTimes on test.TestID equals testTimes.TestID
+                            join result in db.Results on testTimes.TestTimesID equals result.TestTimesID
+                            where test.TestName == lblFileName.Text
+                            select new
+                            {
+                                subject.SubjectName,
+                                test.TestName,
+                                testTimes.TestDate,
+                                result.StudentName,
+                                result.MSSV,
+                                result.NumberCorrect,
+                                result.Score
+                            };
+
+                var results = query.ToList();
+
+                PrintResult printResult = new PrintResult();
+                printResult.SetDataSource(results);
+
+                ReportResult reportResult = new ReportResult();
+                reportResult.crystalReportViewer1.ReportSource=printResult;
+                reportResult.ShowDialog();
+            }
+            else if (lblFileName.Text=="FileName")
             {
-                SettingTest set = new SettingTest(this);
-                set.ShowDialog();
-            }    
+                MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
     }
 }

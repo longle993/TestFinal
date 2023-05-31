@@ -64,7 +64,6 @@ namespace TestManagement.GUI
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picUser = new System.Windows.Forms.PictureBox();
-            this.button_Advanced2 = new TestManagement.UserControl_Test.Button_Advanced();
             this.dropmenuAdmin = new TestManagement.UserControl_Test.DropDownMenu_Advanced();
             this.btnBack = new TestManagement.UserControl_Test.Button_Advanced();
             this.txtSearch = new TestManagement.UserControl_Test.TextBox_Advanced();
@@ -679,26 +678,6 @@ namespace TestManagement.GUI
             this.picUser.TabStop = false;
             this.picUser.Click += new System.EventHandler(this.picUser_Click);
             // 
-            // button_Advanced2
-            // 
-            this.button_Advanced2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(188)))), ((int)(((byte)(188)))));
-            this.button_Advanced2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(188)))), ((int)(((byte)(188)))));
-            this.button_Advanced2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(188)))), ((int)(((byte)(188)))));
-            this.button_Advanced2.BorderRadius = 20;
-            this.button_Advanced2.BorderSize = 0;
-            this.button_Advanced2.FlatAppearance.BorderSize = 0;
-            this.button_Advanced2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Advanced2.ForeColor = System.Drawing.Color.White;
-            this.button_Advanced2.Location = new System.Drawing.Point(444, 46);
-            this.button_Advanced2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button_Advanced2.Name = "button_Advanced2";
-            this.button_Advanced2.Size = new System.Drawing.Size(149, 39);
-            this.button_Advanced2.TabIndex = 20;
-            this.button_Advanced2.Text = "button_Advanced2";
-            this.button_Advanced2.TextColor = System.Drawing.Color.White;
-            this.button_Advanced2.UseVisualStyleBackColor = false;
-            this.button_Advanced2.Click += new System.EventHandler(this.button_Advanced2_Click);
-            // 
             // dropmenuAdmin
             // 
             this.dropmenuAdmin.Location = new System.Drawing.Point(1251, 124);
@@ -763,7 +742,6 @@ namespace TestManagement.GUI
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(1707, 1100);
             this.Controls.Add(this.panelBar);
-            this.Controls.Add(this.button_Advanced2);
             this.Controls.Add(this.dropmenuAdmin);
             this.Controls.Add(this.picLogo);
             this.Controls.Add(this.panelTongquan);
@@ -832,7 +810,6 @@ namespace TestManagement.GUI
         private UserControl_Test.Button_Advanced btnAdjust;
         private System.Windows.Forms.FlowLayoutPanel flowTest;
         private System.Windows.Forms.Label label7;
-        private UserControl_Test.Button_Advanced button_Advanced2;
         private System.Windows.Forms.Panel panelBar;
         private UserControl_Test.Button_Advanced btnClose;
         private UserControl_Test.Button_Advanced btnMinimize;

@@ -481,6 +481,9 @@
     <EmbeddedResource Include="GUI\StartTest\ListTest.resx">
       <DependentUpon>ListTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StartTest\StartTest.resx">
+      <DependentUpon>StartTest.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

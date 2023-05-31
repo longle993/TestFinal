@@ -41,10 +41,18 @@ namespace TestManagement.GUI
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            OpenChildForm(new Infomation(), panel_Advanced1);
-            this.Close();
+            if (txtCheckIn.Texts.Length>0)
+            {
+                Infomation infomation = new Infomation(txtCheckIn.Texts);
+                this.Hide();
+                infomation.ShowDialog();
+                this.Show();
+            }
+            else if (txtCheckIn.Texts.Length==0)
+            {
+                MessageBox.Show("Vui lòng nhập mã phòng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
-    
+
 }

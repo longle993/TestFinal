@@ -32,7 +32,10 @@ namespace TestManagement.DAO
         {
             return db.Tests.SingleOrDefault(p => p.TestName == testName);
         }
-
+        public Test FindByID(string ID)
+        {
+            return db.Tests.SingleOrDefault(p => p.TestID == ID);
+        }
         //Lấy thư mục đồng cấp
         public List<Test> GetTestsNotSubjectID()
         {

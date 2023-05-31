@@ -32,6 +32,10 @@ namespace TestManagement.BUS
         {
             return Test_DAO.Instance.FindByName(testName);
         }
+        public Test FindByID(string ID)
+        {
+            return Test_DAO.Instance.FindByID(ID);
+        }
         public int CountTest()
         {
             return Test_DAO.Instance.CountTest();

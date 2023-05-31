@@ -129,9 +129,9 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(32, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 25);
+            this.label3.Size = new System.Drawing.Size(128, 25);
             this.label3.TabIndex = 1;
-            this.label3.Text = "ID:";
+            this.label3.Text = "Tên sinh viên:";
             // 
             // label1
             // 
@@ -139,9 +139,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 25);
+            this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Mã phòng:";
+            this.label1.Text = "MSSV:";
             // 
             // btnSubmit
             // 

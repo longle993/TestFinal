@@ -31,13 +31,15 @@ namespace TestManagement.GUI.HomePage
         {
             InitializeComponent();
         }
-        public StartTest(Test newtest)
+        public StartTest(Test newtest, string name, string mssv)
         {
             InitializeComponent();
             this.newTest = newtest;
+            lblMSSV.Text=mssv;
+            lblName.Text=name;
         }
         private void StartTest_Load(object sender, EventArgs e)
-        {
+        {            
             LoadListTest(newTest);
         }
         void LoadListTest(Test test)
@@ -73,7 +75,7 @@ namespace TestManagement.GUI.HomePage
 
                 testQuestion.lblQuesNumber.Text=count.ToString();
                 this.flowQues.Controls.Add(testQuestion);
-                CreateButton(count,testQuestion);
+                CreateButton(count, testQuestion);
                 count++;
             }
         }
@@ -177,22 +179,10 @@ namespace TestManagement.GUI.HomePage
             result.ResultID = "3";
             result.TestTimesID = testTimes.TestTimesID;
             result.StudentName = "Tran Van Tuan";
-            result.MSSV = lblTextID.Text;
+            result.MSSV = lblMSSV.Text;
             result.NumberCorrect = NumberCorrect;
             //   result.FinishTime=newTest.TestTime.Subtract(TestTime);
             result.Score = 0;
         }
-
-        /*private void InitializeComponent()
-        {
-            this.SuspendLayout();
-            // 
-            // StartTest
-            // 
-            this.ClientSize = new System.Drawing.Size(953, 607);
-            this.Name = "StartTest";
-            this.ResumeLayout(false);
-
-        }*/
     }
 }

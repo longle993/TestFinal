@@ -32,7 +32,7 @@ namespace TestManagement.GUI
         List<Test> tests;
         List<TestDetail> testDetails;
         List<Question> questions;
-        ConnectingData db = new ConnectingData();
+        
         public FormMain()
         {
             InitializeComponent();
@@ -426,37 +426,6 @@ namespace TestManagement.GUI
                 MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void button_Advanced2_Click(object sender, EventArgs e)
-        {
-            var query = from subject in db.Subjects
-                        join test in db.Tests on subject.SubjectID equals test.SubjectID
-                        join testTimes in db.TestTimes on test.TestID equals testTimes.TestID
-                        join result in db.Results on testTimes.TestTimesID equals result.TestTimesID
-                        where test.TestName == "Math Test 1"
-                        select new
-                        {
-                            subject.SubjectName,
-                            test.TestName,
-                            testTimes.TestDate,
-                            result.StudentName,
-                            result.MSSV,
-                            result.NumberCorrect,
-                            result.Score
-                        };
-
-            var results = query.ToList();
-
-            PrintResult printResult=new PrintResult();
-            printResult.SetDataSource(results);
-
-            ReportResult reportResult= new ReportResult();
-            reportResult.crystalReportViewer1.ReportSource=printResult;
-            reportResult.ShowDialog();
-            
-        }
-
-
         private void btnClose_Click(object sender, EventArgs e)
         {
             if(MessageBox.Show("Bạn có chắc chắn muốn đóng chương trình?","Thông báp",MessageBoxButtons.YesNo) == DialogResult.Yes)

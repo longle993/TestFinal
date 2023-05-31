@@ -47,12 +47,13 @@ namespace TestManagement.GUI
             this.panel_Advanced1.EndColor = System.Drawing.Color.White;
             this.panel_Advanced1.FlatBorderColor = System.Drawing.Color.Gainsboro;
             this.panel_Advanced1.Location = new System.Drawing.Point(0, 0);
+            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel_Advanced1.Name = "panel_Advanced1";
             this.panel_Advanced1.RectRadius = 20;
             this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
             this.panel_Advanced1.ShadowShift = 0;
             this.panel_Advanced1.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panel_Advanced1.Size = new System.Drawing.Size(587, 441);
+            this.panel_Advanced1.Size = new System.Drawing.Size(783, 543);
             this.panel_Advanced1.StartColor = System.Drawing.Color.White;
             this.panel_Advanced1.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panel_Advanced1.TabIndex = 2;
@@ -69,10 +70,10 @@ namespace TestManagement.GUI
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnStart.ForeColor = System.Drawing.Color.White;
-            this.btnStart.Location = new System.Drawing.Point(166, 319);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStart.Location = new System.Drawing.Point(221, 393);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(244, 55);
+            this.btnStart.Size = new System.Drawing.Size(325, 68);
             this.btnStart.TabIndex = 40;
             this.btnStart.Text = "Nhập";
             this.btnStart.TextColor = System.Drawing.Color.White;
@@ -88,16 +89,16 @@ namespace TestManagement.GUI
             this.txtCheckIn.BorderSize = 1;
             this.txtCheckIn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCheckIn.IsFocused = false;
-            this.txtCheckIn.Location = new System.Drawing.Point(157, 175);
-            this.txtCheckIn.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCheckIn.Location = new System.Drawing.Point(209, 215);
+            this.txtCheckIn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtCheckIn.Multiline = false;
             this.txtCheckIn.Name = "txtCheckIn";
-            this.txtCheckIn.Padding = new System.Windows.Forms.Padding(20, 10, 7, 10);
+            this.txtCheckIn.Padding = new System.Windows.Forms.Padding(27, 12, 9, 12);
             this.txtCheckIn.PasswordChar = false;
             this.txtCheckIn.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtCheckIn.PlaceholderText = "";
             this.txtCheckIn.ReadOnly = false;
-            this.txtCheckIn.Size = new System.Drawing.Size(266, 42);
+            this.txtCheckIn.Size = new System.Drawing.Size(355, 53);
             this.txtCheckIn.TabIndex = 28;
             this.txtCheckIn.Texts = "";
             this.txtCheckIn.UnderlineedStyle = false;
@@ -107,21 +108,22 @@ namespace TestManagement.GUI
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(190, 105);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(253, 129);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 30);
+            this.label1.Size = new System.Drawing.Size(252, 37);
             this.label1.TabIndex = 27;
             this.label1.Text = "NHẬP MÃ PHÒNG";
             // 
             // Checkin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 441);
+            this.ClientSize = new System.Drawing.Size(783, 543);
             this.Controls.Add(this.panel_Advanced1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Checkin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Checkin";
             this.panel_Advanced1.ResumeLayout(false);
             this.panel_Advanced1.PerformLayout();
