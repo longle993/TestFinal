@@ -1,0 +1,403 @@
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.Properties.Resources.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.GenerateResource.cache
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.CoreCompileInputs.cache
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\TestManagement.exe.config
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\TestManagement.exe
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\TestManagement.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\BouncyCastle.Crypto.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\EntityFramework.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\EntityFramework.SqlServer.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\FireSharp.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Google.Protobuf.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\K4os.Hash.xxHash.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\MySql.Data.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\MySql.Data.EntityFramework.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Buffers.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.IO.Pipelines.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Memory.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Net.Http.Extensions.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Net.Http.Primitives.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Numerics.Vectors.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\BouncyCastle.Crypto.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\EntityFramework.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\EntityFramework.SqlServer.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Google.Protobuf.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Google.Protobuf.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\K4os.Hash.xxHash.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\MySql.Data.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\MySql.Data.EntityFramework.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\Newtonsoft.Json.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Buffers.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.IO.Pipelines.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Memory.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Net.Http.Extensions.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Net.Http.Primitives.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Numerics.Vectors.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.App.config
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.CopyComplete
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.exe
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.TextBox_Advanced.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.Login.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.AssemblyReference.cache
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.SendOTP.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.ResetPass.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\TestManagement.exe.config
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\TestManagement.exe
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\TestManagement.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\BouncyCastle.Crypto.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\EntityFramework.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\EntityFramework.SqlServer.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\FireSharp.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Google.Protobuf.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\K4os.Compression.LZ4.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\K4os.Hash.xxHash.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Microsoft.Threading.Tasks.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\MySql.Data.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\MySql.Data.EntityFramework.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Newtonsoft.Json.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Buffers.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.IO.Pipelines.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Memory.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Net.Http.Extensions.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Net.Http.Primitives.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Numerics.Vectors.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\BouncyCastle.Crypto.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\EntityFramework.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\EntityFramework.SqlServer.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Google.Protobuf.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Google.Protobuf.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\K4os.Compression.LZ4.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\K4os.Hash.xxHash.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Microsoft.Threading.Tasks.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\MySql.Data.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\MySql.Data.EntityFramework.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\Newtonsoft.Json.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Buffers.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.IO.Pipelines.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Memory.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Net.Http.Extensions.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Net.Http.Primitives.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Numerics.Vectors.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.csproj.App.config
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.Login.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.ResetPass.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.SendOTP.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.Properties.Resources.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.TextBox_Advanced.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.csproj.GenerateResource.cache
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.csproj.CoreCompileInputs.cache
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.csproj.CopyComplete
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.exe
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.Admin.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.DropDownMenu_Advanced.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.FormMain.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.dataAccount.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.sortedList.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\TestManagement.exe.config
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\TestManagement.exe
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\TestManagement.pdb
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\EntityFramework.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\FireSharp.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Google.Protobuf.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\MySql.Data.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Buffers.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.IO.Pipelines.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Memory.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\EntityFramework.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Google.Protobuf.pdb
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Google.Protobuf.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\MySql.Data.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Buffers.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.IO.Pipelines.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Memory.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.App.config
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.AssemblyReference.cache
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.Admin.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.FormMain.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.Login.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.ResetPass.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.SendOTP.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.Properties.Resources.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.dataAccount.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.DropDownMenu_Advanced.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.sortedList.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.TextBox_Advanced.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.GenerateResource.cache
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.CoreCompileInputs.cache
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.csproj.CopyComplete
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.exe
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.pdb
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.ListFolder.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.AddFunctionHome.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.NewFolder.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.NewTest.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.NewAccount.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.FileTest.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.CreateTest.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.NewQuestion.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.QuesSetting.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.HomePage.EditTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.CreateTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.HomePage.EditTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.FileTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.NewFolder.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.NewTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.NewAccount.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.AddFunctionHome.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.ListFolder.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.NewQuestion.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.QuesSetting.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.ListTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.ListTest.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.UserControl_Test.TestQuestion.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.UserControl_Test.TestQuestion.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.csproj.AssemblyReference.cache
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.HomePage.AdjustFolder.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.Infomation.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.Checkin.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.Choose.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestManagement-3ac19aaac515380607b3da1fd0c3ae707510901b\TestManagement\obj\Debug\TestManagement.GUI.ListResult.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.Infomation.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.ListResult.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.Checkin.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.Choose.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.HomePage.AdjustFolder.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\obj\Debug\TestManagement.GUI.FormReport.ReportResult.resources
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\stdole.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Collections.Immutable.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Collections.Immutable.xml
+C:\Users\tranv\Documents\C#\TestManagement\TestManagement\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\TestManagement.exe.config
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\TestManagement.exe
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\TestManagement.pdb
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\EntityFramework.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\FireSharp.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Google.Protobuf.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\MySql.Data.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Buffers.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Collections.Immutable.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.IO.Pipelines.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Memory.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\stdole.dll
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\EntityFramework.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Google.Protobuf.pdb
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Google.Protobuf.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\MySql.Data.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Buffers.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Collections.Immutable.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.IO.Pipelines.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Memory.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.csproj.App.config
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.csproj.AssemblyReference.cache
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.Admin.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.FormReport.ReportResult.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.Infomation.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.ListResult.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.Checkin.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.Choose.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.HomePage.AdjustFolder.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.CreateTest.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.HomePage.EditTest.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.FileTest.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.FormMain.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.Login.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.ResetPass.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.SendOTP.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.NewFolder.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.NewTest.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.NewAccount.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.ListTest.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.Properties.Resources.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.AddFunctionHome.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.DataAccount.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.DropDownMenu_Advanced.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.ListFolder.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.NewQuestion.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.QuesSetting.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.SortedList.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.TestQuestion.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.UserControl_Test.TextBox_Advanced.resources
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.csproj.GenerateResource.cache
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.csproj.CoreCompileInputs.cache
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.csproj.CopyComplete
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.exe
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.pdb
+C:\Users\tranv\Documents\code1\TestManagement-527cd0528d913a77b8ee58eee34666b49478a34e\TestManagement\obj\Debug\TestManagement.GUI.FormReport.ReportTest.resources
