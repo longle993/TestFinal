@@ -32,9 +32,16 @@ namespace TestManagement.GUI.HomePage
 
         private void btnAdjust_Click(object sender, EventArgs e)
         {
-            Subject_BUS.Instance.UpdateSubject(subName,txtFolderName.Texts);
-            MessageBox.Show("Thay dổi tên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Close();
+            if (txtFolderName.Texts.Length>0)
+            {
+                Subject_BUS.Instance.UpdateSubject(subName, txtFolderName.Texts);
+                MessageBox.Show("Thay dổi tên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            else if (txtFolderName.Texts.Length==0)
+            {
+                MessageBox.Show("Hãy nhập tên thư mục mới!","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            }
         }
 
         private void AdjustFolder_Load(object sender, EventArgs e)

@@ -135,7 +135,6 @@ namespace TestManagement.GUI
                 startTest.ShowDialog();
                 this.Show();
             }    
-
         }
     }
 }

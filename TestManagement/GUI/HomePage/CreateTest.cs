@@ -32,11 +32,8 @@ namespace TestManagement.GUI
             InitializeComponent();
             this.newTest = newTest;
             details = TestDetail_BUS.Instance.GetTestDetails(newTest.TestID);
-            questions = new List<Question>();
-            
-            
+            questions = new List<Question>();                    
         }
-
         private void GetQues()
         {
             foreach (TestDetail detail in details)
@@ -46,8 +43,6 @@ namespace TestManagement.GUI
                 questions.Add(ques);
             }
         }
-
-
         private void LoadExistTest()
         {
             GetQues();
@@ -105,15 +100,12 @@ namespace TestManagement.GUI
                 flowQuesSetting.Controls.Add(setting);
             }
         }
-
         private void Panel_Advanced1_Click(object sender, EventArgs e)
         {
             flowQues.ScrollControlIntoView((sender as Panel).Tag as NewQuestion);
         }
-
         private void btnAddQues_Click(object sender, EventArgs e)
-        {
-            
+        {            
             //Thêm Question vào thanh bên trái
             NewQuestion ques = new NewQuestion();
             int buttonIndex = flowQues.Controls.IndexOf((Control)sender);
@@ -130,7 +122,6 @@ namespace TestManagement.GUI
             {
                 flowQues.Controls.SetChildIndex(flowQues.Controls[i], i + 1);
             }
-
             //Thêm Question vào thanh bên phải
             txtCountQues.Texts = (flowQues.Controls.Count - 1).ToString();
             QuesSetting setting = new QuesSetting();
@@ -138,7 +129,6 @@ namespace TestManagement.GUI
             setting.txtMark._TextChanged += TxtMark__TextChanged;
             flowQuesSetting.Controls.Add(setting);
         }
-
         private void TxtMark__TextChanged(object sender, EventArgs e)
         {
             decimal totalMark = 0;
@@ -155,17 +145,14 @@ namespace TestManagement.GUI
             }
             txtMark.Texts = totalMark.ToString();
         }
-
         private void BtnD_Click(object sender, EventArgs e)
         {
             SetTrueAnswer(sender, "D");
         }
-
         private void BtnC_Click(object sender, EventArgs e)
         {
             SetTrueAnswer(sender, "C");
         }
-
         private void BtnB_Click(object sender, EventArgs e)
         {
             SetTrueAnswer(sender, "B");
@@ -175,8 +162,7 @@ namespace TestManagement.GUI
         private void BtnA_Click(object sender, EventArgs e)
         {
             SetTrueAnswer(sender, "A");
-        }
-        
+        }     
         private void SetTrueAnswer(object sender,string trueAnswer)
         {
             Control control = (Control)sender;
@@ -188,7 +174,6 @@ namespace TestManagement.GUI
                 }
             }
         }
-
         private void BtnEdit_Click(object sender, EventArgs e)
         {
             Control control = (Control)sender;
@@ -202,9 +187,7 @@ namespace TestManagement.GUI
                     break;
                 }
             }
-
         }
-
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -235,16 +218,13 @@ namespace TestManagement.GUI
             childForm.Show();
         }
         #endregion
-
         private void btnSave_Click(object sender, EventArgs e)
         {
             Test existTest = Test_BUS.Instance.FindByName(lblTestName.Text);
             if (existTest == null)
             {
                 Test_BUS.Instance.AddTest(newTest);
-
             }
-
             //Xóa các câu hỏi cũ
             List<TestDetail> delList = TestDetail_BUS.Instance.GetTestDetails(newTest.TestID);
             List<Question> delQues = new List<Question>();
@@ -271,7 +251,6 @@ namespace TestManagement.GUI
                     question.QuestionText = ques.txtTextQues.Texts;
                     Question_BUS.Instance.AddQues(question);
 
-
                     //Thêm Answer
                     int count = 0;
                     foreach (Control ctr in ques.Controls)
@@ -297,9 +276,7 @@ namespace TestManagement.GUI
                             }
                             count++;
                         }
-
                     }
-
                     //Thêm chi tiết bài kiểm tra
                     TestDetail detail = new TestDetail();
                     detail.TestID = newTest.TestID;
@@ -313,12 +290,8 @@ namespace TestManagement.GUI
                     }
                     TestDetail_BUS.Instance.AddTestDetail(detail);
                 }
-
             }
-
             MessageBox.Show("Lưu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
         }
 
     }

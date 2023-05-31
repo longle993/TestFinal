@@ -13,6 +13,7 @@ using TestManagement.BUS;
 using System.Windows.Forms;
 using TestManagement.GUI.FormReport;
 using TestManagement.Report;
+using TestManagement.GUI.HomePage;
 
 namespace TestManagement.GUI
 {
@@ -198,36 +199,50 @@ namespace TestManagement.GUI
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Xoá bài kiểm tra này đồng nghĩa với xoá các thông tin liên quan bao gồm cả bảng điểm và các lần thi. Bạn có chắc chắn muốn xoá?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (lblFileName.Text!="FileName")
             {
-                Test test = tests.SingleOrDefault(p => p.TestName == lblFileName.Text);
-                testDetails = TestDetail_BUS.Instance.GetTestDetails(test.TestID);
-                foreach (TestDetail detail in testDetails)
+                if (MessageBox.Show("Xoá bài kiểm tra này đồng nghĩa với xoá các thông tin liên quan bao gồm cả bảng điểm và các lần thi. Bạn có chắc chắn muốn xoá?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                    Question question = Question_BUS.Instance.GetQuestion(detail.QuestionID);
-                    questions.Add(question);
-                    Answer_BUS.Instance.DelAnswer(question);
-                }
-                TestDetail_BUS.Instance.DelTestDetail(testDetails);
-                Question_BUS.Instance.DelQuestion(questions);
+                    Test test = tests.SingleOrDefault(p => p.TestName == lblFileName.Text);
+                    testDetails = TestDetail_BUS.Instance.GetTestDetails(test.TestID);
+                    foreach (TestDetail detail in testDetails)
+                    {
+                        Question question = Question_BUS.Instance.GetQuestion(detail.QuestionID);
+                        questions.Add(question);
+                        Answer_BUS.Instance.DelAnswer(question);
+                    }
+                    TestDetail_BUS.Instance.DelTestDetail(testDetails);
+                    Question_BUS.Instance.DelQuestion(questions);
 
-                List<TestTimes> testTimes = TestTimes_BUS.Instance.GetTestTimes(test);
-                foreach (TestTimes testTimes1 in testTimes)
-                {
-                    Result_BUS.Instance.DelResult(testTimes1);
+                    List<TestTimes> testTimes = TestTimes_BUS.Instance.GetTestTimes(test);
+                    foreach (TestTimes testTimes1 in testTimes)
+                    {
+                        Result_BUS.Instance.DelResult(testTimes1);
+                    }
+                    TestTimes_BUS.Instance.DelTestTimes(testTimes);
+                    Test_BUS.Instance.DelTest(test);
+                    tests = Test_BUS.Instance.GetListTest();
+                    MessageBox.Show("Xoá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadTest();
                 }
-                TestTimes_BUS.Instance.DelTestTimes(testTimes);
-                Test_BUS.Instance.DelTest(test);
-                tests = Test_BUS.Instance.GetListTest();
-                MessageBox.Show("Xoá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                LoadTest();
+            }
+            else if (lblFileName.Text=="FileName")
+            {
+                MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnAdjust_Click(object sender, EventArgs e)
         {
-            Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
-            OpenChildForm(new CreateTest(test));
+            if (lblFileName.Text!="FileName")
+            {
+                Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
+                OpenChildForm(new CreateTest(test));
+            }
+            else if (lblFileName.Text=="FileName")
+            {
+                MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnTest_Click(object sender, EventArgs e)
@@ -239,34 +254,58 @@ namespace TestManagement.GUI
 
         private void button_Advanced3_Click(object sender, EventArgs e)
         {
-            var query = from subject in db.Subjects
-                        join test in db.Tests on subject.SubjectID equals test.SubjectID
-                        join testDetail in db.TestDetails on test.TestID equals testDetail.TestID
-                        join question in db.Questions on testDetail.QuestionID equals question.QuestionID
-                        join answer in db.Answers on question.QuestionID equals answer.QuestionID
-                        where test.TestName == "Science Test 1"
-                        group new { subject, test, question, answer } by new { subject.SubjectName, test.TestName, question.QuestionText } into groupedData
-                        select new
-                        {
-                            SubjectName = groupedData.Key.SubjectName,
-                            TestName = groupedData.Key.TestName,
-                            QuestionText = groupedData.Key.QuestionText,
-                            Answers = groupedData.Select(x => x.answer.AnswerText)
-                        };
-            var result = query.ToList();
+            if (lblFileName.Text!="FileName")
+            {
+                var query = from subject in db.Subjects
+                            join test in db.Tests on subject.SubjectID equals test.SubjectID
+                            join testDetail in db.TestDetails on test.TestID equals testDetail.TestID
+                            join question in db.Questions on testDetail.QuestionID equals question.QuestionID
+                            join answer in db.Answers on question.QuestionID equals answer.QuestionID
+                            where test.TestName == lblFileName.Text
+                            group new { subject, test, question, answer } by new { subject.SubjectName, test.TestName, question.QuestionText } into groupedData
+                            select new
+                            {
+                                SubjectName = groupedData.Key.SubjectName,
+                                TestName = groupedData.Key.TestName,
+                                QuestionText = groupedData.Key.QuestionText,
+                                Answers = groupedData.Select(x => x.answer.AnswerText)
+                            };
+                var result = query.ToList();
 
-            var finalResult = result.Select(x => new {
-                x.SubjectName,
-                x.TestName,
-                x.QuestionText,
-                AnswerText = string.Join("\n\n", x.Answers)
-            }).ToList();
-            //var result = "Select SubjectName,Test.TestName,QuestionText,AnswerText,Test.TestTime From Subject Inner Join Test On Subject.SubjectID=Test.SubjectID Inner Join TestDetail On Test.TestID=TestDetail.TestID Inner Join Question On TestDetail.QuestionID=Question.QuestionID Inner Join Answer On Question.QuestionID=Answer.QuestionID";
-            PrintTest printTest = new PrintTest();
-            printTest.SetDataSource(finalResult);
-            ReportTest reportTest = new ReportTest();
-            reportTest.crystalReportViewer2.ReportSource=printTest;
-            reportTest.ShowDialog();
+                var finalResult = result.Select(x => new
+                {
+                    x.SubjectName,
+                    x.TestName,
+                    x.QuestionText,
+                    AnswerText = string.Join("\n\n", x.Answers)
+                }).ToList();
+                //var result = "Select SubjectName,Test.TestName,QuestionText,AnswerText,Test.TestTime From Subject Inner Join Test On Subject.SubjectID=Test.SubjectID Inner Join TestDetail On Test.TestID=TestDetail.TestID Inner Join Question On TestDetail.QuestionID=Question.QuestionID Inner Join Answer On Question.QuestionID=Answer.QuestionID";
+                PrintTest printTest = new PrintTest();
+                printTest.SetDataSource(finalResult);
+                ReportTest reportTest = new ReportTest();
+                reportTest.crystalReportViewer2.ReportSource=printTest;
+                reportTest.ShowDialog();
+            }
+            else if (lblFileName.Text=="FileName")
+            {
+                MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+            Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
+            if (test is null)
+            {
+                MessageBox.Show("Chọn bài Test để bắt đầu kiểm tra", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                TryTest tryTest = new TryTest(test);
+                this.Hide();
+                tryTest.ShowDialog();
+                this.Show();
+            }
         }
     }
 }

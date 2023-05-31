@@ -89,7 +89,7 @@ namespace TestManagement.GUI
             this.panelTongquan.Controls.Add(this.panelMain);
             this.panelTongquan.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelTongquan.Location = new System.Drawing.Point(0, 146);
-            this.panelTongquan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelTongquan.Margin = new System.Windows.Forms.Padding(4);
             this.panelTongquan.Name = "panelTongquan";
             this.panelTongquan.Size = new System.Drawing.Size(1707, 954);
             this.panelTongquan.TabIndex = 7;
@@ -99,7 +99,7 @@ namespace TestManagement.GUI
             // 
             this.addFunctionHome.BackColor = System.Drawing.Color.White;
             this.addFunctionHome.Location = new System.Drawing.Point(79, 97);
-            this.addFunctionHome.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.addFunctionHome.Margin = new System.Windows.Forms.Padding(5);
             this.addFunctionHome.Name = "addFunctionHome";
             this.addFunctionHome.Size = new System.Drawing.Size(256, 98);
             this.addFunctionHome.TabIndex = 0;
@@ -118,7 +118,7 @@ namespace TestManagement.GUI
             this.btnMore.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMore.ForeColor = System.Drawing.Color.White;
             this.btnMore.Location = new System.Drawing.Point(79, 34);
-            this.btnMore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMore.Margin = new System.Windows.Forms.Padding(4);
             this.btnMore.Name = "btnMore";
             this.btnMore.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.btnMore.Size = new System.Drawing.Size(60, 55);
@@ -142,7 +142,7 @@ namespace TestManagement.GUI
             this.btnTest.ForeColor = System.Drawing.Color.Black;
             this.btnTest.Image = global::TestManagement.Properties.Resources.Test;
             this.btnTest.Location = new System.Drawing.Point(47, 278);
-            this.btnTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTest.Margin = new System.Windows.Forms.Padding(4);
             this.btnTest.Name = "btnTest";
             this.btnTest.Padding = new System.Windows.Forms.Padding(0, 0, 0, 18);
             this.btnTest.Size = new System.Drawing.Size(120, 111);
@@ -167,7 +167,7 @@ namespace TestManagement.GUI
             this.btnTongquan.ForeColor = System.Drawing.Color.Black;
             this.btnTongquan.Image = global::TestManagement.Properties.Resources.Home;
             this.btnTongquan.Location = new System.Drawing.Point(47, 134);
-            this.btnTongquan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTongquan.Margin = new System.Windows.Forms.Padding(4);
             this.btnTongquan.Name = "btnTongquan";
             this.btnTongquan.Padding = new System.Windows.Forms.Padding(0, 0, 0, 18);
             this.btnTongquan.Size = new System.Drawing.Size(120, 111);
@@ -187,7 +187,7 @@ namespace TestManagement.GUI
             this.panelMain.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.panelMain.FlatBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.panelMain.Location = new System.Drawing.Point(227, 4);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
             this.panelMain.Name = "panelMain";
             this.panelMain.RectRadius = 20;
             this.panelMain.ShadowColor = System.Drawing.Color.DimGray;
@@ -214,7 +214,7 @@ namespace TestManagement.GUI
             this.panelDetail.EndColor = System.Drawing.Color.White;
             this.panelDetail.FlatBorderColor = System.Drawing.Color.White;
             this.panelDetail.Location = new System.Drawing.Point(1051, 0);
-            this.panelDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDetail.Margin = new System.Windows.Forms.Padding(4);
             this.panelDetail.Name = "panelDetail";
             this.panelDetail.RectRadius = 20;
             this.panelDetail.ShadowColor = System.Drawing.Color.DimGray;
@@ -241,7 +241,7 @@ namespace TestManagement.GUI
             this.btnDel.Image = global::TestManagement.Properties.Resources.bin;
             this.btnDel.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDel.Location = new System.Drawing.Point(0, 192);
-            this.btnDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDel.Margin = new System.Windows.Forms.Padding(4);
             this.btnDel.Name = "btnDel";
             this.btnDel.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.btnDel.Size = new System.Drawing.Size(368, 57);
@@ -267,7 +267,7 @@ namespace TestManagement.GUI
             this.btnAdjust.Image = global::TestManagement.Properties.Resources.Edit;
             this.btnAdjust.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAdjust.Location = new System.Drawing.Point(0, 249);
-            this.btnAdjust.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdjust.Margin = new System.Windows.Forms.Padding(4);
             this.btnAdjust.Name = "btnAdjust";
             this.btnAdjust.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.btnAdjust.Size = new System.Drawing.Size(368, 57);
@@ -286,7 +286,7 @@ namespace TestManagement.GUI
             this.panelButtonDetail.Controls.Add(this.btnEdit);
             this.panelButtonDetail.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelButtonDetail.Location = new System.Drawing.Point(0, 305);
-            this.panelButtonDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelButtonDetail.Margin = new System.Windows.Forms.Padding(4);
             this.panelButtonDetail.Name = "panelButtonDetail";
             this.panelButtonDetail.Size = new System.Drawing.Size(368, 624);
             this.panelButtonDetail.TabIndex = 8;
@@ -308,7 +308,7 @@ namespace TestManagement.GUI
             this.button_Advanced3.Image = global::TestManagement.Properties.Resources.download;
             this.button_Advanced3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_Advanced3.Location = new System.Drawing.Point(0, 114);
-            this.button_Advanced3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_Advanced3.Margin = new System.Windows.Forms.Padding(4);
             this.button_Advanced3.Name = "button_Advanced3";
             this.button_Advanced3.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.button_Advanced3.Size = new System.Drawing.Size(368, 57);
@@ -334,7 +334,7 @@ namespace TestManagement.GUI
             this.button_Advanced1.Image = global::TestManagement.Properties.Resources.detail;
             this.button_Advanced1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_Advanced1.Location = new System.Drawing.Point(0, 57);
-            this.button_Advanced1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_Advanced1.Margin = new System.Windows.Forms.Padding(4);
             this.button_Advanced1.Name = "button_Advanced1";
             this.button_Advanced1.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.button_Advanced1.Size = new System.Drawing.Size(368, 57);
@@ -360,7 +360,7 @@ namespace TestManagement.GUI
             this.btnEdit.Image = global::TestManagement.Properties.Resources.play;
             this.btnEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEdit.Location = new System.Drawing.Point(0, 0);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.btnEdit.Size = new System.Drawing.Size(368, 57);
@@ -411,7 +411,7 @@ namespace TestManagement.GUI
             // 
             this.picIconDetail.Image = global::TestManagement.Properties.Resources.Folder;
             this.picIconDetail.Location = new System.Drawing.Point(63, 79);
-            this.picIconDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picIconDetail.Margin = new System.Windows.Forms.Padding(4);
             this.picIconDetail.Name = "picIconDetail";
             this.picIconDetail.Size = new System.Drawing.Size(40, 30);
             this.picIconDetail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -437,7 +437,7 @@ namespace TestManagement.GUI
             this.panellFile.EndColor = System.Drawing.Color.White;
             this.panellFile.FlatBorderColor = System.Drawing.Color.White;
             this.panellFile.Location = new System.Drawing.Point(0, 0);
-            this.panellFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panellFile.Margin = new System.Windows.Forms.Padding(4);
             this.panellFile.Name = "panellFile";
             this.panellFile.RectRadius = 20;
             this.panellFile.ShadowColor = System.Drawing.Color.DimGray;
@@ -453,7 +453,7 @@ namespace TestManagement.GUI
             // 
             this.sortedList.BackColor = System.Drawing.Color.White;
             this.sortedList.Location = new System.Drawing.Point(185, 79);
-            this.sortedList.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.sortedList.Margin = new System.Windows.Forms.Padding(5);
             this.sortedList.Name = "sortedList";
             this.sortedList.Size = new System.Drawing.Size(264, 247);
             this.sortedList.TabIndex = 3;
@@ -462,7 +462,7 @@ namespace TestManagement.GUI
             // 
             this.checkAll.AutoSize = true;
             this.checkAll.Location = new System.Drawing.Point(157, 145);
-            this.checkAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkAll.Margin = new System.Windows.Forms.Padding(4);
             this.checkAll.Name = "checkAll";
             this.checkAll.Size = new System.Drawing.Size(18, 17);
             this.checkAll.TabIndex = 2;
@@ -473,7 +473,7 @@ namespace TestManagement.GUI
             // 
             this.flowTest.BackColor = System.Drawing.Color.White;
             this.flowTest.Location = new System.Drawing.Point(120, 513);
-            this.flowTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowTest.Margin = new System.Windows.Forms.Padding(4);
             this.flowTest.Name = "flowTest";
             this.flowTest.Size = new System.Drawing.Size(893, 298);
             this.flowTest.TabIndex = 5;
@@ -492,7 +492,7 @@ namespace TestManagement.GUI
             this.btnSort.ForeColor = System.Drawing.Color.Black;
             this.btnSort.Image = global::TestManagement.Properties.Resources.sort;
             this.btnSort.Location = new System.Drawing.Point(177, 30);
-            this.btnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(4);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(47, 44);
             this.btnSort.TabIndex = 3;
@@ -506,7 +506,7 @@ namespace TestManagement.GUI
             this.flowSubject.AutoScroll = true;
             this.flowSubject.BackColor = System.Drawing.Color.White;
             this.flowSubject.Location = new System.Drawing.Point(120, 186);
-            this.flowSubject.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowSubject.Margin = new System.Windows.Forms.Padding(4);
             this.flowSubject.Name = "flowSubject";
             this.flowSubject.Size = new System.Drawing.Size(893, 298);
             this.flowSubject.TabIndex = 4;
@@ -591,7 +591,7 @@ namespace TestManagement.GUI
             this.panelBar.Controls.Add(this.btnClose);
             this.panelBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelBar.Location = new System.Drawing.Point(0, 0);
-            this.panelBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelBar.Margin = new System.Windows.Forms.Padding(4);
             this.panelBar.Name = "panelBar";
             this.panelBar.Size = new System.Drawing.Size(1707, 39);
             this.panelBar.TabIndex = 22;
@@ -614,7 +614,7 @@ namespace TestManagement.GUI
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
             this.btnMinimize.Image = global::TestManagement.Properties.Resources.minimize;
             this.btnMinimize.Location = new System.Drawing.Point(1639, -6);
-            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(27, 37);
             this.btnMinimize.TabIndex = 1;
@@ -637,7 +637,7 @@ namespace TestManagement.GUI
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::TestManagement.Properties.Resources.X;
             this.btnClose.Location = new System.Drawing.Point(1673, 0);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(33, 31);
             this.btnClose.TabIndex = 0;
@@ -648,7 +648,7 @@ namespace TestManagement.GUI
             // picLogo
             // 
             this.picLogo.Location = new System.Drawing.Point(47, 46);
-            this.picLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picLogo.Margin = new System.Windows.Forms.Padding(4);
             this.picLogo.Name = "picLogo";
             this.picLogo.Size = new System.Drawing.Size(107, 82);
             this.picLogo.TabIndex = 19;
@@ -659,7 +659,7 @@ namespace TestManagement.GUI
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = global::TestManagement.Properties.Resources.kinhlup;
             this.pictureBox1.Location = new System.Drawing.Point(643, 98);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(32, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -671,7 +671,7 @@ namespace TestManagement.GUI
             this.picUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picUser.Image = global::TestManagement.Properties.Resources.RoundedUser;
             this.picUser.Location = new System.Drawing.Point(1579, 66);
-            this.picUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picUser.Margin = new System.Windows.Forms.Padding(4);
             this.picUser.Name = "picUser";
             this.picUser.Size = new System.Drawing.Size(67, 62);
             this.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -702,7 +702,7 @@ namespace TestManagement.GUI
             // dropmenuAdmin
             // 
             this.dropmenuAdmin.Location = new System.Drawing.Point(1251, 124);
-            this.dropmenuAdmin.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.dropmenuAdmin.Margin = new System.Windows.Forms.Padding(5);
             this.dropmenuAdmin.Name = "dropmenuAdmin";
             this.dropmenuAdmin.Size = new System.Drawing.Size(396, 352);
             this.dropmenuAdmin.TabIndex = 0;
@@ -723,7 +723,7 @@ namespace TestManagement.GUI
             this.btnBack.Image = global::TestManagement.Properties.Resources.left;
             this.btnBack.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBack.Location = new System.Drawing.Point(227, 98);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(132, 39);
             this.btnBack.TabIndex = 0;
@@ -742,7 +742,7 @@ namespace TestManagement.GUI
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.IsFocused = false;
             this.txtSearch.Location = new System.Drawing.Point(617, 86);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(5);
             this.txtSearch.Multiline = false;
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Padding = new System.Windows.Forms.Padding(73, 12, 9, 12);
@@ -773,7 +773,7 @@ namespace TestManagement.GUI
             this.Controls.Add(this.picUser);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

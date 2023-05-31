@@ -361,57 +361,70 @@ namespace TestManagement.GUI
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Xoá bài kiểm tra này đồng nghĩa với xoá các thông tin liên quan bao gồm cả bảng điểm và các lần thi. Bạn có chắc chắn muốn xoá?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (lblFileName.Text!="FileName")
             {
-
-                //Xoá toàn bộ các bài kiểm tra trong thư mục
-                List<Test> dropTest = Test_BUS.Instance.GetTests(lblFileName.Text);
-                foreach(Test test in dropTest)
+                if (MessageBox.Show("Xoá bài kiểm tra này đồng nghĩa với xoá các thông tin liên quan bao gồm cả bảng điểm và các lần thi. Bạn có chắc chắn muốn xoá?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                    //Lấy toàn bộ chi tiết bài kiểm tra có trong bài kiểm tra này
-                    testDetails = TestDetail_BUS.Instance.GetTestDetails(test.TestID);
-                    foreach (TestDetail detail in testDetails)
+
+                    //Xoá toàn bộ các bài kiểm tra trong thư mục
+                    List<Test> dropTest = Test_BUS.Instance.GetTests(lblFileName.Text);
+                    foreach (Test test in dropTest)
                     {
-                        //Xoá toàn bộ câu trả lời của các câu hỏi
-                        Question question = Question_BUS.Instance.GetQuestion(detail.QuestionID);
-                        questions.Add(question);
-                        Answer_BUS.Instance.DelAnswer(question);
+                        //Lấy toàn bộ chi tiết bài kiểm tra có trong bài kiểm tra này
+                        testDetails = TestDetail_BUS.Instance.GetTestDetails(test.TestID);
+                        foreach (TestDetail detail in testDetails)
+                        {
+                            //Xoá toàn bộ câu trả lời của các câu hỏi
+                            Question question = Question_BUS.Instance.GetQuestion(detail.QuestionID);
+                            questions.Add(question);
+                            Answer_BUS.Instance.DelAnswer(question);
+                        }
+                        //Xoá toàn bộ chi tiết bài kiểm tra
+                        TestDetail_BUS.Instance.DelTestDetail(testDetails);
+                        //Xoá toàn bộ câu hỏi trong bài kiểm tra
+                        Question_BUS.Instance.DelQuestion(questions);
+
+                        //Xoá thông tin về các lần kiểm tra
+                        List<TestTimes> testTimes = TestTimes_BUS.Instance.GetTestTimes(test);
+                        foreach (TestTimes testTimes1 in testTimes)
+                        {
+                            Result_BUS.Instance.DelResult(testTimes1);
+                        }
+                        TestTimes_BUS.Instance.DelTestTimes(testTimes);
+                        //Sau khi thực hiện xoá các thông tin của bài kiểm tra thì xoá bài kiểm tra này
+                        Test_BUS.Instance.DelTest(test);
+                        tests = Test_BUS.Instance.GetListTest();
+
+
+                        //Xoá thư mục chứa bài kiểm tra
+                        Subject sub = Subject_BUS.Instance.FindByName(lblFileName.Text);
+                        Subject_BUS.Instance.DelSub(sub);
+                        subjects = Subject_BUS.Instance.GetSubjects();
+                        MessageBox.Show("Xoá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        //Load lại datagrid
+                        LoadAll();
                     }
-                    //Xoá toàn bộ chi tiết bài kiểm tra
-                    TestDetail_BUS.Instance.DelTestDetail(testDetails);
-                    //Xoá toàn bộ câu hỏi trong bài kiểm tra
-                    Question_BUS.Instance.DelQuestion(questions);
-
-                    //Xoá thông tin về các lần kiểm tra
-                    List<TestTimes> testTimes = TestTimes_BUS.Instance.GetTestTimes(test);
-                    foreach (TestTimes testTimes1 in testTimes)
-                    {
-                        Result_BUS.Instance.DelResult(testTimes1);
-                    }
-                    TestTimes_BUS.Instance.DelTestTimes(testTimes);
-                    //Sau khi thực hiện xoá các thông tin của bài kiểm tra thì xoá bài kiểm tra này
-                    Test_BUS.Instance.DelTest(test);
-                    tests = Test_BUS.Instance.GetListTest();
-
-
-                    //Xoá thư mục chứa bài kiểm tra
-                    Subject sub = Subject_BUS.Instance.FindByName(lblFileName.Text);
-                    Subject_BUS.Instance.DelSub(sub);
-                    subjects = Subject_BUS.Instance.GetSubjects();
-                    MessageBox.Show("Xoá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    //Load lại datagrid
-                    LoadAll();
                 }
+            }
+            else if (lblFileName.Text=="FileName")
+            {
+                MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnAdjust_Click(object sender, EventArgs e)
         {
-
-            AdjustFolder adjust = new AdjustFolder(lblFileName.Text);
-            adjust.ShowDialog();
-            LoadAll();
+            if (lblFileName.Text!="FileName")
+            {
+                AdjustFolder adjust = new AdjustFolder(lblFileName.Text);
+                adjust.ShowDialog();
+                LoadAll();
+            }
+            else if (lblFileName.Text=="FileName")
+            {
+                MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void button_Advanced2_Click(object sender, EventArgs e)

@@ -229,6 +229,12 @@
     <Compile Include="GUI\FormReport\ReportTest.Designer.cs">
       <DependentUpon>ReportTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\HomePage\TryTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\HomePage\TryTest.Designer.cs">
+      <DependentUpon>TryTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Infomation.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -414,6 +420,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\FormReport\ReportTest.resx">
       <DependentUpon>ReportTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\HomePage\TryTest.resx">
+      <DependentUpon>TryTest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Infomation.resx">
       <DependentUpon>Infomation.cs</DependentUpon>
