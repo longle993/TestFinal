@@ -41,8 +41,11 @@ namespace TestManagement.GUI.HomePage
         private void btnSave_Click(object sender, EventArgs e)
         {
             //Chỉnh sửa nội dung câu hỏi & câu trả lời
-            if(currentQues != null)
+
+            currentQues = Question_BUS.Instance.FindByText(quesNumber.TextQuestion);
+            if (currentQues != null)
             {
+                allAnswer = Answer_BUS.Instance.GetAnswers(currentQues.QuestionID);
                 Question adjustQuest = new Question();
                 adjustQuest.QuestionID = currentQues.QuestionID;
                 adjustQuest.QuestionText = txtTextQues.Texts;
@@ -104,8 +107,6 @@ namespace TestManagement.GUI.HomePage
         private void EditTest_Load(object sender, EventArgs e)
         {
             LoadQues();
-            currentQues = Question_BUS.Instance.FindByText(quesNumber.TextQuestion);
-            allAnswer = Answer_BUS.Instance.GetAnswers(currentQues.QuestionID);
         }
 
     }

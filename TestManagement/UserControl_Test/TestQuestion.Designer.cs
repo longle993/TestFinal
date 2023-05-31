@@ -43,6 +43,7 @@
             this.lblAnswerC = new System.Windows.Forms.Label();
             this.panelbtnD = new TestManagement.UserControl_Test.Panel_Advanced();
             this.lblAnswerD = new System.Windows.Forms.Label();
+            this.lblQuesNumber = new System.Windows.Forms.Label();
             this.panel_TextQues.SuspendLayout();
             this.panelbtnA.SuspendLayout();
             this.panelbtnB.SuspendLayout();
@@ -59,9 +60,9 @@
             this.lblQues.Location = new System.Drawing.Point(25, 26);
             this.lblQues.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQues.Name = "lblQues";
-            this.lblQues.Size = new System.Drawing.Size(65, 28);
+            this.lblQues.Size = new System.Drawing.Size(46, 28);
             this.lblQues.TabIndex = 1;
-            this.lblQues.Text = "Câu 1:";
+            this.lblQues.Text = "Câu";
             // 
             // btnA
             // 
@@ -305,11 +306,25 @@
             this.lblAnswerD.TabIndex = 5;
             this.lblAnswerD.Text = "31211027624";
             // 
+            // lblQuesNumber
+            // 
+            this.lblQuesNumber.AutoSize = true;
+            this.lblQuesNumber.BackColor = System.Drawing.Color.White;
+            this.lblQuesNumber.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuesNumber.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(130)))), ((int)(((byte)(236)))));
+            this.lblQuesNumber.Location = new System.Drawing.Point(65, 26);
+            this.lblQuesNumber.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQuesNumber.Name = "lblQuesNumber";
+            this.lblQuesNumber.Size = new System.Drawing.Size(25, 28);
+            this.lblQuesNumber.TabIndex = 41;
+            this.lblQuesNumber.Text = "1:";
+            // 
             // TestQuestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lblQuesNumber);
             this.Controls.Add(this.panelbtnD);
             this.Controls.Add(this.panelbtnC);
             this.Controls.Add(this.panelbtnB);
@@ -351,5 +366,6 @@
         public System.Windows.Forms.Label lblAnswerC;
         public Panel_Advanced panelbtnD;
         public System.Windows.Forms.Label lblAnswerD;
+        public System.Windows.Forms.Label lblQuesNumber;
     }
 }

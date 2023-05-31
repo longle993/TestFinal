@@ -32,6 +32,7 @@ namespace TestManagement.GUI
         List<Test> tests;
         List<TestDetail> testDetails;
         List<Question> questions;
+        ConnectingData db = new ConnectingData();
         public FormMain()
         {
             InitializeComponent();

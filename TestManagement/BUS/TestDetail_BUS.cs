@@ -21,6 +21,10 @@ namespace TestManagement.BUS
         {
             TestDetail_DAO.Instance.AddTestDetail(detail);
         }
+        public int CountQuesinTest(string testID)
+        {
+            return TestDetail_DAO.Instance.CountQuesinTest(testID);
+        }
         public List<TestDetail> GetTestDetails(string TestID)
         {
             return TestDetail_DAO.Instance.GetTestDetails(TestID);

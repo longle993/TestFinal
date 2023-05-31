@@ -136,9 +136,13 @@ namespace TestManagement.GUI
             decimal totalMark = 0;
             foreach(Control ctr in flowQuesSetting.Controls)
             {
-                if(ctr is QuesSetting setting)
+                if(ctr is QuesSetting setting && setting.txtMark.Texts != "")
                 {
                     totalMark += Convert.ToDecimal(setting.txtMark.Texts);
+                }
+                else if(ctr is QuesSetting set)
+                {
+                    totalMark +=0;
                 }
             }
             txtMark.Texts = totalMark.ToString();
@@ -225,8 +229,26 @@ namespace TestManagement.GUI
         #endregion
 
         private void btnSave_Click(object sender, EventArgs e)
-        {           
-            Test_BUS.Instance.AddTest(newTest);
+        {
+            Test existTest = Test_BUS.Instance.FindByName(lblTestName.Text);
+            if (existTest == null)
+            {
+                Test_BUS.Instance.AddTest(newTest);
+
+            }
+
+            //Xóa các câu hỏi cũ
+            List<TestDetail> delList = TestDetail_BUS.Instance.GetTestDetails(newTest.TestID);
+            if(delList != null)
+            {
+                foreach (TestDetail detail in delList)
+                {
+                    Question ques = Question_BUS.Instance.GetQuestion(detail.QuestionID);
+                    Answer_BUS.Instance.DelAnswer(ques);
+                }
+                TestDetail_BUS.Instance.DelTestDetail(delList);
+            }
+            
             foreach (Control control in flowQues.Controls)
             {
                 if (control is NewQuestion ques)
@@ -280,6 +302,7 @@ namespace TestManagement.GUI
                     }
                     TestDetail_BUS.Instance.AddTestDetail(detail);
                 }
+
             }
 
         }

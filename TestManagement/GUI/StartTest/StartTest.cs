@@ -6,11 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI;
 using System.Windows.Forms;
 using TestManagement.BUS;
 using TestManagement.DTO;
 using TestManagement.UserControl_Test;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+using Control = System.Windows.Forms.Control;
 
 namespace TestManagement.GUI.HomePage
 {
@@ -70,8 +72,9 @@ namespace TestManagement.GUI.HomePage
                 testQuestion.panelbtnC.Tag = answers[2].AnswerText;
                 testQuestion.panelbtnD.Tag = answers[3].AnswerText;
 
+                testQuestion.lblQuesNumber.Text=count.ToString();
                 this.flowQues.Controls.Add(testQuestion);
-                CreateButton(count);
+                CreateButton(count,testQuestion);
                 count++;
             }
         }
@@ -88,7 +91,7 @@ namespace TestManagement.GUI.HomePage
             }
         }
         // Tạo button ở bên phải
-        void CreateButton(int count)
+        void CreateButton(int count, TestQuestion testQuestion)
         {
             Button_Advanced btnQuesNumber = new Button_Advanced();
             btnQuesNumber.BackColor = System.Drawing.Color.White;
@@ -107,8 +110,16 @@ namespace TestManagement.GUI.HomePage
             btnQuesNumber.Text = count.ToString();
             btnQuesNumber.TextColor = System.Drawing.Color.Black;
             btnQuesNumber.UseVisualStyleBackColor = false;
+            btnQuesNumber.Click+=BtnQuesNumber_Click;
+            btnQuesNumber.Tag=testQuestion;
             this.flowQuesNumber.Controls.Add(btnQuesNumber);
         }
+
+        private void BtnQuesNumber_Click(object sender, EventArgs e)
+        {
+            flowQues.ScrollControlIntoView((sender as Button).Tag as TestQuestion);
+        }
+
         // Set thời gian 
         void SetTime(Test test)
         {

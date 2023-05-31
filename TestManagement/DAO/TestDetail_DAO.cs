@@ -17,7 +17,11 @@ namespace TestManagement.DAO
             get { if (instance == null) instance = new TestDetail_DAO(); return instance; }
             set { instance = value; }
         }
-
+        public int CountQuesinTest(string testID)
+        {
+            List<TestDetail> detail = db.TestDetails.Where(p => p.TestID == testID).ToList();
+            return detail.Count;
+        }
         public void AddTestDetail(TestDetail detail)
         {
             db.TestDetails.Add(detail);
