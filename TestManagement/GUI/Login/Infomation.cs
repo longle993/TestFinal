@@ -35,7 +35,7 @@ namespace TestManagement.GUI
                 if (testTimes != null)
                 {
                     test=Test_BUS.Instance.FindByID(testTimes.TestID);
-                    StartTest startTest = new StartTest(test, txtName.Texts, txtID.Texts);
+                    StartTest startTest = new StartTest(test, txtName.Texts, txtID.Texts, testTimes);
                     this.Hide();
                     startTest.ShowDialog();
                     this.Show();

@@ -26,7 +26,7 @@ namespace TestManagement.GUI.HomePage
         TimeSpan TestTime;
         int NumberCorrect;
         TestTimes testTimes;
-
+        
         string name;
         string mssv;
         public StartTest()
@@ -43,8 +43,6 @@ namespace TestManagement.GUI.HomePage
         }
         private void StartTest_Load(object sender, EventArgs e)
         {
-            lblMSSV.Text = mssv;
-            lblName.Text = name;
             LoadListTest(newTest);
         }
         void LoadListTest(Test test)
@@ -177,16 +175,13 @@ namespace TestManagement.GUI.HomePage
             timer.Stop();
             CheckNumberCorrect();
             Result result = new Result();
-            result.ResultID = mssv;
+            result.ResultID = lblMSSV.Text;
             result.TestTimesID = testTimes.TestTimesID;
-            result.StudentName = name;
+            result.StudentName = lblName.Text;
             result.MSSV = lblMSSV.Text;
             result.NumberCorrect = NumberCorrect;
             result.FinishTime=newTest.TestTime.Subtract(TestTime);
             result.Score = 0;
-            Result_BUS.Instance.AddResult(result);
-            MessageBox.Show("Bạn có chắc chắn muốn nộp bài không?","Cảnh báo",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
-            this.Close();
         }
     }
 }

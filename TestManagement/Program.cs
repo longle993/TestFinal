@@ -20,7 +20,5 @@ namespace TestManagement
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Choose());
         }
-
-
     }
 }

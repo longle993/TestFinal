@@ -11,6 +11,7 @@ using TestManagement.BUS;
 using TestManagement.DTO;
 using TestManagement.GUI.FormReport;
 using TestManagement.GUI.HomePage;
+using TestManagement.GUI.StartTest;
 using TestManagement.Report;
 using TestManagement.UserControl_Test;
 
@@ -23,7 +24,6 @@ namespace TestManagement.GUI
         List<Question> questions;
         FormMain formMain;
         ConnectingData db = new ConnectingData();
-        private Form currentChildForm;
         public ListTest()
         {
             InitializeComponent();
@@ -166,30 +166,7 @@ namespace TestManagement.GUI
             else if (lblFileName.Text=="FileName")
             {
                 MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            }           
         }
-
-        #region Mở Form con
-        public void OpenChildForm(Form childForm, Panel panel)
-        {
-            //open only form
-            if (currentChildForm != null)
-            {
-                currentChildForm.Close();
-            }
-            currentChildForm = childForm;
-            //End
-            //Add Form
-            childForm.TopLevel = false;
-            childForm.FormBorderStyle = FormBorderStyle.None;
-            childForm.Dock = DockStyle.Fill;
-            panel.Controls.Add(childForm);
-            panel.Tag = childForm;
-            childForm.BringToFront();
-            childForm.Show();
-        }
-        #endregion
-
-    
     }
 }
