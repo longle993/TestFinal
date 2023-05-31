@@ -32,9 +32,6 @@ namespace TestManagement.GUI
         List<Test> tests;
         List<TestDetail> testDetails;
         List<Question> questions;
-        //
-        ConnectingData db = new ConnectingData();
-        //
         public FormMain()
         {
             InitializeComponent();
@@ -447,34 +444,7 @@ namespace TestManagement.GUI
 
         private void button_Advanced4_Click(object sender, EventArgs e)
         {
-            var query = from subject in db.Subjects
-                        join test in db.Tests on subject.SubjectID equals test.SubjectID
-                        join testDetail in db.TestDetails on test.TestID equals testDetail.TestID
-                        join question in db.Questions on testDetail.QuestionID equals question.QuestionID
-                        join answer in db.Answers on question.QuestionID equals answer.QuestionID
-                        where test.TestName == "Science Test 1"
-                        group new { subject, test, question, answer } by new { subject.SubjectName, test.TestName, question.QuestionText } into groupedData
-                        select new
-                        {
-                            SubjectName = groupedData.Key.SubjectName,
-                            TestName = groupedData.Key.TestName,
-                            QuestionText = groupedData.Key.QuestionText,
-                            Answers = groupedData.Select(x => x.answer.AnswerText)
-                        };
-            var result = query.ToList();
-
-            var finalResult = result.Select(x => new {
-                x.SubjectName,
-                x.TestName,
-                x.QuestionText,
-                AnswerText = string.Join("\n", x.Answers)
-            }).ToList();
-            //var result = "Select SubjectName,Test.TestName,QuestionText,AnswerText,Test.TestTime From Subject Inner Join Test On Subject.SubjectID=Test.SubjectID Inner Join TestDetail On Test.TestID=TestDetail.TestID Inner Join Question On TestDetail.QuestionID=Question.QuestionID Inner Join Answer On Question.QuestionID=Answer.QuestionID";
-            PrintTest printTest = new PrintTest();
-            printTest.SetDataSource(finalResult);
-            ReportTest reportTest = new ReportTest();
-            reportTest.crystalReportViewer2.ReportSource=printTest;
-            reportTest.ShowDialog();
+            
         }
 
         private void btnClose_Click(object sender, EventArgs e)
