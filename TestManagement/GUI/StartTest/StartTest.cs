@@ -185,8 +185,9 @@ namespace TestManagement.GUI.HomePage
             result.TestTimesID = testTimes.TestTimesID;
             result.StudentName = name;
             result.MSSV = lblMSSV.Text;
-            result.NumberCorrect = NumberCorrect;
-            result.FinishTime=newTest.TestTime.Subtract(TestTime);
+            result.NumberCorrect = NumberCorrect;            
+            DateTime finishTime = DateTime.Now.Add(newTest.TestTime.Subtract(TestTime));
+            result.FinishTime=finishTime;
             result.Score = Score;            
             if (sender is Button)
             {

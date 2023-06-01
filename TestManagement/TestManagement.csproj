@@ -289,6 +289,12 @@
     <Compile Include="GUI\HomePage\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\StartTest\ListTestTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\StartTest\ListTestTime.Designer.cs">
+      <DependentUpon>ListTestTime.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\StartTest\NewTestTime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -474,6 +480,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Admin\NewAccount.resx">
       <DependentUpon>NewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StartTest\ListTestTime.resx">
+      <DependentUpon>ListTestTime.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\StartTest\NewTestTime.resx">
       <DependentUpon>NewTestTime.cs</DependentUpon>

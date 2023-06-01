@@ -1,7 +1,6 @@
-﻿
-namespace TestManagement.GUI
+﻿namespace TestManagement.GUI
 {
-    partial class ListTest
+    partial class ListTestTime
     {
         /// <summary>
         /// Required designer variable.
@@ -62,7 +61,7 @@ namespace TestManagement.GUI
             this.panelResult.Controls.Add(this.panellFile);
             this.panelResult.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelResult.Location = new System.Drawing.Point(0, 0);
-            this.panelResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelResult.Margin = new System.Windows.Forms.Padding(4);
             this.panelResult.Name = "panelResult";
             this.panelResult.Size = new System.Drawing.Size(1419, 929);
             this.panelResult.TabIndex = 0;
@@ -80,7 +79,7 @@ namespace TestManagement.GUI
             this.panelDetail.EndColor = System.Drawing.Color.White;
             this.panelDetail.FlatBorderColor = System.Drawing.Color.White;
             this.panelDetail.Location = new System.Drawing.Point(1051, 0);
-            this.panelDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelDetail.Margin = new System.Windows.Forms.Padding(4);
             this.panelDetail.Name = "panelDetail";
             this.panelDetail.RectRadius = 20;
             this.panelDetail.ShadowColor = System.Drawing.Color.DimGray;
@@ -98,7 +97,7 @@ namespace TestManagement.GUI
             this.panelButtonDetail.Controls.Add(this.btnCreateTestTime);
             this.panelButtonDetail.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelButtonDetail.Location = new System.Drawing.Point(0, 265);
-            this.panelButtonDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelButtonDetail.Margin = new System.Windows.Forms.Padding(4);
             this.panelButtonDetail.Name = "panelButtonDetail";
             this.panelButtonDetail.Size = new System.Drawing.Size(368, 664);
             this.panelButtonDetail.TabIndex = 8;
@@ -119,7 +118,7 @@ namespace TestManagement.GUI
             this.btnResultTest.Image = global::TestManagement.Properties.Resources.detail;
             this.btnResultTest.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnResultTest.Location = new System.Drawing.Point(0, 57);
-            this.btnResultTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnResultTest.Margin = new System.Windows.Forms.Padding(4);
             this.btnResultTest.Name = "btnResultTest";
             this.btnResultTest.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.btnResultTest.Size = new System.Drawing.Size(368, 57);
@@ -146,16 +145,16 @@ namespace TestManagement.GUI
             this.btnCreateTestTime.Image = global::TestManagement.Properties.Resources.play;
             this.btnCreateTestTime.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCreateTestTime.Location = new System.Drawing.Point(0, 0);
-            this.btnCreateTestTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCreateTestTime.Margin = new System.Windows.Forms.Padding(4);
             this.btnCreateTestTime.Name = "btnCreateTestTime";
             this.btnCreateTestTime.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.btnCreateTestTime.Size = new System.Drawing.Size(368, 57);
             this.btnCreateTestTime.TabIndex = 1;
-            this.btnCreateTestTime.Text = "Tạo lần kiểm tra";
+            this.btnCreateTestTime.Text = "Xóa";
             this.btnCreateTestTime.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCreateTestTime.TextColor = System.Drawing.Color.Black;
             this.btnCreateTestTime.UseVisualStyleBackColor = false;
-            this.btnCreateTestTime.Click += new System.EventHandler(this.btnEdit_Click);
+            this.btnCreateTestTime.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // label6
             // 
@@ -198,7 +197,7 @@ namespace TestManagement.GUI
             // 
             this.picIconDetail.Image = global::TestManagement.Properties.Resources.File;
             this.picIconDetail.Location = new System.Drawing.Point(63, 71);
-            this.picIconDetail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picIconDetail.Margin = new System.Windows.Forms.Padding(4);
             this.picIconDetail.Name = "picIconDetail";
             this.picIconDetail.Size = new System.Drawing.Size(32, 37);
             this.picIconDetail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -222,7 +221,7 @@ namespace TestManagement.GUI
             this.panellFile.EndColor = System.Drawing.Color.White;
             this.panellFile.FlatBorderColor = System.Drawing.Color.White;
             this.panellFile.Location = new System.Drawing.Point(0, 0);
-            this.panellFile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panellFile.Margin = new System.Windows.Forms.Padding(4);
             this.panellFile.Name = "panellFile";
             this.panellFile.RectRadius = 20;
             this.panellFile.ShadowColor = System.Drawing.Color.DimGray;
@@ -236,8 +235,8 @@ namespace TestManagement.GUI
             // sortedList
             // 
             this.sortedList.BackColor = System.Drawing.Color.White;
-            this.sortedList.Location = new System.Drawing.Point(185, 79);
-            this.sortedList.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.sortedList.Location = new System.Drawing.Point(98, 515);
+            this.sortedList.Margin = new System.Windows.Forms.Padding(5);
             this.sortedList.Name = "sortedList";
             this.sortedList.Size = new System.Drawing.Size(264, 247);
             this.sortedList.TabIndex = 0;
@@ -247,7 +246,7 @@ namespace TestManagement.GUI
             // 
             this.checkAll.AutoSize = true;
             this.checkAll.Location = new System.Drawing.Point(157, 145);
-            this.checkAll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkAll.Margin = new System.Windows.Forms.Padding(4);
             this.checkAll.Name = "checkAll";
             this.checkAll.Size = new System.Drawing.Size(18, 17);
             this.checkAll.TabIndex = 0;
@@ -267,7 +266,7 @@ namespace TestManagement.GUI
             this.btnSort.ForeColor = System.Drawing.Color.Black;
             this.btnSort.Image = global::TestManagement.Properties.Resources.sort;
             this.btnSort.Location = new System.Drawing.Point(177, 30);
-            this.btnSort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(4);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(47, 44);
             this.btnSort.TabIndex = 6;
@@ -281,7 +280,7 @@ namespace TestManagement.GUI
             this.flowTest.AutoScroll = true;
             this.flowTest.BackColor = System.Drawing.Color.White;
             this.flowTest.Location = new System.Drawing.Point(120, 186);
-            this.flowTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowTest.Margin = new System.Windows.Forms.Padding(4);
             this.flowTest.Name = "flowTest";
             this.flowTest.Size = new System.Drawing.Size(893, 298);
             this.flowTest.TabIndex = 0;
@@ -294,9 +293,9 @@ namespace TestManagement.GUI
             this.label4.Location = new System.Drawing.Point(821, 139);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 28);
+            this.label4.Size = new System.Drawing.Size(94, 28);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Ngày sửa đổi";
+            this.label4.Text = "Ngày tạo";
             // 
             // label3
             // 
@@ -306,9 +305,9 @@ namespace TestManagement.GUI
             this.label3.Location = new System.Drawing.Point(576, 139);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 28);
+            this.label3.Size = new System.Drawing.Size(106, 28);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Ngày tạo";
+            this.label3.Text = "Mã phòng";
             // 
             // label5
             // 
@@ -346,7 +345,7 @@ namespace TestManagement.GUI
             this.label1.TabIndex = 0;
             this.label1.Text = "Tổng quan";
             // 
-            // ListTest
+            // ListTestTime
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -355,8 +354,8 @@ namespace TestManagement.GUI
             this.Controls.Add(this.panelResult);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "ListTest";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "ListTestTime";
             this.Text = "ListTest";
             this.Load += new System.EventHandler(this.ListTest_Load);
             this.panelResult.ResumeLayout(false);

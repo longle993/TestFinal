@@ -10,32 +10,31 @@ using System.Windows.Forms;
 using TestManagement.BUS;
 using TestManagement.DTO;
 using TestManagement.GUI.FormReport;
-using TestManagement.GUI.HomePage;
 using TestManagement.Report;
 using TestManagement.UserControl_Test;
 
 namespace TestManagement.GUI
 {
-    public partial class ListTest : Form
+    public partial class ListTestTime : Form
     {
-        List<Test> tests;
+        Test test;
+        List<TestTimes> testTimes;
         FormMain formMain;
         ConnectingData db = new ConnectingData();
         private Form currentChildForm;
-        public ListTest()
+        public ListTestTime()
         {
             InitializeComponent();
-        }
-        public ListTest(FormMain formMain)
+        }        
+        public ListTestTime(FormMain formMain,Test test)
         {
             InitializeComponent();
-            this.formMain = formMain;
-            formMain.btnTongquan.Click += BtnTongquan_Click;
+            this.test=test;
+            this.formMain=formMain;
         }
         private void ListTest_Load(object sender, EventArgs e)
         {
-            tests = Test_BUS.Instance.GetListTest();
-            LoadListTest();
+            LoadListTestTime();
         }
         private void BtnTongquan_Click(object sender, EventArgs e)
         {
@@ -48,18 +47,12 @@ namespace TestManagement.GUI
         {
             sortedList.Visible = !sortedList.Visible;
         }
-        private void LoadInfoTest()
-        {
-            Test test = Test_BUS.Instance.FindByName(lblFileName.Text);
-            lblDescription.Text = test.Description;
-        }
         private void LblfolderName_ClickTest(object sender, EventArgs e)
         {
             Control control = (Control)sender;
             lblFileName.Text = control.Tag.ToString();
             panelButtonDetail.Visible = true;
             picIconDetail.Image = Properties.Resources.Folder;
-            LoadInfoTest();
         }
         private void Listtest_Click(object sender, EventArgs e)
         {
@@ -67,58 +60,47 @@ namespace TestManagement.GUI
             lblFileName.Text = listFolder.Tag.ToString();
             panelButtonDetail.Visible = true;
             picIconDetail.Image = Properties.Resources.File;
-            LoadInfoTest();
         }
-        private void LoadListTest()
+        private void LoadListTestTime()
         {
             flowTest.Controls.Clear();
-            foreach (Test test in tests)
+            testTimes=TestTimes_BUS.Instance.GetTestTimes(test);
+            foreach (TestTimes item in testTimes)
             {
                 ListFolder listtest = new ListFolder();
-                listtest.FolderName = test.TestName;
-                listtest.CreatedDay = test.InitiationDate.ToString("dd/MM/yyyy");
-                listtest.ChangedDay = test.ChangedDate.ToString("dd/MM/yyyy");
+                listtest.FolderName = item.TestName;
+                listtest.CreatedDay = item.CodeTest;
+                listtest.ChangedDay = item.TestDate.ToString("dd/MM/yyyy");
                 listtest.Icon = Properties.Resources.File;
 
-                //ADD TAG
-                listtest.picIcon.Tag = test.TestName;
-                listtest.lblfolderName.Tag = test.TestName;
-                listtest.lblcreatedDay.Tag = test.TestName;
-                listtest.lblChangedDay.Tag = test.TestName;
-
-                //ADD EVENT
                 listtest.Click += Listtest_Click;
-                listtest.DoubleClick +=LblfolderName_DoubleClick;
-                listtest.lblfolderName.DoubleClick += LblfolderName_DoubleClick;
-                listtest.lblChangedDay.DoubleClick += LblfolderName_DoubleClick;
-                listtest.lblcreatedDay.DoubleClick += LblfolderName_DoubleClick;
                 listtest.lblfolderName.Click += LblfolderName_ClickTest;
                 listtest.lblChangedDay.Click += LblfolderName_ClickTest;
                 listtest.lblcreatedDay.Click += LblfolderName_ClickTest;
-                listtest.picIcon.Click += LblfolderName_ClickTest;
                 flowTest.Controls.Add(listtest);
             }
-        }
-
-        private void LblfolderName_DoubleClick(object sender, EventArgs e)
-        {
-            Control list = (Control)sender;
-            OpenChildForm(new ListTestTime(formMain,Test_BUS.Instance.FindByName(lblFileName.Text)), formMain.panelMain);        
-        }
-          
-        private void btnEdit_Click(object sender, EventArgs e)
+        }      
+        private void btnDel_Click(object sender, EventArgs e)
         {
             if (lblFileName.Text!="FileName")
             {
-                NewTestTime newTestTime = new NewTestTime(lblFileName.Text);
-                newTestTime.ShowDialog();
+                if (MessageBox.Show("Xoá bài kiểm tra này đồng nghĩa với xoá các thông tin liên quan bao gồm cả bảng điểm. Bạn có chắc chắn muốn xoá?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                {
+                    List<TestTimes> testTimes = TestTimes_BUS.Instance.GetTestTimes(test);
+                    foreach (TestTimes testTimes1 in testTimes)
+                    {
+                        Result_BUS.Instance.DelResult(testTimes1);
+                    }
+                    TestTimes_BUS.Instance.DelTestTimes(testTimes);
+                    MessageBox.Show("Xoá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadListTestTime();
+                }
             }
             else if (lblFileName.Text=="FileName")
             {
                 MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         private void btnResultTest_Click(object sender, EventArgs e)
         {
             if (lblFileName.Text!="FileName")
@@ -127,7 +109,7 @@ namespace TestManagement.GUI
                             join test in db.Tests on subject.SubjectID equals test.SubjectID
                             join testTimes in db.TestTimes on test.TestID equals testTimes.TestID
                             join result in db.Results on testTimes.TestTimesID equals result.TestTimesID
-                            where test.TestName == lblFileName.Text
+                            where testTimes.TestName == lblFileName.Text
                             select new
                             {
                                 subject.SubjectName,
@@ -153,7 +135,6 @@ namespace TestManagement.GUI
                 MessageBox.Show("Hãy chọn bài Test để tiếp tục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
         #region Mở Form con
         public void OpenChildForm(Form childForm, Panel panel)
         {
@@ -174,5 +155,6 @@ namespace TestManagement.GUI
             childForm.Show();
         }
         #endregion
+
     }
 }

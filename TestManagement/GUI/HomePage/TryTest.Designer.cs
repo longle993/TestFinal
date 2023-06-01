@@ -99,7 +99,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(285, 226);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 25);
+            this.label4.Size = new System.Drawing.Size(76, 25);
             this.label4.TabIndex = 9;
             this.label4.Text = "Câu hỏi";
             // 
@@ -129,7 +129,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(32, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(131, 25);
+            this.label3.Size = new System.Drawing.Size(128, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên sinh viên:";
             // 
@@ -139,7 +139,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
+            this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "MSSV:";
             // 
@@ -232,7 +232,6 @@
             this.ClientSize = new System.Drawing.Size(1419, 828);
             this.Controls.Add(this.panelTest);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TryTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

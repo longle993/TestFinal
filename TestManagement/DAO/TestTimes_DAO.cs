@@ -20,6 +20,10 @@ namespace TestManagement.DAO
         {
             return db.TestTimes.SingleOrDefault(p => p.CodeTest == code);
         }
+        public TestTimes GetTestTimeByName(string name)
+        {
+            return db.TestTimes.SingleOrDefault(p => p.TestName == name);
+        }
         public void AddTestTimes(TestTimes testtime)
         {
             db.TestTimes.Add(testtime);
