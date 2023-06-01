@@ -47,10 +47,10 @@ namespace TestManagement.GUI
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnStart.ForeColor = System.Drawing.Color.White;
-            this.btnStart.Location = new System.Drawing.Point(175, 119);
-            this.btnStart.Margin = new System.Windows.Forms.Padding(2);
+            this.btnStart.Location = new System.Drawing.Point(233, 146);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(244, 55);
+            this.btnStart.Size = new System.Drawing.Size(325, 68);
             this.btnStart.TabIndex = 39;
             this.btnStart.Text = "Vào thi";
             this.btnStart.TextColor = System.Drawing.Color.White;
@@ -65,13 +65,14 @@ namespace TestManagement.GUI
             this.panelLogin.EdgeWidth = 2;
             this.panelLogin.EndColor = System.Drawing.Color.White;
             this.panelLogin.FlatBorderColor = System.Drawing.Color.Gainsboro;
-            this.panelLogin.Location = new System.Drawing.Point(347, 227);
+            this.panelLogin.Location = new System.Drawing.Point(465, 159);
+            this.panelLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelLogin.Name = "panelLogin";
             this.panelLogin.RectRadius = 20;
             this.panelLogin.ShadowColor = System.Drawing.Color.DimGray;
             this.panelLogin.ShadowShift = 0;
             this.panelLogin.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelLogin.Size = new System.Drawing.Size(587, 441);
+            this.panelLogin.Size = new System.Drawing.Size(783, 543);
             this.panelLogin.StartColor = System.Drawing.Color.White;
             this.panelLogin.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelLogin.TabIndex = 1;
@@ -88,10 +89,10 @@ namespace TestManagement.GUI
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.Black;
-            this.btnLogin.Location = new System.Drawing.Point(175, 206);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogin.Location = new System.Drawing.Point(233, 254);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(244, 55);
+            this.btnLogin.Size = new System.Drawing.Size(325, 68);
             this.btnLogin.TabIndex = 39;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.TextColor = System.Drawing.Color.Black;
@@ -100,12 +101,13 @@ namespace TestManagement.GUI
             // 
             // Choose
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1280, 894);
+            this.ClientSize = new System.Drawing.Size(1707, 853);
             this.Controls.Add(this.panelLogin);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Choose";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TestManagement";

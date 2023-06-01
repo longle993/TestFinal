@@ -55,7 +55,7 @@
             this.panelTest.Location = new System.Drawing.Point(0, 0);
             this.panelTest.Margin = new System.Windows.Forms.Padding(4);
             this.panelTest.Name = "panelTest";
-            this.panelTest.Size = new System.Drawing.Size(1419, 929);
+            this.panelTest.Size = new System.Drawing.Size(1419, 828);
             this.panelTest.TabIndex = 0;
             // 
             // flowQues
@@ -66,7 +66,7 @@
             this.flowQues.Location = new System.Drawing.Point(0, 0);
             this.flowQues.Margin = new System.Windows.Forms.Padding(4);
             this.flowQues.Name = "flowQues";
-            this.flowQues.Size = new System.Drawing.Size(757, 929);
+            this.flowQues.Size = new System.Drawing.Size(757, 828);
             this.flowQues.TabIndex = 9;
             // 
             // panelAnswer
@@ -88,7 +88,7 @@
             this.panelAnswer.ShadowColor = System.Drawing.Color.DimGray;
             this.panelAnswer.ShadowShift = 0;
             this.panelAnswer.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelAnswer.Size = new System.Drawing.Size(613, 929);
+            this.panelAnswer.Size = new System.Drawing.Size(613, 828);
             this.panelAnswer.StartColor = System.Drawing.Color.White;
             this.panelAnswer.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelAnswer.TabIndex = 6;
@@ -99,7 +99,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(285, 226);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(76, 25);
+            this.label4.Size = new System.Drawing.Size(79, 25);
             this.label4.TabIndex = 9;
             this.label4.Text = "Câu hỏi";
             // 
@@ -129,7 +129,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(32, 66);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(128, 25);
+            this.label3.Size = new System.Drawing.Size(131, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên sinh viên:";
             // 
@@ -139,7 +139,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 25);
+            this.label1.Size = new System.Drawing.Size(70, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "MSSV:";
             // 
@@ -155,7 +155,7 @@
             this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSubmit.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.btnSubmit.Location = new System.Drawing.Point(12, 828);
+            this.btnSubmit.Location = new System.Drawing.Point(12, 720);
             this.btnSubmit.Margin = new System.Windows.Forms.Padding(4);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(592, 49);
@@ -172,7 +172,7 @@
             this.flowQuesNumber.Location = new System.Drawing.Point(12, 268);
             this.flowQuesNumber.Margin = new System.Windows.Forms.Padding(4);
             this.flowQuesNumber.Name = "flowQuesNumber";
-            this.flowQuesNumber.Size = new System.Drawing.Size(592, 542);
+            this.flowQuesNumber.Size = new System.Drawing.Size(592, 444);
             this.flowQuesNumber.TabIndex = 1;
             // 
             // panel_Advanced1
@@ -229,7 +229,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1419, 929);
+            this.ClientSize = new System.Drawing.Size(1419, 828);
             this.Controls.Add(this.panelTest);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

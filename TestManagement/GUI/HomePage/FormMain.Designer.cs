@@ -87,10 +87,10 @@ namespace TestManagement.GUI
             this.panelTongquan.Controls.Add(this.btnTongquan);
             this.panelTongquan.Controls.Add(this.panelMain);
             this.panelTongquan.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelTongquan.Location = new System.Drawing.Point(0, 146);
+            this.panelTongquan.Location = new System.Drawing.Point(0, 172);
             this.panelTongquan.Margin = new System.Windows.Forms.Padding(4);
             this.panelTongquan.Name = "panelTongquan";
-            this.panelTongquan.Size = new System.Drawing.Size(1707, 954);
+            this.panelTongquan.Size = new System.Drawing.Size(1707, 828);
             this.panelTongquan.TabIndex = 7;
             this.panelTongquan.Click += new System.EventHandler(this.panelTongquan_Click);
             // 
@@ -192,7 +192,7 @@ namespace TestManagement.GUI
             this.panelMain.ShadowColor = System.Drawing.Color.DimGray;
             this.panelMain.ShadowShift = 0;
             this.panelMain.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelMain.Size = new System.Drawing.Size(1419, 929);
+            this.panelMain.Size = new System.Drawing.Size(1419, 825);
             this.panelMain.StartColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.panelMain.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelMain.TabIndex = 0;
@@ -208,7 +208,6 @@ namespace TestManagement.GUI
             this.panelDetail.Controls.Add(this.lblDescription);
             this.panelDetail.Controls.Add(this.lblFileName);
             this.panelDetail.Controls.Add(this.picIconDetail);
-            this.panelDetail.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelDetail.EdgeWidth = 2;
             this.panelDetail.EndColor = System.Drawing.Color.White;
             this.panelDetail.FlatBorderColor = System.Drawing.Color.White;
@@ -219,7 +218,7 @@ namespace TestManagement.GUI
             this.panelDetail.ShadowColor = System.Drawing.Color.DimGray;
             this.panelDetail.ShadowShift = 0;
             this.panelDetail.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelDetail.Size = new System.Drawing.Size(368, 929);
+            this.panelDetail.Size = new System.Drawing.Size(368, 811);
             this.panelDetail.StartColor = System.Drawing.Color.White;
             this.panelDetail.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelDetail.TabIndex = 3;
@@ -283,11 +282,10 @@ namespace TestManagement.GUI
             this.panelButtonDetail.Controls.Add(this.button_Advanced3);
             this.panelButtonDetail.Controls.Add(this.button_Advanced1);
             this.panelButtonDetail.Controls.Add(this.btnEdit);
-            this.panelButtonDetail.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelButtonDetail.Location = new System.Drawing.Point(0, 305);
             this.panelButtonDetail.Margin = new System.Windows.Forms.Padding(4);
             this.panelButtonDetail.Name = "panelButtonDetail";
-            this.panelButtonDetail.Size = new System.Drawing.Size(368, 624);
+            this.panelButtonDetail.Size = new System.Drawing.Size(368, 190);
             this.panelButtonDetail.TabIndex = 8;
             this.panelButtonDetail.Visible = false;
             // 
@@ -377,7 +375,7 @@ namespace TestManagement.GUI
             this.label6.Location = new System.Drawing.Point(-1, 146);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(322, 16);
+            this.label6.Size = new System.Drawing.Size(368, 17);
             this.label6.TabIndex = 7;
             this.label6.Text = "_____________________________________________";
             // 
@@ -442,7 +440,7 @@ namespace TestManagement.GUI
             this.panellFile.ShadowColor = System.Drawing.Color.DimGray;
             this.panellFile.ShadowShift = 0;
             this.panellFile.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panellFile.Size = new System.Drawing.Size(1017, 929);
+            this.panellFile.Size = new System.Drawing.Size(1017, 825);
             this.panellFile.StartColor = System.Drawing.Color.White;
             this.panellFile.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panellFile.TabIndex = 2;
@@ -740,7 +738,7 @@ namespace TestManagement.GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1707, 1100);
+            this.ClientSize = new System.Drawing.Size(1707, 1000);
             this.Controls.Add(this.panelBar);
             this.Controls.Add(this.dropmenuAdmin);
             this.Controls.Add(this.picLogo);

@@ -53,10 +53,11 @@ namespace TestManagement.GUI
             this.btnMore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMore.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMore.ForeColor = System.Drawing.Color.White;
-            this.btnMore.Location = new System.Drawing.Point(59, 28);
+            this.btnMore.Location = new System.Drawing.Point(79, 34);
+            this.btnMore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMore.Name = "btnMore";
-            this.btnMore.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
-            this.btnMore.Size = new System.Drawing.Size(45, 45);
+            this.btnMore.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
+            this.btnMore.Size = new System.Drawing.Size(60, 55);
             this.btnMore.TabIndex = 6;
             this.btnMore.Text = "+";
             this.btnMore.TextColor = System.Drawing.Color.White;
@@ -76,13 +77,14 @@ namespace TestManagement.GUI
             this.panel_Advanced1.EdgeWidth = 2;
             this.panel_Advanced1.EndColor = System.Drawing.Color.White;
             this.panel_Advanced1.FlatBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.panel_Advanced1.Location = new System.Drawing.Point(170, 3);
+            this.panel_Advanced1.Location = new System.Drawing.Point(227, 4);
+            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel_Advanced1.Name = "panel_Advanced1";
             this.panel_Advanced1.RectRadius = 20;
             this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
             this.panel_Advanced1.ShadowShift = 0;
             this.panel_Advanced1.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panel_Advanced1.Size = new System.Drawing.Size(1064, 755);
+            this.panel_Advanced1.Size = new System.Drawing.Size(1419, 819);
             this.panel_Advanced1.StartColor = System.Drawing.Color.White;
             this.panel_Advanced1.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panel_Advanced1.TabIndex = 0;
@@ -91,9 +93,10 @@ namespace TestManagement.GUI
             // flowAccount
             // 
             this.flowAccount.BackColor = System.Drawing.Color.White;
-            this.flowAccount.Location = new System.Drawing.Point(43, 139);
+            this.flowAccount.Location = new System.Drawing.Point(57, 171);
+            this.flowAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowAccount.Name = "flowAccount";
-            this.flowAccount.Size = new System.Drawing.Size(966, 604);
+            this.flowAccount.Size = new System.Drawing.Size(1288, 627);
             this.flowAccount.TabIndex = 8;
             this.flowAccount.Click += new System.EventHandler(this.panel_Advanced1_Click);
             // 
@@ -102,9 +105,10 @@ namespace TestManagement.GUI
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(845, 115);
+            this.label5.Location = new System.Drawing.Point(1127, 142);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(94, 21);
+            this.label5.Size = new System.Drawing.Size(121, 28);
             this.label5.TabIndex = 5;
             this.label5.Text = "Phân quyền";
             // 
@@ -113,9 +117,10 @@ namespace TestManagement.GUI
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(602, 115);
+            this.label4.Location = new System.Drawing.Point(803, 142);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 21);
+            this.label4.Size = new System.Drawing.Size(98, 28);
             this.label4.TabIndex = 4;
             this.label4.Text = "Mật khẩu";
             // 
@@ -124,9 +129,10 @@ namespace TestManagement.GUI
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(357, 115);
+            this.label3.Location = new System.Drawing.Point(476, 142);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 21);
+            this.label3.Size = new System.Drawing.Size(60, 28);
             this.label3.TabIndex = 3;
             this.label3.Text = "Email";
             // 
@@ -135,9 +141,10 @@ namespace TestManagement.GUI
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(123, 115);
+            this.label2.Location = new System.Drawing.Point(164, 142);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 21);
+            this.label2.Size = new System.Drawing.Size(135, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "Tên tài khoản";
             // 
@@ -146,9 +153,10 @@ namespace TestManagement.GUI
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(10, 25);
+            this.label1.Location = new System.Drawing.Point(13, 31);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 30);
+            this.label1.Size = new System.Drawing.Size(232, 37);
             this.label1.TabIndex = 1;
             this.label1.Text = "Quản lý tài khoản";
             // 
@@ -166,10 +174,11 @@ namespace TestManagement.GUI
             this.btnAddAccount.ForeColor = System.Drawing.Color.Black;
             this.btnAddAccount.Image = global::TestManagement.Properties.Resources.Folder;
             this.btnAddAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAddAccount.Location = new System.Drawing.Point(59, 79);
+            this.btnAddAccount.Location = new System.Drawing.Point(79, 97);
+            this.btnAddAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddAccount.Name = "btnAddAccount";
-            this.btnAddAccount.Padding = new System.Windows.Forms.Padding(15, 0, 5, 0);
-            this.btnAddAccount.Size = new System.Drawing.Size(192, 40);
+            this.btnAddAccount.Padding = new System.Windows.Forms.Padding(20, 0, 7, 0);
+            this.btnAddAccount.Size = new System.Drawing.Size(256, 49);
             this.btnAddAccount.TabIndex = 7;
             this.btnAddAccount.Text = "Thêm tài khoản mới";
             this.btnAddAccount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -182,15 +191,16 @@ namespace TestManagement.GUI
             // 
             // Admin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1280, 775);
+            this.ClientSize = new System.Drawing.Size(1707, 828);
             this.Controls.Add(this.btnAddAccount);
             this.Controls.Add(this.btnMore);
             this.Controls.Add(this.panel_Advanced1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Admin";
             this.Text = "Admin";
             this.Load += new System.EventHandler(this.Admin_Load);

@@ -61,10 +61,10 @@ namespace TestManagement
             this.panelLogin.Controls.Add(this.txtUserName);
             this.panelLogin.Controls.Add(this.label2);
             this.panelLogin.Controls.Add(this.label1);
-            this.panelLogin.Location = new System.Drawing.Point(33, 0);
-            this.panelLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.panelLogin.Location = new System.Drawing.Point(44, 0);
+            this.panelLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelLogin.Name = "panelLogin";
-            this.panelLogin.Size = new System.Drawing.Size(391, 572);
+            this.panelLogin.Size = new System.Drawing.Size(521, 704);
             this.panelLogin.TabIndex = 0;
             // 
             // picHidePass
@@ -72,10 +72,10 @@ namespace TestManagement
             this.picHidePass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.picHidePass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picHidePass.Image = global::TestManagement.Properties.Resources.eyeslash;
-            this.picHidePass.Location = new System.Drawing.Point(310, 271);
-            this.picHidePass.Margin = new System.Windows.Forms.Padding(2);
+            this.picHidePass.Location = new System.Drawing.Point(413, 334);
+            this.picHidePass.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picHidePass.Name = "picHidePass";
-            this.picHidePass.Size = new System.Drawing.Size(24, 24);
+            this.picHidePass.Size = new System.Drawing.Size(32, 30);
             this.picHidePass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picHidePass.TabIndex = 7;
             this.picHidePass.TabStop = false;
@@ -85,10 +85,10 @@ namespace TestManagement
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.pictureBox2.Image = global::TestManagement.Properties.Resources._lock;
-            this.pictureBox2.Location = new System.Drawing.Point(54, 271);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(72, 334);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox2.Size = new System.Drawing.Size(32, 30);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -97,10 +97,10 @@ namespace TestManagement
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(213)))), ((int)(((byte)(212)))), ((int)(((byte)(212)))));
             this.pictureBox1.Image = global::TestManagement.Properties.Resources.user;
-            this.pictureBox1.Location = new System.Drawing.Point(54, 155);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(72, 191);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox1.Size = new System.Drawing.Size(32, 30);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -111,10 +111,9 @@ namespace TestManagement
             this.lblForgotPass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblForgotPass.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblForgotPass.ForeColor = System.Drawing.Color.Black;
-            this.lblForgotPass.Location = new System.Drawing.Point(232, 311);
-            this.lblForgotPass.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblForgotPass.Location = new System.Drawing.Point(309, 383);
             this.lblForgotPass.Name = "lblForgotPass";
-            this.lblForgotPass.Size = new System.Drawing.Size(111, 19);
+            this.lblForgotPass.Size = new System.Drawing.Size(137, 23);
             this.lblForgotPass.TabIndex = 3;
             this.lblForgotPass.Text = "Quên mật khẩu?";
             this.lblForgotPass.Click += new System.EventHandler(this.lblForgotPass_Click);
@@ -131,10 +130,10 @@ namespace TestManagement
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(96, 380);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLogin.Location = new System.Drawing.Point(128, 468);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(210, 40);
+            this.btnLogin.Size = new System.Drawing.Size(280, 49);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.TextColor = System.Drawing.Color.White;
@@ -151,16 +150,16 @@ namespace TestManagement
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtPass.ForeColor = System.Drawing.Color.Black;
             this.txtPass.IsFocused = false;
-            this.txtPass.Location = new System.Drawing.Point(48, 266);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPass.Location = new System.Drawing.Point(64, 327);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtPass.Multiline = false;
             this.txtPass.Name = "txtPass";
-            this.txtPass.Padding = new System.Windows.Forms.Padding(35, 5, 22, 5);
+            this.txtPass.Padding = new System.Windows.Forms.Padding(47, 6, 29, 6);
             this.txtPass.PasswordChar = true;
             this.txtPass.PlaceholderColor = System.Drawing.Color.Black;
             this.txtPass.PlaceholderText = "";
             this.txtPass.ReadOnly = false;
-            this.txtPass.Size = new System.Drawing.Size(295, 32);
+            this.txtPass.Size = new System.Drawing.Size(393, 41);
             this.txtPass.TabIndex = 2;
             this.txtPass.Texts = "";
             this.txtPass.UnderlineedStyle = false;
@@ -169,10 +168,9 @@ namespace TestManagement
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label3.Location = new System.Drawing.Point(45, 239);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(60, 294);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 21);
+            this.label3.Size = new System.Drawing.Size(94, 28);
             this.label3.TabIndex = 0;
             this.label3.Text = "Mật khẩu";
             // 
@@ -185,16 +183,16 @@ namespace TestManagement
             this.txtUserName.BorderSize = 1;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.txtUserName.IsFocused = false;
-            this.txtUserName.Location = new System.Drawing.Point(48, 151);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUserName.Location = new System.Drawing.Point(64, 186);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtUserName.Multiline = false;
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Padding = new System.Windows.Forms.Padding(35, 5, 22, 5);
+            this.txtUserName.Padding = new System.Windows.Forms.Padding(47, 6, 29, 6);
             this.txtUserName.PasswordChar = false;
             this.txtUserName.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.txtUserName.PlaceholderText = "";
             this.txtUserName.ReadOnly = false;
-            this.txtUserName.Size = new System.Drawing.Size(295, 32);
+            this.txtUserName.Size = new System.Drawing.Size(393, 41);
             this.txtUserName.TabIndex = 1;
             this.txtUserName.Texts = "";
             this.txtUserName.UnderlineedStyle = false;
@@ -203,10 +201,9 @@ namespace TestManagement
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label2.Location = new System.Drawing.Point(44, 122);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(59, 150);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 21);
+            this.label2.Size = new System.Drawing.Size(94, 28);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tài khoản";
             // 
@@ -214,32 +211,31 @@ namespace TestManagement
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(123, 49);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(164, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 30);
+            this.label1.Size = new System.Drawing.Size(181, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "ĐĂNG NHẬP";
             // 
             // panelSendOTP
             // 
             this.panelSendOTP.Controls.Add(this.panelLogin);
-            this.panelSendOTP.Location = new System.Drawing.Point(428, 177);
-            this.panelSendOTP.Margin = new System.Windows.Forms.Padding(2);
+            this.panelSendOTP.Location = new System.Drawing.Point(571, 118);
+            this.panelSendOTP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelSendOTP.Name = "panelSendOTP";
-            this.panelSendOTP.Size = new System.Drawing.Size(456, 574);
+            this.panelSendOTP.Size = new System.Drawing.Size(608, 706);
             this.panelSendOTP.TabIndex = 1;
             // 
             // Login
             // 
             this.AcceptButton = this.btnLogin;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 960);
+            this.ClientSize = new System.Drawing.Size(1707, 900);
             this.Controls.Add(this.panelSendOTP);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
