@@ -48,7 +48,6 @@ namespace TestManagement.GUI
             this.picIconDetail = new System.Windows.Forms.PictureBox();
             this.panellFile = new TestManagement.UserControl_Test.Panel_Advanced();
             this.sortedList = new TestManagement.UserControl_Test.SortedList();
-            this.checkAll = new System.Windows.Forms.CheckBox();
             this.flowTest = new System.Windows.Forms.FlowLayoutPanel();
             this.btnSort = new TestManagement.UserControl_Test.Button_Advanced();
             this.flowSubject = new System.Windows.Forms.FlowLayoutPanel();
@@ -375,7 +374,7 @@ namespace TestManagement.GUI
             this.label6.Location = new System.Drawing.Point(-1, 146);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(368, 17);
+            this.label6.Size = new System.Drawing.Size(322, 16);
             this.label6.TabIndex = 7;
             this.label6.Text = "_____________________________________________";
             // 
@@ -419,7 +418,6 @@ namespace TestManagement.GUI
             // 
             this.panellFile.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
             this.panellFile.Controls.Add(this.sortedList);
-            this.panellFile.Controls.Add(this.checkAll);
             this.panellFile.Controls.Add(this.flowTest);
             this.panellFile.Controls.Add(this.btnSort);
             this.panellFile.Controls.Add(this.flowSubject);
@@ -454,17 +452,6 @@ namespace TestManagement.GUI
             this.sortedList.Name = "sortedList";
             this.sortedList.Size = new System.Drawing.Size(264, 247);
             this.sortedList.TabIndex = 3;
-            // 
-            // checkAll
-            // 
-            this.checkAll.AutoSize = true;
-            this.checkAll.Location = new System.Drawing.Point(157, 145);
-            this.checkAll.Margin = new System.Windows.Forms.Padding(4);
-            this.checkAll.Name = "checkAll";
-            this.checkAll.Size = new System.Drawing.Size(18, 17);
-            this.checkAll.TabIndex = 2;
-            this.checkAll.UseVisualStyleBackColor = true;
-            this.checkAll.CheckedChanged += new System.EventHandler(this.checkAll_CheckedChanged);
             // 
             // flowTest
             // 
@@ -785,7 +772,6 @@ namespace TestManagement.GUI
         private System.Windows.Forms.PictureBox picIconDetail;
         public UserControl_Test.Panel_Advanced panellFile;
         private UserControl_Test.SortedList sortedList;
-        private System.Windows.Forms.CheckBox checkAll;
         private UserControl_Test.Button_Advanced btnSort;
         private System.Windows.Forms.FlowLayoutPanel flowSubject;
         private System.Windows.Forms.Label label4;

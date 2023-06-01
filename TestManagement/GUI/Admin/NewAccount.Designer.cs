@@ -85,7 +85,7 @@ namespace TestManagement.GUI
             this.panel_Advanced1.EndColor = System.Drawing.Color.White;
             this.panel_Advanced1.FlatBorderColor = System.Drawing.Color.Gainsboro;
             this.panel_Advanced1.Location = new System.Drawing.Point(0, 0);
-            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4);
             this.panel_Advanced1.Name = "panel_Advanced1";
             this.panel_Advanced1.RectRadius = 20;
             this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
@@ -108,6 +108,7 @@ namespace TestManagement.GUI
             this.picHidePass2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picHidePass2.TabIndex = 45;
             this.picHidePass2.TabStop = false;
+            this.picHidePass2.Click += new System.EventHandler(this.picHidePass2_Click);
             // 
             // pictureBox1
             // 
@@ -214,7 +215,7 @@ namespace TestManagement.GUI
             "GV",
             "Admin"});
             this.cbboxPhanQuyen.Location = new System.Drawing.Point(73, 812);
-            this.cbboxPhanQuyen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbboxPhanQuyen.Margin = new System.Windows.Forms.Padding(4);
             this.cbboxPhanQuyen.Name = "cbboxPhanQuyen";
             this.cbboxPhanQuyen.Size = new System.Drawing.Size(680, 36);
             this.cbboxPhanQuyen.TabIndex = 37;
@@ -229,7 +230,7 @@ namespace TestManagement.GUI
             this.txtConfirm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirm.IsFocused = false;
             this.txtConfirm.Location = new System.Drawing.Point(73, 626);
-            this.txtConfirm.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtConfirm.Margin = new System.Windows.Forms.Padding(5);
             this.txtConfirm.Multiline = false;
             this.txtConfirm.Name = "txtConfirm";
             this.txtConfirm.Padding = new System.Windows.Forms.Padding(60, 12, 9, 12);
@@ -241,7 +242,6 @@ namespace TestManagement.GUI
             this.txtConfirm.TabIndex = 30;
             this.txtConfirm.Texts = "";
             this.txtConfirm.UnderlineedStyle = false;
-            this.txtConfirm.Click += new System.EventHandler(this.picHidePass2_Click);
             // 
             // txtPass
             // 
@@ -253,7 +253,7 @@ namespace TestManagement.GUI
             this.txtPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.IsFocused = false;
             this.txtPass.Location = new System.Drawing.Point(73, 481);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(5);
             this.txtPass.Multiline = false;
             this.txtPass.Name = "txtPass";
             this.txtPass.Padding = new System.Windows.Forms.Padding(60, 12, 9, 12);
@@ -276,7 +276,7 @@ namespace TestManagement.GUI
             this.txtEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.IsFocused = false;
             this.txtEmail.Location = new System.Drawing.Point(73, 330);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(5);
             this.txtEmail.Multiline = false;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Padding = new System.Windows.Forms.Padding(27, 12, 9, 12);
@@ -299,7 +299,7 @@ namespace TestManagement.GUI
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.IsFocused = false;
             this.txtUserName.Location = new System.Drawing.Point(73, 182);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtUserName.Margin = new System.Windows.Forms.Padding(5);
             this.txtUserName.Multiline = false;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Padding = new System.Windows.Forms.Padding(27, 12, 9, 12);
@@ -393,7 +393,7 @@ namespace TestManagement.GUI
             this.ClientSize = new System.Drawing.Size(823, 1031);
             this.Controls.Add(this.panel_Advanced1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NewAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NewAccount";

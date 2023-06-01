@@ -38,9 +38,6 @@
             this.lblFileName = new System.Windows.Forms.Label();
             this.picIconDetail = new System.Windows.Forms.PictureBox();
             this.panellFile = new TestManagement.UserControl_Test.Panel_Advanced();
-            this.sortedList = new TestManagement.UserControl_Test.SortedList();
-            this.checkAll = new System.Windows.Forms.CheckBox();
-            this.btnSort = new TestManagement.UserControl_Test.Button_Advanced();
             this.flowTest = new System.Windows.Forms.FlowLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -207,9 +204,6 @@
             // panellFile
             // 
             this.panellFile.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
-            this.panellFile.Controls.Add(this.sortedList);
-            this.panellFile.Controls.Add(this.checkAll);
-            this.panellFile.Controls.Add(this.btnSort);
             this.panellFile.Controls.Add(this.flowTest);
             this.panellFile.Controls.Add(this.label4);
             this.panellFile.Controls.Add(this.label3);
@@ -231,49 +225,6 @@
             this.panellFile.StartColor = System.Drawing.Color.White;
             this.panellFile.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panellFile.TabIndex = 6;
-            // 
-            // sortedList
-            // 
-            this.sortedList.BackColor = System.Drawing.Color.White;
-            this.sortedList.Location = new System.Drawing.Point(98, 515);
-            this.sortedList.Margin = new System.Windows.Forms.Padding(5);
-            this.sortedList.Name = "sortedList";
-            this.sortedList.Size = new System.Drawing.Size(264, 247);
-            this.sortedList.TabIndex = 0;
-            this.sortedList.Visible = false;
-            // 
-            // checkAll
-            // 
-            this.checkAll.AutoSize = true;
-            this.checkAll.Location = new System.Drawing.Point(157, 145);
-            this.checkAll.Margin = new System.Windows.Forms.Padding(4);
-            this.checkAll.Name = "checkAll";
-            this.checkAll.Size = new System.Drawing.Size(18, 17);
-            this.checkAll.TabIndex = 0;
-            this.checkAll.UseVisualStyleBackColor = true;
-            // 
-            // btnSort
-            // 
-            this.btnSort.BackColor = System.Drawing.Color.White;
-            this.btnSort.BackgroundColor = System.Drawing.Color.White;
-            this.btnSort.BorderColor = System.Drawing.Color.White;
-            this.btnSort.BorderRadius = 5;
-            this.btnSort.BorderSize = 0;
-            this.btnSort.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSort.FlatAppearance.BorderSize = 0;
-            this.btnSort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSort.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSort.ForeColor = System.Drawing.Color.Black;
-            this.btnSort.Image = global::TestManagement.Properties.Resources.sort;
-            this.btnSort.Location = new System.Drawing.Point(177, 30);
-            this.btnSort.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSort.Name = "btnSort";
-            this.btnSort.Size = new System.Drawing.Size(47, 44);
-            this.btnSort.TabIndex = 6;
-            this.btnSort.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSort.TextColor = System.Drawing.Color.Black;
-            this.btnSort.UseVisualStyleBackColor = false;
-            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // flowTest
             // 
@@ -353,9 +304,9 @@
             this.ClientSize = new System.Drawing.Size(1419, 929);
             this.Controls.Add(this.panelResult);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ListTestTime";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListTest";
             this.Load += new System.EventHandler(this.ListTest_Load);
             this.panelResult.ResumeLayout(false);
@@ -381,9 +332,6 @@
         private System.Windows.Forms.Label lblFileName;
         private System.Windows.Forms.PictureBox picIconDetail;
         public UserControl_Test.Panel_Advanced panellFile;
-        private UserControl_Test.SortedList sortedList;
-        private System.Windows.Forms.CheckBox checkAll;
-        private UserControl_Test.Button_Advanced btnSort;
         private System.Windows.Forms.FlowLayoutPanel flowTest;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;

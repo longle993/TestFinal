@@ -19,33 +19,25 @@ namespace TestManagement.GUI
     {
         Test test;
         List<TestTimes> testTimes;
-        FormMain formMain;
         ConnectingData db = new ConnectingData();
         private Form currentChildForm;
         public ListTestTime()
         {
             InitializeComponent();
         }        
-        public ListTestTime(FormMain formMain,Test test)
+        public ListTestTime(string name)
         {
             InitializeComponent();
-            this.test=test;
-            this.formMain=formMain;
+            this.test=Test_BUS.Instance.FindByName(name);           
         }
         private void ListTest_Load(object sender, EventArgs e)
         {
             LoadListTestTime();
         }
-        private void BtnTongquan_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            formMain.panellFile.Visible = true;
-            formMain.panelDetail.Visible = true;
-        }
 
         private void btnSort_Click(object sender, EventArgs e)
         {
-            sortedList.Visible = !sortedList.Visible;
+            //sortedList.Visible = !sortedList.Visible;
         }
         private void LblfolderName_ClickTest(object sender, EventArgs e)
         {

@@ -88,24 +88,14 @@ namespace TestManagement.GUI
 
                 //ADD EVENT
                 listtest.Click += Listtest_Click;
-                listtest.DoubleClick +=LblfolderName_DoubleClick;
-                listtest.lblfolderName.DoubleClick += LblfolderName_DoubleClick;
-                listtest.lblChangedDay.DoubleClick += LblfolderName_DoubleClick;
-                listtest.lblcreatedDay.DoubleClick += LblfolderName_DoubleClick;
+
                 listtest.lblfolderName.Click += LblfolderName_ClickTest;
                 listtest.lblChangedDay.Click += LblfolderName_ClickTest;
                 listtest.lblcreatedDay.Click += LblfolderName_ClickTest;
                 listtest.picIcon.Click += LblfolderName_ClickTest;
                 flowTest.Controls.Add(listtest);
             }
-        }
-
-        private void LblfolderName_DoubleClick(object sender, EventArgs e)
-        {
-            Control list = (Control)sender;
-            OpenChildForm(new ListTestTime(formMain,Test_BUS.Instance.FindByName(lblFileName.Text)), formMain.panelMain);        
-        }
-          
+        }          
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (lblFileName.Text!="FileName")
@@ -173,6 +163,16 @@ namespace TestManagement.GUI
             childForm.BringToFront();
             childForm.Show();
         }
+
         #endregion
+
+        private void btnOpenTest_Click(object sender, EventArgs e)
+        {
+            string name = lblFileName.Text;
+            this.Close();
+            ListTestTime listTestTime = new ListTestTime(name);
+            listTestTime.Show();
+            this.Show();
+        }
     }
 }
