@@ -39,5 +39,9 @@ namespace TestManagement.DAO
                 db.SaveChanges();
             }
         }
+        public TestDetail GetTestDetail(string QuestionID)
+        {
+            return db.TestDetails.SingleOrDefault(p => p.QuestionID==QuestionID);
+        }
     }
 }

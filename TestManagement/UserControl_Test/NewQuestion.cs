@@ -28,7 +28,7 @@ namespace TestManagement.UserControl_Test
                 DisableButton();
                 //Button
                 currentBtn = (Button_Advanced)senderBtn;
-                currentBtn.BackColor = Color.FromArgb(201, 225, 247);
+                currentBtn.BackColor = Color.FromArgb(201, 225, 247); 
                 txt.BackColor = Color.FromArgb(199, 224, 247);
             }
         }

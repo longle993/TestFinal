@@ -33,6 +33,9 @@ namespace TestManagement.BUS
         {
             TestDetail_DAO.Instance.DelTestDetail(delList);
         }
-
+        public TestDetail GetTestDetail(string QuestionID)
+        {
+            return TestDetail_DAO.Instance.GetTestDetail(QuestionID);
+        }
     }
 }

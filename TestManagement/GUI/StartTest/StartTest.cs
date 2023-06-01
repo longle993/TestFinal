@@ -25,6 +25,7 @@ namespace TestManagement.GUI.HomePage
         Timer timer;
         TimeSpan TestTime;
         int NumberCorrect;
+        decimal Score;
         TestTimes testTimes;
 
         string name;
@@ -137,12 +138,14 @@ namespace TestManagement.GUI.HomePage
         }
         private void Timer_Tick(object sender, EventArgs e)
         {
-            TestTime = TestTime.Subtract(TimeSpan.FromSeconds(1));
-            lblTime.Text = string.Format("{0:D2}:{1:D2}:{2:D2}", TestTime.Hours, TestTime.Minutes, TestTime.Seconds);
-            if (TestTime.TotalSeconds <= 0)
+            if (TestTime > TimeSpan.Zero)
             {
-                timer.Stop();
-                MessageBox.Show("Hết thời gian làm bài!");
+                TestTime = TestTime.Subtract(TimeSpan.FromSeconds(1));
+                lblTime.Text = string.Format("{0:D2}:{1:D2}:{2:D2}", TestTime.Hours, TestTime.Minutes, TestTime.Seconds);
+            }
+            else
+            {
+                btnSubmit_Click(sender,e);
             }
         }
         // Kiểm tra số câu đúng
@@ -162,6 +165,7 @@ namespace TestManagement.GUI.HomePage
                                 {
                                     if (ans.CorrectAnswer == true && panel.Tag.ToString() == ans.AnswerText)
                                     {
+                                        Score+=TestDetail_BUS.Instance.GetTestDetail(ans.QuestionID).QuestionPoint;
                                         NumberCorrect++;
                                     }
                                 }
@@ -183,10 +187,21 @@ namespace TestManagement.GUI.HomePage
             result.MSSV = lblMSSV.Text;
             result.NumberCorrect = NumberCorrect;
             result.FinishTime=newTest.TestTime.Subtract(TestTime);
-            result.Score = 0;
-            Result_BUS.Instance.AddResult(result);
-            MessageBox.Show("Bạn có chắc chắn muốn nộp bài không?","Cảnh báo",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
-            this.Close();
+            result.Score = Score;            
+            if (sender is Button)
+            {
+                if (MessageBox.Show("Bạn có chắc chắn muốn nộp bài không?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Information)==DialogResult.Yes)
+                {
+                    Result_BUS.Instance.AddResult(result);
+                    this.Close();
+                }
+            }
+            else
+            {
+                Result_BUS.Instance.AddResult(result);
+                MessageBox.Show("Đã hết thời gian làm bài", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);              
+                this.Close();                
+            }
         }
     }
 }
