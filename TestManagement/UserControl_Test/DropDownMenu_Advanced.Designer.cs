@@ -69,13 +69,14 @@ namespace TestManagement.UserControl_Test
             this.panelDropDown.EdgeWidth = 1;
             this.panelDropDown.EndColor = System.Drawing.Color.White;
             this.panelDropDown.FlatBorderColor = System.Drawing.Color.White;
-            this.panelDropDown.Location = new System.Drawing.Point(3, 3);
+            this.panelDropDown.Location = new System.Drawing.Point(4, 4);
+            this.panelDropDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelDropDown.Name = "panelDropDown";
             this.panelDropDown.RectRadius = 10;
             this.panelDropDown.ShadowColor = System.Drawing.Color.DimGray;
             this.panelDropDown.ShadowShift = 2;
             this.panelDropDown.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelDropDown.Size = new System.Drawing.Size(292, 283);
+            this.panelDropDown.Size = new System.Drawing.Size(389, 348);
             this.panelDropDown.StartColor = System.Drawing.Color.White;
             this.panelDropDown.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelDropDown.TabIndex = 1;
@@ -85,18 +86,20 @@ namespace TestManagement.UserControl_Test
             this.panelAccount.BackColor = System.Drawing.Color.White;
             this.panelAccount.Controls.Add(this.pictureBox4);
             this.panelAccount.Controls.Add(this.btnAccount);
-            this.panelAccount.Location = new System.Drawing.Point(4, 3);
+            this.panelAccount.Location = new System.Drawing.Point(5, 4);
+            this.panelAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelAccount.Name = "panelAccount";
-            this.panelAccount.Size = new System.Drawing.Size(285, 71);
+            this.panelAccount.Size = new System.Drawing.Size(380, 87);
             this.panelAccount.TabIndex = 8;
             // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::TestManagement.Properties.Resources.user;
-            this.pictureBox4.Location = new System.Drawing.Point(10, 22);
+            this.pictureBox4.Location = new System.Drawing.Point(13, 27);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(25, 30);
+            this.pictureBox4.Size = new System.Drawing.Size(33, 37);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 13;
             this.pictureBox4.TabStop = false;
@@ -113,10 +116,11 @@ namespace TestManagement.UserControl_Test
             this.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAccount.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccount.ForeColor = System.Drawing.Color.Black;
-            this.btnAccount.Location = new System.Drawing.Point(44, 3);
+            this.btnAccount.Location = new System.Drawing.Point(59, 4);
+            this.btnAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAccount.Size = new System.Drawing.Size(238, 65);
+            this.btnAccount.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnAccount.Size = new System.Drawing.Size(317, 80);
             this.btnAccount.TabIndex = 0;
             this.btnAccount.Text = "Long Le (Admin)\r\nle.duclong0909@gmail.com";
             this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,9 +132,10 @@ namespace TestManagement.UserControl_Test
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.btnExit);
             this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Location = new System.Drawing.Point(4, 231);
+            this.panel3.Location = new System.Drawing.Point(5, 284);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(285, 45);
+            this.panel3.Size = new System.Drawing.Size(380, 55);
             this.panel3.TabIndex = 7;
             // 
             // btnExit
@@ -145,10 +150,11 @@ namespace TestManagement.UserControl_Test
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Black;
-            this.btnExit.Location = new System.Drawing.Point(44, 3);
+            this.btnExit.Location = new System.Drawing.Point(59, 4);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnExit.Size = new System.Drawing.Size(238, 39);
+            this.btnExit.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnExit.Size = new System.Drawing.Size(317, 48);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Đăng xuất";
             this.btnExit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -158,9 +164,10 @@ namespace TestManagement.UserControl_Test
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TestManagement.Properties.Resources.Logout;
-            this.pictureBox3.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox3.Location = new System.Drawing.Point(16, 15);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.Size = new System.Drawing.Size(27, 25);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
@@ -170,9 +177,10 @@ namespace TestManagement.UserControl_Test
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Location = new System.Drawing.Point(4, 182);
+            this.panel2.Location = new System.Drawing.Point(5, 224);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(285, 45);
+            this.panel2.Size = new System.Drawing.Size(380, 55);
             this.panel2.TabIndex = 6;
             // 
             // btnAdd
@@ -187,22 +195,25 @@ namespace TestManagement.UserControl_Test
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.Black;
-            this.btnAdd.Location = new System.Drawing.Point(44, 3);
+            this.btnAdd.Location = new System.Drawing.Point(59, 4);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnAdd.Size = new System.Drawing.Size(238, 40);
+            this.btnAdd.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnAdd.Size = new System.Drawing.Size(317, 49);
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Thêm tài khoản";
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdd.TextColor = System.Drawing.Color.Black;
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TestManagement.Properties.Resources.AddAccount;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(16, 15);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.Size = new System.Drawing.Size(27, 25);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -212,9 +223,10 @@ namespace TestManagement.UserControl_Test
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.btnSetting);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(4, 131);
+            this.panel1.Location = new System.Drawing.Point(5, 161);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(285, 45);
+            this.panel1.Size = new System.Drawing.Size(380, 55);
             this.panel1.TabIndex = 6;
             // 
             // btnSetting
@@ -229,10 +241,11 @@ namespace TestManagement.UserControl_Test
             this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetting.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetting.ForeColor = System.Drawing.Color.Black;
-            this.btnSetting.Location = new System.Drawing.Point(44, 3);
+            this.btnSetting.Location = new System.Drawing.Point(59, 4);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSetting.Size = new System.Drawing.Size(238, 40);
+            this.btnSetting.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnSetting.Size = new System.Drawing.Size(317, 49);
             this.btnSetting.TabIndex = 1;
             this.btnSetting.Text = "Cài đặt";
             this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -242,9 +255,10 @@ namespace TestManagement.UserControl_Test
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TestManagement.Properties.Resources.Setting;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(16, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox1.Size = new System.Drawing.Size(27, 25);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -254,9 +268,10 @@ namespace TestManagement.UserControl_Test
             this.panelButtonDropDown.BackColor = System.Drawing.Color.White;
             this.panelButtonDropDown.Controls.Add(this.btnQLTK);
             this.panelButtonDropDown.Controls.Add(this.picIcon);
-            this.panelButtonDropDown.Location = new System.Drawing.Point(4, 80);
+            this.panelButtonDropDown.Location = new System.Drawing.Point(5, 98);
+            this.panelButtonDropDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelButtonDropDown.Name = "panelButtonDropDown";
-            this.panelButtonDropDown.Size = new System.Drawing.Size(285, 45);
+            this.panelButtonDropDown.Size = new System.Drawing.Size(380, 55);
             this.panelButtonDropDown.TabIndex = 5;
             // 
             // btnQLTK
@@ -271,10 +286,11 @@ namespace TestManagement.UserControl_Test
             this.btnQLTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQLTK.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLTK.ForeColor = System.Drawing.Color.Black;
-            this.btnQLTK.Location = new System.Drawing.Point(44, 3);
+            this.btnQLTK.Location = new System.Drawing.Point(59, 4);
+            this.btnQLTK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnQLTK.Name = "btnQLTK";
-            this.btnQLTK.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnQLTK.Size = new System.Drawing.Size(238, 40);
+            this.btnQLTK.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnQLTK.Size = new System.Drawing.Size(317, 49);
             this.btnQLTK.TabIndex = 1;
             this.btnQLTK.Text = "Quản lý tài khoản";
             this.btnQLTK.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -284,21 +300,23 @@ namespace TestManagement.UserControl_Test
             // picIcon
             // 
             this.picIcon.Image = global::TestManagement.Properties.Resources.QLTK;
-            this.picIcon.Location = new System.Drawing.Point(12, 12);
+            this.picIcon.Location = new System.Drawing.Point(16, 15);
+            this.picIcon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picIcon.Name = "picIcon";
-            this.picIcon.Size = new System.Drawing.Size(20, 20);
+            this.picIcon.Size = new System.Drawing.Size(27, 25);
             this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picIcon.TabIndex = 0;
             this.picIcon.TabStop = false;
             // 
             // DropDownMenu_Advanced
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panelDropDown);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DropDownMenu_Advanced";
-            this.Size = new System.Drawing.Size(297, 286);
+            this.Size = new System.Drawing.Size(396, 352);
             this.panelDropDown.ResumeLayout(false);
             this.panelAccount.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

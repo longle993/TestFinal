@@ -94,5 +94,15 @@ namespace TestManagement.DAO
             db.Tests.Remove(test);
             db.SaveChanges();
         }
+
+        public void UpdateTest(Test test)
+        {
+            Test existTest = db.Tests.SingleOrDefault(p => p.TestID == test.TestID);
+            if(existTest != null)
+            {
+                existTest.ChangedDate = DateTime.Now;
+                db.SaveChanges();
+            }
+        }
     }
 }

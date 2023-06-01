@@ -220,10 +220,18 @@ namespace TestManagement.GUI
         #endregion
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if(txtMark.Texts is null ||txtMark.Texts == "")
+            {
+                MessageBox.Show("Thông tin điểm còn trống!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+            }
             Test existTest = Test_BUS.Instance.FindByName(lblTestName.Text);
             if (existTest == null)
             {
                 Test_BUS.Instance.AddTest(newTest);
+            }
+            else
+            {
+                Test_BUS.Instance.UpdateTest(newTest);
             }
             //Xóa các câu hỏi cũ
             List<TestDetail> delList = TestDetail_BUS.Instance.GetTestDetails(newTest.TestID);
@@ -285,6 +293,7 @@ namespace TestManagement.GUI
                     {
                         if (setting.QuesNumber == ques.Quesnumber)
                         {
+
                             detail.QuestionPoint = Convert.ToDecimal(setting.Mark);
                         }
                     }
@@ -292,6 +301,7 @@ namespace TestManagement.GUI
                 }
             }
             MessageBox.Show("Lưu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Close();
         }
 
     }

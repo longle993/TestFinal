@@ -18,10 +18,11 @@ namespace TestManagement.UserControl_Test
             InitializeComponent();
         }
 
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            NewAccount account = new NewAccount();
+            account.Show();
 
-
-
-
-
+        }
     }
 }

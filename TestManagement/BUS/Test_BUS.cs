@@ -68,6 +68,9 @@ namespace TestManagement.BUS
         {
             Test_DAO.Instance.DelTest(test);
         }
-
+        public void UpdateTest(Test test)
+        {
+            Test_DAO.Instance.UpdateTest(test);
+        }
     }
 }
