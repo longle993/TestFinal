@@ -667,3 +667,4 @@ D:\Long Lê\UEH\HK4\DESKTOP\TestFinal\TestManagement\obj\Debug\TestManagement.GU
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.NewTestTime.resources
 D:\Long Lê\UEH\HK4\DESKTOP\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.NewTestTime.resources
 C:\Users\tranv\Documents\C#\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.ListTestTime.resources
+D:\Long Lê\UEH\HK4\DESKTOP\TestFinal\TestManagement\obj\Debug\TestManagement.GUI.ListTestTime.resources

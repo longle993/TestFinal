@@ -54,7 +54,7 @@ namespace TestManagement.GUI
             this.btnMore.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMore.ForeColor = System.Drawing.Color.White;
             this.btnMore.Location = new System.Drawing.Point(79, 34);
-            this.btnMore.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMore.Margin = new System.Windows.Forms.Padding(4);
             this.btnMore.Name = "btnMore";
             this.btnMore.Padding = new System.Windows.Forms.Padding(4, 0, 0, 0);
             this.btnMore.Size = new System.Drawing.Size(60, 55);
@@ -78,7 +78,7 @@ namespace TestManagement.GUI
             this.panel_Advanced1.EndColor = System.Drawing.Color.White;
             this.panel_Advanced1.FlatBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
             this.panel_Advanced1.Location = new System.Drawing.Point(227, 4);
-            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4);
             this.panel_Advanced1.Name = "panel_Advanced1";
             this.panel_Advanced1.RectRadius = 20;
             this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
@@ -94,11 +94,12 @@ namespace TestManagement.GUI
             // 
             this.flowAccount.BackColor = System.Drawing.Color.White;
             this.flowAccount.Location = new System.Drawing.Point(57, 171);
-            this.flowAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowAccount.Margin = new System.Windows.Forms.Padding(4);
             this.flowAccount.Name = "flowAccount";
             this.flowAccount.Size = new System.Drawing.Size(1288, 627);
             this.flowAccount.TabIndex = 8;
             this.flowAccount.Click += new System.EventHandler(this.panel_Advanced1_Click);
+            this.flowAccount.Paint += new System.Windows.Forms.PaintEventHandler(this.flowAccount_Paint);
             // 
             // label5
             // 
@@ -175,7 +176,7 @@ namespace TestManagement.GUI
             this.btnAddAccount.Image = global::TestManagement.Properties.Resources.Folder;
             this.btnAddAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAddAccount.Location = new System.Drawing.Point(79, 97);
-            this.btnAddAccount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddAccount.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddAccount.Name = "btnAddAccount";
             this.btnAddAccount.Padding = new System.Windows.Forms.Padding(20, 0, 7, 0);
             this.btnAddAccount.Size = new System.Drawing.Size(256, 49);
@@ -200,7 +201,7 @@ namespace TestManagement.GUI
             this.Controls.Add(this.panel_Advanced1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Admin";
             this.Text = "Admin";
             this.Load += new System.EventHandler(this.Admin_Load);

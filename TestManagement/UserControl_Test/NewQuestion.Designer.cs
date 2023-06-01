@@ -1,5 +1,4 @@
-﻿
-namespace TestManagement.UserControl_Test
+﻿namespace TestManagement.UserControl_Test
 {
     partial class NewQuestion
     {
@@ -40,6 +39,7 @@ namespace TestManagement.UserControl_Test
             this.txtAnswerD = new TestManagement.UserControl_Test.TextBox_Advanced();
             this.txtTextQues = new TestManagement.UserControl_Test.TextBox_Advanced();
             this.btnEdit = new TestManagement.UserControl_Test.Button_Advanced();
+            this.btnDel = new TestManagement.UserControl_Test.Button_Advanced();
             this.SuspendLayout();
             // 
             // lblQues
@@ -48,9 +48,10 @@ namespace TestManagement.UserControl_Test
             this.lblQues.BackColor = System.Drawing.Color.White;
             this.lblQues.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQues.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(130)))), ((int)(((byte)(236)))));
-            this.lblQues.Location = new System.Drawing.Point(19, 21);
+            this.lblQues.Location = new System.Drawing.Point(25, 26);
+            this.lblQues.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQues.Name = "lblQues";
-            this.lblQues.Size = new System.Drawing.Size(51, 21);
+            this.lblQues.Size = new System.Drawing.Size(65, 28);
             this.lblQues.TabIndex = 1;
             this.lblQues.Text = "Câu 1:";
             // 
@@ -63,16 +64,16 @@ namespace TestManagement.UserControl_Test
             this.txtAnswerA.BorderSize = 1;
             this.txtAnswerA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerA.IsFocused = false;
-            this.txtAnswerA.Location = new System.Drawing.Point(23, 169);
-            this.txtAnswerA.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAnswerA.Location = new System.Drawing.Point(31, 208);
+            this.txtAnswerA.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtAnswerA.Multiline = true;
             this.txtAnswerA.Name = "txtAnswerA";
-            this.txtAnswerA.Padding = new System.Windows.Forms.Padding(85, 10, 40, 10);
+            this.txtAnswerA.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
             this.txtAnswerA.PasswordChar = false;
             this.txtAnswerA.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtAnswerA.PlaceholderText = "";
             this.txtAnswerA.ReadOnly = false;
-            this.txtAnswerA.Size = new System.Drawing.Size(510, 60);
+            this.txtAnswerA.Size = new System.Drawing.Size(680, 74);
             this.txtAnswerA.TabIndex = 28;
             this.txtAnswerA.Texts = "";
             this.txtAnswerA.UnderlineedStyle = false;
@@ -89,9 +90,10 @@ namespace TestManagement.UserControl_Test
             this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnA.ForeColor = System.Drawing.Color.Black;
-            this.btnA.Location = new System.Drawing.Point(23, 169);
+            this.btnA.Location = new System.Drawing.Point(31, 208);
+            this.btnA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnA.Name = "btnA";
-            this.btnA.Size = new System.Drawing.Size(74, 60);
+            this.btnA.Size = new System.Drawing.Size(99, 74);
             this.btnA.TabIndex = 29;
             this.btnA.Text = "A";
             this.btnA.TextColor = System.Drawing.Color.Black;
@@ -110,9 +112,10 @@ namespace TestManagement.UserControl_Test
             this.btnB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnB.ForeColor = System.Drawing.Color.Black;
-            this.btnB.Location = new System.Drawing.Point(23, 250);
+            this.btnB.Location = new System.Drawing.Point(31, 308);
+            this.btnB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnB.Name = "btnB";
-            this.btnB.Size = new System.Drawing.Size(74, 60);
+            this.btnB.Size = new System.Drawing.Size(99, 74);
             this.btnB.TabIndex = 31;
             this.btnB.Text = "B";
             this.btnB.TextColor = System.Drawing.Color.Black;
@@ -128,16 +131,16 @@ namespace TestManagement.UserControl_Test
             this.txtAnswerB.BorderSize = 1;
             this.txtAnswerB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerB.IsFocused = false;
-            this.txtAnswerB.Location = new System.Drawing.Point(23, 250);
-            this.txtAnswerB.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAnswerB.Location = new System.Drawing.Point(31, 308);
+            this.txtAnswerB.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtAnswerB.Multiline = true;
             this.txtAnswerB.Name = "txtAnswerB";
-            this.txtAnswerB.Padding = new System.Windows.Forms.Padding(85, 10, 40, 10);
+            this.txtAnswerB.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
             this.txtAnswerB.PasswordChar = false;
             this.txtAnswerB.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtAnswerB.PlaceholderText = "";
             this.txtAnswerB.ReadOnly = false;
-            this.txtAnswerB.Size = new System.Drawing.Size(510, 60);
+            this.txtAnswerB.Size = new System.Drawing.Size(680, 74);
             this.txtAnswerB.TabIndex = 30;
             this.txtAnswerB.Texts = "";
             this.txtAnswerB.UnderlineedStyle = false;
@@ -154,9 +157,10 @@ namespace TestManagement.UserControl_Test
             this.btnC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC.ForeColor = System.Drawing.Color.Black;
-            this.btnC.Location = new System.Drawing.Point(23, 336);
+            this.btnC.Location = new System.Drawing.Point(31, 414);
+            this.btnC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnC.Name = "btnC";
-            this.btnC.Size = new System.Drawing.Size(74, 60);
+            this.btnC.Size = new System.Drawing.Size(99, 74);
             this.btnC.TabIndex = 33;
             this.btnC.Text = "C";
             this.btnC.TextColor = System.Drawing.Color.Black;
@@ -172,16 +176,16 @@ namespace TestManagement.UserControl_Test
             this.txtAnswerC.BorderSize = 1;
             this.txtAnswerC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerC.IsFocused = false;
-            this.txtAnswerC.Location = new System.Drawing.Point(23, 336);
-            this.txtAnswerC.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAnswerC.Location = new System.Drawing.Point(31, 414);
+            this.txtAnswerC.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtAnswerC.Multiline = true;
             this.txtAnswerC.Name = "txtAnswerC";
-            this.txtAnswerC.Padding = new System.Windows.Forms.Padding(85, 10, 40, 10);
+            this.txtAnswerC.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
             this.txtAnswerC.PasswordChar = false;
             this.txtAnswerC.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtAnswerC.PlaceholderText = "";
             this.txtAnswerC.ReadOnly = false;
-            this.txtAnswerC.Size = new System.Drawing.Size(510, 60);
+            this.txtAnswerC.Size = new System.Drawing.Size(680, 74);
             this.txtAnswerC.TabIndex = 32;
             this.txtAnswerC.Texts = "";
             this.txtAnswerC.UnderlineedStyle = false;
@@ -198,9 +202,10 @@ namespace TestManagement.UserControl_Test
             this.btnD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnD.ForeColor = System.Drawing.Color.Black;
-            this.btnD.Location = new System.Drawing.Point(23, 416);
+            this.btnD.Location = new System.Drawing.Point(31, 512);
+            this.btnD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnD.Name = "btnD";
-            this.btnD.Size = new System.Drawing.Size(74, 60);
+            this.btnD.Size = new System.Drawing.Size(99, 74);
             this.btnD.TabIndex = 35;
             this.btnD.Text = "D";
             this.btnD.TextColor = System.Drawing.Color.Black;
@@ -216,16 +221,16 @@ namespace TestManagement.UserControl_Test
             this.txtAnswerD.BorderSize = 1;
             this.txtAnswerD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerD.IsFocused = false;
-            this.txtAnswerD.Location = new System.Drawing.Point(23, 416);
-            this.txtAnswerD.Margin = new System.Windows.Forms.Padding(4);
+            this.txtAnswerD.Location = new System.Drawing.Point(31, 512);
+            this.txtAnswerD.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtAnswerD.Multiline = true;
             this.txtAnswerD.Name = "txtAnswerD";
-            this.txtAnswerD.Padding = new System.Windows.Forms.Padding(85, 10, 40, 10);
+            this.txtAnswerD.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
             this.txtAnswerD.PasswordChar = false;
             this.txtAnswerD.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtAnswerD.PlaceholderText = "";
             this.txtAnswerD.ReadOnly = false;
-            this.txtAnswerD.Size = new System.Drawing.Size(510, 60);
+            this.txtAnswerD.Size = new System.Drawing.Size(680, 74);
             this.txtAnswerD.TabIndex = 34;
             this.txtAnswerD.Texts = "";
             this.txtAnswerD.UnderlineedStyle = false;
@@ -239,16 +244,16 @@ namespace TestManagement.UserControl_Test
             this.txtTextQues.BorderSize = 1;
             this.txtTextQues.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTextQues.IsFocused = false;
-            this.txtTextQues.Location = new System.Drawing.Point(23, 59);
-            this.txtTextQues.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTextQues.Location = new System.Drawing.Point(31, 73);
+            this.txtTextQues.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtTextQues.Multiline = true;
             this.txtTextQues.Name = "txtTextQues";
-            this.txtTextQues.Padding = new System.Windows.Forms.Padding(30, 10, 30, 10);
+            this.txtTextQues.Padding = new System.Windows.Forms.Padding(40, 12, 40, 12);
             this.txtTextQues.PasswordChar = false;
             this.txtTextQues.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtTextQues.PlaceholderText = "";
             this.txtTextQues.ReadOnly = true;
-            this.txtTextQues.Size = new System.Drawing.Size(510, 102);
+            this.txtTextQues.Size = new System.Drawing.Size(680, 126);
             this.txtTextQues.TabIndex = 40;
             this.txtTextQues.Texts = "";
             this.txtTextQues.UnderlineedStyle = false;
@@ -266,10 +271,11 @@ namespace TestManagement.UserControl_Test
             this.btnEdit.ForeColor = System.Drawing.Color.Black;
             this.btnEdit.Image = global::TestManagement.Properties.Resources.miniedit;
             this.btnEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEdit.Location = new System.Drawing.Point(453, 13);
+            this.btnEdit.Location = new System.Drawing.Point(604, 16);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.btnEdit.Size = new System.Drawing.Size(80, 39);
+            this.btnEdit.Padding = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.btnEdit.Size = new System.Drawing.Size(107, 48);
             this.btnEdit.TabIndex = 29;
             this.btnEdit.Text = "Sửa";
             this.btnEdit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -277,9 +283,34 @@ namespace TestManagement.UserControl_Test
             this.btnEdit.UseVisualStyleBackColor = false;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
+            // btnDel
+            // 
+            this.btnDel.BackColor = System.Drawing.Color.White;
+            this.btnDel.BackgroundColor = System.Drawing.Color.White;
+            this.btnDel.BorderColor = System.Drawing.Color.Gainsboro;
+            this.btnDel.BorderRadius = 15;
+            this.btnDel.BorderSize = 1;
+            this.btnDel.FlatAppearance.BorderSize = 0;
+            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDel.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnDel.Image = global::TestManagement.Properties.Resources.bin;
+            this.btnDel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDel.Location = new System.Drawing.Point(489, 16);
+            this.btnDel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Padding = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.btnDel.Size = new System.Drawing.Size(107, 48);
+            this.btnDel.TabIndex = 29;
+            this.btnDel.Text = "Xoá";
+            this.btnDel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDel.TextColor = System.Drawing.Color.DarkRed;
+            this.btnDel.UseVisualStyleBackColor = false;
+            this.btnDel.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
             // NewQuestion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.txtTextQues);
@@ -289,12 +320,14 @@ namespace TestManagement.UserControl_Test
             this.Controls.Add(this.txtAnswerC);
             this.Controls.Add(this.btnB);
             this.Controls.Add(this.txtAnswerB);
+            this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnA);
             this.Controls.Add(this.txtAnswerA);
             this.Controls.Add(this.lblQues);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "NewQuestion";
-            this.Size = new System.Drawing.Size(545, 498);
+            this.Size = new System.Drawing.Size(727, 613);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -313,5 +346,6 @@ namespace TestManagement.UserControl_Test
         public TextBox_Advanced txtAnswerD;
         public Button_Advanced btnEdit;
         public TextBox_Advanced txtTextQues;
+        public Button_Advanced btnDel;
     }
 }

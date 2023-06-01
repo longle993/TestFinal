@@ -104,5 +104,10 @@ namespace TestManagement.GUI
         {
             btnAddAccount.Visible = false;
         }
+
+        private void flowAccount_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

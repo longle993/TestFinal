@@ -77,13 +77,13 @@ namespace TestManagement.GUI.HomePage
             this.panelEditTest.EndColor = System.Drawing.Color.White;
             this.panelEditTest.FlatBorderColor = System.Drawing.Color.White;
             this.panelEditTest.Location = new System.Drawing.Point(0, 0);
-            this.panelEditTest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelEditTest.Margin = new System.Windows.Forms.Padding(4);
             this.panelEditTest.Name = "panelEditTest";
             this.panelEditTest.RectRadius = 20;
             this.panelEditTest.ShadowColor = System.Drawing.Color.DimGray;
             this.panelEditTest.ShadowShift = 0;
             this.panelEditTest.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panelEditTest.Size = new System.Drawing.Size(1419, 828);
+            this.panelEditTest.Size = new System.Drawing.Size(1419, 781);
             this.panelEditTest.StartColor = System.Drawing.Color.White;
             this.panelEditTest.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panelEditTest.TabIndex = 0;
@@ -100,8 +100,8 @@ namespace TestManagement.GUI.HomePage
             this.btnSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSave.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(1178, 758);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Location = new System.Drawing.Point(1178, 723);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(173, 49);
             this.btnSave.TabIndex = 57;
@@ -122,8 +122,8 @@ namespace TestManagement.GUI.HomePage
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.ForeColor = System.Drawing.Color.Black;
-            this.btnCancel.Location = new System.Drawing.Point(984, 758);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Location = new System.Drawing.Point(984, 723);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(173, 49);
             this.btnCancel.TabIndex = 58;
@@ -140,8 +140,8 @@ namespace TestManagement.GUI.HomePage
             this.panel_Advanced1.EdgeWidth = 0;
             this.panel_Advanced1.EndColor = System.Drawing.Color.FromArgb(((int)(((byte)(225)))), ((int)(((byte)(225)))), ((int)(((byte)(225)))));
             this.panel_Advanced1.FlatBorderColor = System.Drawing.Color.White;
-            this.panel_Advanced1.Location = new System.Drawing.Point(56, 600);
-            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_Advanced1.Location = new System.Drawing.Point(56, 565);
+            this.panel_Advanced1.Margin = new System.Windows.Forms.Padding(4);
             this.panel_Advanced1.Name = "panel_Advanced1";
             this.panel_Advanced1.RectRadius = 10;
             this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
@@ -174,8 +174,8 @@ namespace TestManagement.GUI.HomePage
             this.txtLoigiai.BorderSize = 1;
             this.txtLoigiai.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLoigiai.IsFocused = false;
-            this.txtLoigiai.Location = new System.Drawing.Point(56, 600);
-            this.txtLoigiai.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtLoigiai.Location = new System.Drawing.Point(56, 565);
+            this.txtLoigiai.Margin = new System.Windows.Forms.Padding(5);
             this.txtLoigiai.Multiline = true;
             this.txtLoigiai.Name = "txtLoigiai";
             this.txtLoigiai.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
@@ -200,8 +200,8 @@ namespace TestManagement.GUI.HomePage
             this.btnD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnD.ForeColor = System.Drawing.Color.Black;
-            this.btnD.Location = new System.Drawing.Point(56, 525);
-            this.btnD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnD.Location = new System.Drawing.Point(56, 490);
+            this.btnD.Margin = new System.Windows.Forms.Padding(4);
             this.btnD.Name = "btnD";
             this.btnD.Size = new System.Drawing.Size(99, 65);
             this.btnD.TabIndex = 49;
@@ -218,8 +218,8 @@ namespace TestManagement.GUI.HomePage
             this.txtAnswerD.BorderSize = 1;
             this.txtAnswerD.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerD.IsFocused = false;
-            this.txtAnswerD.Location = new System.Drawing.Point(56, 525);
-            this.txtAnswerD.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAnswerD.Location = new System.Drawing.Point(56, 490);
+            this.txtAnswerD.Margin = new System.Windows.Forms.Padding(5);
             this.txtAnswerD.Multiline = true;
             this.txtAnswerD.Name = "txtAnswerD";
             this.txtAnswerD.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
@@ -244,8 +244,8 @@ namespace TestManagement.GUI.HomePage
             this.btnC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnC.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnC.ForeColor = System.Drawing.Color.Black;
-            this.btnC.Location = new System.Drawing.Point(56, 450);
-            this.btnC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnC.Location = new System.Drawing.Point(56, 415);
+            this.btnC.Margin = new System.Windows.Forms.Padding(4);
             this.btnC.Name = "btnC";
             this.btnC.Size = new System.Drawing.Size(99, 65);
             this.btnC.TabIndex = 47;
@@ -262,8 +262,8 @@ namespace TestManagement.GUI.HomePage
             this.txtAnswerC.BorderSize = 1;
             this.txtAnswerC.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerC.IsFocused = false;
-            this.txtAnswerC.Location = new System.Drawing.Point(56, 450);
-            this.txtAnswerC.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAnswerC.Location = new System.Drawing.Point(56, 415);
+            this.txtAnswerC.Margin = new System.Windows.Forms.Padding(5);
             this.txtAnswerC.Multiline = true;
             this.txtAnswerC.Name = "txtAnswerC";
             this.txtAnswerC.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
@@ -288,8 +288,8 @@ namespace TestManagement.GUI.HomePage
             this.btnB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnB.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnB.ForeColor = System.Drawing.Color.Black;
-            this.btnB.Location = new System.Drawing.Point(56, 375);
-            this.btnB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnB.Location = new System.Drawing.Point(56, 340);
+            this.btnB.Margin = new System.Windows.Forms.Padding(4);
             this.btnB.Name = "btnB";
             this.btnB.Size = new System.Drawing.Size(99, 65);
             this.btnB.TabIndex = 45;
@@ -306,8 +306,8 @@ namespace TestManagement.GUI.HomePage
             this.txtAnswerB.BorderSize = 1;
             this.txtAnswerB.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerB.IsFocused = false;
-            this.txtAnswerB.Location = new System.Drawing.Point(56, 375);
-            this.txtAnswerB.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAnswerB.Location = new System.Drawing.Point(56, 340);
+            this.txtAnswerB.Margin = new System.Windows.Forms.Padding(5);
             this.txtAnswerB.Multiline = true;
             this.txtAnswerB.Name = "txtAnswerB";
             this.txtAnswerB.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
@@ -332,8 +332,8 @@ namespace TestManagement.GUI.HomePage
             this.btnA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnA.ForeColor = System.Drawing.Color.Black;
-            this.btnA.Location = new System.Drawing.Point(56, 300);
-            this.btnA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnA.Location = new System.Drawing.Point(56, 265);
+            this.btnA.Margin = new System.Windows.Forms.Padding(4);
             this.btnA.Name = "btnA";
             this.btnA.Size = new System.Drawing.Size(99, 65);
             this.btnA.TabIndex = 43;
@@ -350,8 +350,8 @@ namespace TestManagement.GUI.HomePage
             this.txtAnswerA.BorderSize = 1;
             this.txtAnswerA.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswerA.IsFocused = false;
-            this.txtAnswerA.Location = new System.Drawing.Point(56, 300);
-            this.txtAnswerA.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtAnswerA.Location = new System.Drawing.Point(56, 265);
+            this.txtAnswerA.Margin = new System.Windows.Forms.Padding(5);
             this.txtAnswerA.Multiline = true;
             this.txtAnswerA.Name = "txtAnswerA";
             this.txtAnswerA.Padding = new System.Windows.Forms.Padding(113, 12, 53, 12);
@@ -374,7 +374,7 @@ namespace TestManagement.GUI.HomePage
             this.txtTextQues.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTextQues.IsFocused = false;
             this.txtTextQues.Location = new System.Drawing.Point(204, 162);
-            this.txtTextQues.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtTextQues.Margin = new System.Windows.Forms.Padding(5);
             this.txtTextQues.Multiline = true;
             this.txtTextQues.Name = "txtTextQues";
             this.txtTextQues.Padding = new System.Windows.Forms.Padding(40, 12, 40, 12);
@@ -382,7 +382,7 @@ namespace TestManagement.GUI.HomePage
             this.txtTextQues.PlaceholderColor = System.Drawing.Color.Silver;
             this.txtTextQues.PlaceholderText = "";
             this.txtTextQues.ReadOnly = false;
-            this.txtTextQues.Size = new System.Drawing.Size(1147, 128);
+            this.txtTextQues.Size = new System.Drawing.Size(1147, 93);
             this.txtTextQues.TabIndex = 41;
             this.txtTextQues.Texts = "";
             this.txtTextQues.UnderlineedStyle = false;
@@ -401,7 +401,7 @@ namespace TestManagement.GUI.HomePage
             this.btnEdit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(130)))), ((int)(((byte)(236)))));
             this.btnEdit.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEdit.Location = new System.Drawing.Point(20, 103);
-            this.btnEdit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEdit.Margin = new System.Windows.Forms.Padding(4);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Padding = new System.Windows.Forms.Padding(13, 0, 13, 0);
             this.btnEdit.Size = new System.Drawing.Size(135, 48);
@@ -415,7 +415,7 @@ namespace TestManagement.GUI.HomePage
             // 
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
             this.panel1.Location = new System.Drawing.Point(20, 81);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1381, 1);
             this.panel1.TabIndex = 4;
@@ -450,11 +450,11 @@ namespace TestManagement.GUI.HomePage
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(249)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(1419, 828);
+            this.ClientSize = new System.Drawing.Size(1419, 781);
             this.Controls.Add(this.panelEditTest);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EditTest";
             this.Text = "EditTest";
             this.Load += new System.EventHandler(this.EditTest_Load);

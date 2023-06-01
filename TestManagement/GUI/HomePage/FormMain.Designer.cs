@@ -269,7 +269,7 @@ namespace TestManagement.GUI
             this.btnAdjust.Padding = new System.Windows.Forms.Padding(27, 0, 27, 0);
             this.btnAdjust.Size = new System.Drawing.Size(368, 57);
             this.btnAdjust.TabIndex = 9;
-            this.btnAdjust.Text = "Chỉnh sửa";
+            this.btnAdjust.Text = "Đổi tên";
             this.btnAdjust.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdjust.TextColor = System.Drawing.Color.Black;
             this.btnAdjust.UseVisualStyleBackColor = false;
@@ -374,7 +374,7 @@ namespace TestManagement.GUI
             this.label6.Location = new System.Drawing.Point(-1, 146);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(322, 16);
+            this.label6.Size = new System.Drawing.Size(368, 17);
             this.label6.TabIndex = 7;
             this.label6.Text = "_____________________________________________";
             // 
@@ -668,7 +668,7 @@ namespace TestManagement.GUI
             this.dropmenuAdmin.Location = new System.Drawing.Point(1251, 124);
             this.dropmenuAdmin.Margin = new System.Windows.Forms.Padding(5);
             this.dropmenuAdmin.Name = "dropmenuAdmin";
-            this.dropmenuAdmin.Size = new System.Drawing.Size(396, 352);
+            this.dropmenuAdmin.Size = new System.Drawing.Size(396, 289);
             this.dropmenuAdmin.TabIndex = 0;
             this.dropmenuAdmin.Visible = false;
             // 

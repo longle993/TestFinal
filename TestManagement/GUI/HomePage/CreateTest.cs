@@ -116,6 +116,7 @@ namespace TestManagement.GUI
             ques.btnB.Click += BtnB_Click;
             ques.btnC.Click += BtnC_Click;
             ques.btnD.Click += BtnD_Click;
+            ques.btnDel.Click += BtnDel_Click;
             flowQues.Controls.Add(ques);
             flowQues.Controls.SetChildIndex(ques, index);
             for (int i = buttonIndex; i < flowQues.Controls.Count - 1; i++)
@@ -129,6 +130,18 @@ namespace TestManagement.GUI
             setting.txtMark._TextChanged += TxtMark__TextChanged;
             flowQuesSetting.Controls.Add(setting);
         }
+
+        private void BtnDel_Click(object sender, EventArgs e)
+        {
+            foreach(Control control in flowQues.Controls)
+            {
+                if(control is NewQuestion newques && newques.QuestionNumber == control.Tag.ToString())
+                {
+                    flowQues.Controls.Remove(newques);
+                }
+            }
+        }
+
         private void TxtMark__TextChanged(object sender, EventArgs e)
         {
             decimal totalMark = 0;
@@ -224,6 +237,21 @@ namespace TestManagement.GUI
             {
                 MessageBox.Show("Thông tin điểm còn trống!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error); return;
             }
+            foreach(QuesSetting setting in flowQuesSetting.Controls)
+            {
+                if(setting.txtMark.Texts is null || setting.txtTrueAnswer == null || setting.txtTrueAnswer.Texts == "" || setting.txtMark.Texts == "")
+                {
+                    MessageBox.Show("Bạn chưa điền đầy đủ thông tin!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+            foreach (Control ctr in flowQues.Controls)
+            {
+                if(ctr is TextBox_Advanced txt && (txt.Texts is null || txt.Texts == ""))
+                {
+                    MessageBox.Show("Bạn chưa nhập đủ thông tin câu hỏi", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error); return;
+                }
+            }
             Test existTest = Test_BUS.Instance.FindByName(lblTestName.Text);
             if (existTest == null)
             {
@@ -291,9 +319,12 @@ namespace TestManagement.GUI
                     detail.QuestionID = quesID;
                     foreach (QuesSetting setting in flowQuesSetting.Controls)
                     {
+                        if(setting.txtMark.Texts is null || setting.txtMark.Texts == "")
+                        {
+                            MessageBox.Show("Bạn chưa nhập đủ thông tin", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);return;
+                        }
                         if (setting.QuesNumber == ques.Quesnumber)
                         {
-
                             detail.QuestionPoint = Convert.ToDecimal(setting.Mark);
                         }
                     }
