@@ -72,5 +72,9 @@ namespace TestManagement.BUS
         {
             Test_DAO.Instance.UpdateTest(test);
         }
+        public void UpdateTestTime(Test test, string time)
+        {
+            Test_DAO.Instance.UpdateTestTime(test, time);
+        }
     }
 }

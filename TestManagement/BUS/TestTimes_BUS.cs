@@ -24,6 +24,10 @@ namespace TestManagement.BUS
         {
             TestTimes_DAO.Instance.DelTestTimes(testTimes);
         }
+        public void DeleteTestTime(TestTimes testTimes)
+        {
+            TestTimes_DAO.Instance.DeleteTestTime(testTimes);
+        }
         public List<TestTimes> GetTestTimes(Test test)
         {
             return TestTimes_DAO.Instance.GetTestTimes(test);

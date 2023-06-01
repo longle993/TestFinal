@@ -32,20 +32,36 @@ namespace TestManagement.GUI
         private void btnCreate_Click(object sender, EventArgs e)
         {
             test=Test_BUS.Instance.FindByName(testname);
-            if (txtTestName.Texts.Length>0 && txtCode.Texts.Length>0)
+            TestTimes TestTimes = TestTimes_BUS.Instance.GetTestTimeByName(txtTestName.Texts);
+            if (TestTimes is null)
             {
-                TestTimes testTimes = new TestTimes();
-                testTimes.TestName=txtTestName.Texts;
-                testTimes.CodeTest=txtCode.Texts;
-                testTimes.TestID=test.TestID;
-                testTimes.TestDate=DateTime.Now;
-                TestTimes_BUS.Instance.AddTestTimes(testTimes);
-                MessageBox.Show("Tạo bài kiểm tra thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Close();
+                if (txtTestName.Texts.Length>0 && txtCode.Texts.Length>0 && txtTestTime.Texts.Length>0)
+                {
+                    TestTimes testTimes = new TestTimes();
+                    testTimes.TestName=txtTestName.Texts;
+                    testTimes.CodeTest=txtCode.Texts;
+                    testTimes.TestID=test.TestID;
+                    testTimes.TestDate=DateTime.Now;
+                    Test_BUS.Instance.UpdateTestTime(test, txtTestTime.Texts);
+                    TestTimes_BUS.Instance.AddTestTimes(testTimes);
+                    MessageBox.Show("Tạo bài kiểm tra thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Vui lòng nhập đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
-                MessageBox.Show("Vui lòng nhập đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng chọn tên đã tồn tại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void txtTestTime_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

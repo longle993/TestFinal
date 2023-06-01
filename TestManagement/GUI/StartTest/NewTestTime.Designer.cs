@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel_Advanced1 = new TestManagement.UserControl_Test.Panel_Advanced();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtTestTime = new TestManagement.UserControl_Test.TextBox_Advanced();
             this.label3 = new System.Windows.Forms.Label();
             this.txtCode = new TestManagement.UserControl_Test.TextBox_Advanced();
             this.btnCreate = new TestManagement.UserControl_Test.Button_Advanced();
@@ -41,6 +43,8 @@
             // panel_Advanced1
             // 
             this.panel_Advanced1.BackgroundGradientMode = TestManagement.UserControl_Test.Panel_Advanced.PanelGradientMode.Vertical;
+            this.panel_Advanced1.Controls.Add(this.label2);
+            this.panel_Advanced1.Controls.Add(this.txtTestTime);
             this.panel_Advanced1.Controls.Add(this.label3);
             this.panel_Advanced1.Controls.Add(this.txtCode);
             this.panel_Advanced1.Controls.Add(this.btnCreate);
@@ -57,10 +61,46 @@
             this.panel_Advanced1.ShadowColor = System.Drawing.Color.DimGray;
             this.panel_Advanced1.ShadowShift = 0;
             this.panel_Advanced1.ShadowStyle = TestManagement.UserControl_Test.Panel_Advanced.ShadowMode.ForwardDiagonal;
-            this.panel_Advanced1.Size = new System.Drawing.Size(518, 382);
+            this.panel_Advanced1.Size = new System.Drawing.Size(538, 496);
             this.panel_Advanced1.StartColor = System.Drawing.Color.White;
             this.panel_Advanced1.Style = TestManagement.UserControl_Test.Panel_Advanced.BevelStyle.Flat;
             this.panel_Advanced1.TabIndex = 0;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(41, 277);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(280, 28);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Thời gian làm bài (đơn vị phút)";
+            // 
+            // txtTestTime
+            // 
+            this.txtTestTime.BackColor = System.Drawing.Color.White;
+            this.txtTestTime.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.txtTestTime.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.txtTestTime.BorderRadius = 5;
+            this.txtTestTime.BorderSize = 1;
+            this.txtTestTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTestTime.IsFocused = false;
+            this.txtTestTime.Location = new System.Drawing.Point(40, 308);
+            this.txtTestTime.Margin = new System.Windows.Forms.Padding(5);
+            this.txtTestTime.Multiline = false;
+            this.txtTestTime.Name = "txtTestTime";
+            this.txtTestTime.Padding = new System.Windows.Forms.Padding(27, 12, 9, 12);
+            this.txtTestTime.PasswordChar = false;
+            this.txtTestTime.PlaceholderColor = System.Drawing.Color.Silver;
+            this.txtTestTime.PlaceholderText = "TestTime";
+            this.txtTestTime.ReadOnly = false;
+            this.txtTestTime.Size = new System.Drawing.Size(439, 53);
+            this.txtTestTime.TabIndex = 12;
+            this.txtTestTime.Texts = "";
+            this.txtTestTime.UnderlineedStyle = false;
+            this.txtTestTime.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTestTime_KeyPress);
             // 
             // label3
             // 
@@ -90,7 +130,7 @@
             this.txtCode.Padding = new System.Windows.Forms.Padding(27, 12, 9, 12);
             this.txtCode.PasswordChar = false;
             this.txtCode.PlaceholderColor = System.Drawing.Color.Silver;
-            this.txtCode.PlaceholderText = "Description";
+            this.txtCode.PlaceholderText = "CodeTest";
             this.txtCode.ReadOnly = false;
             this.txtCode.Size = new System.Drawing.Size(439, 53);
             this.txtCode.TabIndex = 8;
@@ -109,7 +149,7 @@
             this.btnCreate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreate.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnCreate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(139)))), ((int)(((byte)(255)))));
-            this.btnCreate.Location = new System.Drawing.Point(412, 297);
+            this.btnCreate.Location = new System.Drawing.Point(412, 392);
             this.btnCreate.Margin = new System.Windows.Forms.Padding(4);
             this.btnCreate.Name = "btnCreate";
             this.btnCreate.Size = new System.Drawing.Size(67, 49);
@@ -131,7 +171,7 @@
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold);
             this.btnCancel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(139)))), ((int)(((byte)(255)))));
-            this.btnCancel.Location = new System.Drawing.Point(308, 297);
+            this.btnCancel.Location = new System.Drawing.Point(308, 392);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(67, 49);
@@ -181,7 +221,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(518, 382);
+            this.ClientSize = new System.Drawing.Size(538, 496);
             this.Controls.Add(this.panel_Advanced1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -204,5 +244,7 @@
         private UserControl_Test.Button_Advanced btnCancel;
         public UserControl_Test.TextBox_Advanced txtTestName;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        public UserControl_Test.TextBox_Advanced txtTestTime;
     }
 }

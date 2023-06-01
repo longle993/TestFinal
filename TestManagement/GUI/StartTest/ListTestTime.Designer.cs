@@ -292,9 +292,9 @@
             this.label1.Location = new System.Drawing.Point(13, 31);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 37);
+            this.label1.Size = new System.Drawing.Size(349, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Tổng quan";
+            this.label1.Text = "Danh sách các bài kiểm tra ";
             // 
             // ListTestTime
             // 

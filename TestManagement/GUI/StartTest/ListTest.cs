@@ -95,13 +95,14 @@ namespace TestManagement.GUI
                 listtest.picIcon.Click += LblfolderName_ClickTest;
                 flowTest.Controls.Add(listtest);
             }
-        }          
+        }
         private void btnEdit_Click(object sender, EventArgs e)
         {
             if (lblFileName.Text!="FileName")
             {
                 NewTestTime newTestTime = new NewTestTime(lblFileName.Text);
                 newTestTime.ShowDialog();
+                lblFileName.Text="FileName";
             }
             else if (lblFileName.Text=="FileName")
             {
@@ -137,6 +138,7 @@ namespace TestManagement.GUI
                 ReportResult reportResult = new ReportResult();
                 reportResult.crystalReportViewer1.ReportSource=printResult;
                 reportResult.ShowDialog();
+                lblFileName.Text="FileName";
             }
             else if (lblFileName.Text=="FileName")
             {
@@ -169,10 +171,9 @@ namespace TestManagement.GUI
         private void btnOpenTest_Click(object sender, EventArgs e)
         {
             string name = lblFileName.Text;
-            this.Close();
             ListTestTime listTestTime = new ListTestTime(name);
-            listTestTime.Show();
-            this.Show();
+            listTestTime.ShowDialog();
+            lblFileName.Text="FileName";
         }
     }
 }

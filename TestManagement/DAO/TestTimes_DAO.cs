@@ -38,6 +38,11 @@ namespace TestManagement.DAO
                 db.SaveChanges();
             }
         }
+        public void DeleteTestTime(TestTimes testTimes)
+        {
+            db.TestTimes.Remove(testTimes);
+            db.SaveChanges();
+        }
         public List<TestTimes> GetTestTimes(Test test)
         {
             return db.TestTimes.Where(p => p.TestID == test.TestID).ToList();

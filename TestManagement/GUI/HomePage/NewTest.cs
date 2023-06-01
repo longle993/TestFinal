@@ -73,32 +73,42 @@ namespace TestManagement.GUI
 
         private void btnCreate_Click(object sender, EventArgs e)
         {
-            if (txtTestName.Texts.Length>0 && cbboxFolder.Text.Length>0)
+            Test test1 = Test_BUS.Instance.FindByName(txtTestName.Texts);
+            if (test1 is null)
             {
-                Test test = new Test();
-                Subject sub = subjects.SingleOrDefault(p => p.SubjectName == cbboxFolder.Text);
-                string testID = "T" + (Test_BUS.Instance.CountTest() + 1).ToString("000");
-                test.TestID = testID;
-                test.TestName = txtTestName.Texts;
-                test.InitiationDate = DateTime.Now;
-                test.ChangedDate = DateTime.Now;
-                test.Description = txtDescribe.Texts;
-                if (sub is null)
+                if (txtTestName.Texts.Length>0 && cbboxFolder.Text.Length>0)
                 {
-                    test.SubjectID = "0";
+                    Test test = new Test();
+                    Subject sub = subjects.SingleOrDefault(p => p.SubjectName == cbboxFolder.Text);
+                    string testID = "T" + (Test_BUS.Instance.CountTest() + 1).ToString("000");
+                    test.TestID = testID;
+                    test.SubjectID=cbboxFolder.Text;
+                    test.TestName = txtTestName.Texts;
+                    test.InitiationDate = DateTime.Now;
+                    test.ChangedDate = DateTime.Now;
+                    test.Description = txtDescribe.Texts;
+                    test.TestTime=TimeSpan.FromMinutes(90);
+                    if (sub is null)
+                    {
+                        test.SubjectID = "0";
+                    }
+                    else
+                    {
+                        test.SubjectID = sub.SubjectID;
+                    }
+                    formMain.OpenChildForm(new CreateTest(test), formMain.panelMain);
+                    formMain.panellFile.Visible = false;
+                    formMain.panelDetail.Visible = false;
+                    this.Close();
                 }
                 else
                 {
-                    test.SubjectID = sub.SubjectID;
+                    MessageBox.Show("Vui lòng nhập đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                formMain.OpenChildForm(new CreateTest(test), formMain.panelMain);
-                formMain.panellFile.Visible = false;
-                formMain.panelDetail.Visible = false;
-                this.Close();
             }
             else
             {
-                MessageBox.Show("Vui lòng nhập đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Tên bài kiểm tra đã tồn tại. Vui lòng nhập lại tên khác!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

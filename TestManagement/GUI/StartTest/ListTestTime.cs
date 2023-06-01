@@ -17,18 +17,18 @@ namespace TestManagement.GUI
 {
     public partial class ListTestTime : Form
     {
-        Test test;
+        Test test = new Test();
         List<TestTimes> testTimes;
         ConnectingData db = new ConnectingData();
         private Form currentChildForm;
         public ListTestTime()
         {
             InitializeComponent();
-        }        
+        }
         public ListTestTime(string name)
         {
             InitializeComponent();
-            this.test=Test_BUS.Instance.FindByName(name);           
+            this.test=Test_BUS.Instance.FindByName(name);
         }
         private void ListTest_Load(object sender, EventArgs e)
         {
@@ -71,19 +71,18 @@ namespace TestManagement.GUI
                 listtest.lblcreatedDay.Click += LblfolderName_ClickTest;
                 flowTest.Controls.Add(listtest);
             }
-        }      
+        }
         private void btnDel_Click(object sender, EventArgs e)
         {
             if (lblFileName.Text!="FileName")
             {
                 if (MessageBox.Show("Xoá bài kiểm tra này đồng nghĩa với xoá các thông tin liên quan bao gồm cả bảng điểm. Bạn có chắc chắn muốn xoá?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
-                    List<TestTimes> testTimes = TestTimes_BUS.Instance.GetTestTimes(test);
-                    foreach (TestTimes testTimes1 in testTimes)
-                    {
-                        Result_BUS.Instance.DelResult(testTimes1);
-                    }
-                    TestTimes_BUS.Instance.DelTestTimes(testTimes);
+                    string name = lblFileName.Text;
+                    TestTimes TestTimes = TestTimes_BUS.Instance.GetTestTimeByName(lblFileName.Text);
+                    Result_BUS.Instance.DelResult(TestTimes);
+                    TestTimes_BUS.Instance.DeleteTestTime(TestTimes);
+                    lblFileName.Text = "FileName";
                     MessageBox.Show("Xoá thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     LoadListTestTime();
                 }

@@ -104,5 +104,14 @@ namespace TestManagement.DAO
                 db.SaveChanges();
             }
         }
+        public void UpdateTestTime(Test test, string time)
+        {
+            Test existTest = db.Tests.SingleOrDefault(p => p.TestID == test.TestID);
+            if (existTest != null)
+            {
+                existTest.TestTime = TimeSpan.FromMinutes(Convert.ToInt32(time));
+                db.SaveChanges();
+            }
+        }
     }
 }
