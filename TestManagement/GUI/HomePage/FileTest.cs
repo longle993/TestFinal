@@ -46,6 +46,7 @@ namespace TestManagement.GUI
         private void FileTest_Load(object sender, EventArgs e)
         {
             tests = Test_BUS.Instance.GetTests(subjectName);
+            questions = new List<Question>();
             LoadTest();
         }
 
